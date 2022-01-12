@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/forms ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/forms)
+set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/forms ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/forms)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
@@ -9,7 +9,7 @@ set(CMAKE_AUTOUIC ON)
 if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
     set(CMAKE_POSITION_INDEPENDENT_CODE ON)
     execute_process(
-            COMMAND sed -i /HAVE_DECL_BSWAP/d transcendence-config.h
+            COMMAND sed -i /HAVE_DECL_BSWAP/d Moonet-config.h
             WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/src/config
     )
 endif ()
@@ -99,7 +99,7 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/addresstablemodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/askpassphrasedialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/coincontroldialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/zteloscontroldialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/zMuucontroldialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/coincontroltreewidget.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/privacydialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/proposalframe.cpp
@@ -122,72 +122,72 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/transactionview.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodeltransaction.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/zteloscontroldialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/transcendencegui.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/loadingdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/pwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/snackbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/navmenuwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/lockunlock.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/receivedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/furabstractlistitemdelegate.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/txviewholder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/qtutils.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/expandablebutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/walletpassworddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/topbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/txrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/addressfilterproxymodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/dashboardwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/coincontrolpivwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/addresslabelrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/contactdropdownrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/contactsdropdown.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/optionbutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/mninfodialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/mnmodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/masternodewizarddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/mnrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/masternodeswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/sendchangeaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/sendconfirmdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/sendcustomfeedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/sendchangeaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/sendmultirow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/send.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/addnewaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/addnewcontactdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/requestdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/receivewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/myaddressrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/tooltipmenu.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/addresseswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/defaultdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/defaultinputdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/denomgenerationdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/privacywidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsbackupwallet.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsbittoolwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsconsolewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsdisplayoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsfaqwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsinformationwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsmainoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsmultisenddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsmultisendwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingssignmessagewidgets.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingswalletoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingswalletrepairwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/welcomecontentwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/splash.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/zMuucontroldialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/Moonetgui.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/loadingdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/pwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/snackbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/navmenuwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/lockunlock.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/receivedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/furabstractlistitemdelegate.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/txviewholder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/qtutils.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/expandablebutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/walletpassworddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/topbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/txrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/addressfilterproxymodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/dashboardwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/coincontrolpivwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/addresslabelrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/contactdropdownrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/contactsdropdown.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/optionbutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/mninfodialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/mnmodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/masternodewizarddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/mnrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/masternodeswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/sendchangeaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/sendconfirmdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/sendcustomfeedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/sendchangeaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/sendmultirow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/send.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/addnewaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/addnewcontactdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/requestdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/receivewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/myaddressrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/tooltipmenu.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/addresseswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/defaultdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/defaultinputdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/denomgenerationdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/privacywidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsbackupwallet.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsbittoolwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsconsolewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsdisplayoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsfaqwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsinformationwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsmainoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsmultisenddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsmultisendwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingssignmessagewidgets.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingswalletoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingswalletrepairwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/welcomecontentwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/splash.cpp
         )
 
 # Workaround until the old rpcconsole UI window is fully removed
-set_property(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings/settingsconsolewidget.cpp PROPERTY SKIP_AUTOMOC ON)
+set_property(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings/settingsconsolewidget.cpp PROPERTY SKIP_AUTOMOC ON)
 execute_process(
         COMMAND ${MOC_BIN} -o moc_settingsconsolewidget.cpp settingsconsolewidget.h
-        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings
 )
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
@@ -201,8 +201,8 @@ target_include_directories(qt_stuff PUBLIC ${CMAKE_SOURCE_DIR}/src
         ${CMAKE_SOURCE_DIR}/src/univalue/include
         ${CMAKE_SOURCE_DIR}/src/secp256k1/include
         ${CMAKE_CURRENT_SOURCE_DIR}
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence
-        ${CMAKE_CURRENT_SOURCE_DIR}/transcendence/settings
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet
+        ${CMAKE_CURRENT_SOURCE_DIR}/Moonet/settings
         ${OPENSSL_INCLUDE_DIR}
         ${BerkeleyDB_INCLUDE_DIRS}
         )
@@ -216,12 +216,12 @@ set_source_files_properties(${QT_TRANSLATIONS_FILES} PROPERTIES OUTPUT_LOCATION 
 QT5_ADD_TRANSLATION(QM ${QT_TRANSLATIONS_FILES})
 add_custom_target(translations_target ALL DEPENDS ${QM})
 
-QT5_ADD_RESOURCES(QRC_RESOURCE transcendence.qrc)
-QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE transcendence_locale.qrc)
+QT5_ADD_RESOURCES(QRC_RESOURCE Moonet.qrc)
+QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE Moonet_locale.qrc)
 
-add_executable(transcendence-qt transcendence.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
-add_dependencies(transcendence-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_link_libraries(transcendence-qt
+add_executable(Moonet-qt Moonet.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
+add_dependencies(Moonet-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_link_libraries(Moonet-qt
         qt_stuff
         univalue
         SERVER_A UTIL_A WALLET_A CLI_A COMMON_A BITCOIN_CRYPTO_A ZEROCOIN_A
@@ -230,30 +230,30 @@ target_link_libraries(transcendence-qt
         pthread
         )
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(transcendence-qt "-framework Cocoa")
+    target_link_libraries(Moonet-qt "-framework Cocoa")
 endif()
 if(GMP_FOUND)
-    target_link_libraries(transcendence-qt ${GMP_LIBRARY})
-    target_include_directories(transcendence-qt PUBLIC ${GMP_INCLUDE_DIR})
+    target_link_libraries(Moonet-qt ${GMP_LIBRARY})
+    target_include_directories(Moonet-qt PUBLIC ${GMP_INCLUDE_DIR})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(transcendence-qt ZMQ_A ${ZMQ_LIB})
-    target_include_directories(transcendence-qt PUBLIC ${ZMQ_INCLUDE_DIR})
+    target_link_libraries(Moonet-qt ZMQ_A ${ZMQ_LIB})
+    target_include_directories(Moonet-qt PUBLIC ${ZMQ_INCLUDE_DIR})
 endif()
 if (QRCODE_FOUND)
-    target_link_libraries(transcendence-qt ${QRCODE_LIB})
-    target_include_directories(transcendence-qt PUBLIC ${QRCODE_INCLUDE_DIR})
+    target_link_libraries(Moonet-qt ${QRCODE_LIB})
+    target_include_directories(Moonet-qt PUBLIC ${QRCODE_INCLUDE_DIR})
 endif()
 if(MINIUPNP_FOUND)
-    target_compile_definitions(transcendence-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
-    target_link_libraries(transcendence-qt ${MINIUPNP_LIBRARY})
-    target_include_directories(transcendence-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
+    target_compile_definitions(Moonet-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
+    target_link_libraries(Moonet-qt ${MINIUPNP_LIBRARY})
+    target_include_directories(Moonet-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
 endif()
 
-target_link_libraries(transcendence-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
+target_link_libraries(Moonet-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
 if (Qt5DBus_FOUND)
-    target_link_libraries(transcendence-qt Qt5::DBus ${QT_LIBRARIES})
+    target_link_libraries(Moonet-qt Qt5::DBus ${QT_LIBRARIES})
 endif()
 if (Qt5Charts_FOUND)
-    target_link_libraries(transcendence-qt Qt5::Charts ${QT_LIBRARIES})
+    target_link_libraries(Moonet-qt Qt5::Charts ${QT_LIBRARIES})
 endif()

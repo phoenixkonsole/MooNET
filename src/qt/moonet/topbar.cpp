@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/topbar.h"
-#include "qt/transcendence/forms/ui_topbar.h"
+#include "qt/moonet/topbar.h"
+#include "qt/moonet/forms/ui_topbar.h"
 #include <QPixmap>
-#include "qt/transcendence/lockunlock.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/receivedialog.h"
-#include "qt/transcendence/defaultdialog.h"
+#include "qt/moonet/lockunlock.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/receivedialog.h"
+#include "qt/moonet/defaultdialog.h"
 #include "askpassphrasedialog.h"
 
 #include "bitcoinunits.h"
@@ -454,7 +454,7 @@ void TopBar::loadWalletModel(){
     connect(walletModel->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
     connect(walletModel, &WalletModel::encryptionStatusChanged, this, &TopBar::refreshStatus);
 
-    // update the display unit, to not use the default ("Transcendence")
+    // update the display unit, to not use the default ("moonet")
     updateDisplayUnit();
 
     refreshStatus();

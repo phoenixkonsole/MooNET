@@ -6,7 +6,7 @@
 #define PIVX_CORE_NEW_GUI_TBPGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/transcendence-config.h"
+#include "config/moonet-config.h"
 #endif
 
 #include <QMainWindow>
@@ -14,16 +14,16 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/transcendence/navmenuwidget.h"
-#include "qt/transcendence/topbar.h"
-#include "qt/transcendence/dashboardwidget.h"
-#include "qt/transcendence/send.h"
-#include "qt/transcendence/receivewidget.h"
-#include "qt/transcendence/addresseswidget.h"
-#include "qt/transcendence/linkswidget.h"
-#include "qt/transcendence/masternodeswidget.h"
-#include "qt/transcendence/snackbar.h"
-#include "qt/transcendence/settings/settingswidget.h"
+#include "qt/moonet/navmenuwidget.h"
+#include "qt/moonet/topbar.h"
+#include "qt/moonet/dashboardwidget.h"
+#include "qt/moonet/send.h"
+#include "qt/moonet/receivewidget.h"
+#include "qt/moonet/addresseswidget.h"
+#include "qt/moonet/linkswidget.h"
+#include "qt/moonet/masternodeswidget.h"
+#include "qt/moonet/snackbar.h"
+#include "qt/moonet/settings/settingswidget.h"
 #include "qt/rpcconsole.h"
 
 

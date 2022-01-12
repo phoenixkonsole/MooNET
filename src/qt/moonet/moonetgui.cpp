@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/transcendencegui.h"
+#include "qt/moonet/moonetgui.h"
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -14,9 +14,9 @@
 #include "networkstyle.h"
 #include "notificator.h"
 #include "guiinterface.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/defaultdialog.h"
-#include "qt/transcendence/settings/settingsfaqwidget.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/defaultdialog.h"
+#include "qt/moonet/settings/settingsfaqwidget.h"
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
@@ -39,7 +39,7 @@ TBPGUI::TBPGUI(const NetworkStyle* networkStyle, QWidget* parent) :
     this->setMinimumSize(1200, 740);
     GUIUtil::restoreWindowGeometry("nWindow", QSize(1200, 740), this);
 
-    QString windowTitle = tr("Transcendence Core") + " - ";
+    QString windowTitle = tr("moonet Core") + " - ";
 #ifdef ENABLE_WALLET
     /* if compiled with wallet support, -disablewallet can still disable the wallet */
     enableWallet = !GetBoolArg("-disablewallet", false);
@@ -195,7 +195,7 @@ void TBPGUI::connectActions() {
 void TBPGUI::createTrayIcon(const NetworkStyle* networkStyle) {
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
-    QString toolTip = tr("Transcendence Core client") + " " + networkStyle->getTitleAddText();
+    QString toolTip = tr("moonet Core client") + " " + networkStyle->getTitleAddText();
     trayIcon->setToolTip(toolTip);
     trayIcon->setIcon(networkStyle->getAppIcon());
     trayIcon->hide();
@@ -337,7 +337,7 @@ void TBPGUI::messageInfo(const QString& text){
 
 
 void TBPGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret) {
-    QString strTitle =  tr("Transcendence Core"); // default title
+    QString strTitle =  tr("moonet Core"); // default title
     // Default to information icon
     int nNotifyIcon = Notificator::Information;
 
@@ -387,7 +387,7 @@ void TBPGUI::message(const QString& title, const QString& message, unsigned int 
     } else if(style & CClientUIInterface::MSG_INFORMATION_SNACK){
         messageInfo(message);
     }else {
-        // Append title to "Transcendence - "
+        // Append title to "moonet - "
         if (!msgType.isEmpty())
             strTitle += " - " + msgType;
         notificator->notify((Notificator::Class) nNotifyIcon, strTitle, message);
@@ -405,7 +405,7 @@ bool TBPGUI::openStandardDialog(QString title, QString body, QString okBtn, QStr
     } else {
         dialog = new DefaultDialog();
         dialog->setText(title, body, okBtn);
-        dialog->setWindowTitle(tr("Transcendence Core"));
+        dialog->setWindowTitle(tr("moonet Core"));
         dialog->adjustSize();
         dialog->raise();
         dialog->exec();

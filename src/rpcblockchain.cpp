@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Transcendence developers
+// Copyright (c) 2017-2018 The moonet developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -116,12 +116,12 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    UniValue ztranscendenceObj(UniValue::VOBJ);
+    UniValue zmoonetObj(UniValue::VOBJ);
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        ztranscendenceObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zmoonetObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    ztranscendenceObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zTBPsupply", ztranscendenceObj));
+    zmoonetObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.push_back(Pair("zTBPsupply", zmoonetObj));
 
     return result;
 }
@@ -458,8 +458,8 @@ UniValue gettxout(const UniValue& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of transcendence addresses\n"
-            "     \"transcendenceaddress\"   	 	(string) transcendence address\n"
+            "     \"addresses\" : [          (array of string) array of moonet addresses\n"
+            "     \"moonetaddress\"   	 	(string) moonet address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

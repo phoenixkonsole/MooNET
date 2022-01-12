@@ -6,16 +6,16 @@ define(_CLIENT_VERSION_REVISION, 5)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2021)
-AC_INIT([Transcendence Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.transcendence.cloud],[transcendence])
+AC_INIT([MooNET Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.moonet.cloud],[moonet])
 AC_CONFIG_SRCDIR([src/main.cpp])
-AC_CONFIG_HEADERS([src/config/transcendence-config.h])
+AC_CONFIG_HEADERS([src/config/moonet-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=transcendenced
-BITCOIN_GUI_NAME=transcendence-qt
-BITCOIN_CLI_NAME=transcendence-cli
-BITCOIN_TX_NAME=transcendence-tx
+BITCOIN_DAEMON_NAME=moonetd
+BITCOIN_GUI_NAME=moonet-qt
+BITCOIN_CLI_NAME=moonet-cli
+BITCOIN_TX_NAME=moonet-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -25,9 +25,9 @@ fi
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef TRANSCENDENCE_CONFIG_H])
-AH_TOP([#define TRANSCENDENCE_CONFIG_H])
-AH_BOTTOM([#endif //TRANSCENDENCE_CONFIG_H])
+AH_TOP([#ifndef moonet_CONFIG_H])
+AH_TOP([#define moonet_CONFIG_H])
+AH_BOTTOM([#endif //moonet_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -406,7 +406,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build transcendence-cli transcendence-tx (default=yes)])],
+  [build moonet-cli moonet-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -418,7 +418,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build transcendenced daemon (default=yes)])],
+  [build moonetd daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -632,7 +632,7 @@ AC_C_BIGENDIAN
 dnl Check for pthread compile/link requirements
 AX_PTHREAD
 
-# The following macro will add the necessary defines to transcendence-config.h, but
+# The following macro will add the necessary defines to moonet-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE
@@ -1174,11 +1174,11 @@ AC_SUBST(UNIVALUE_LIBS)
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build transcendenced])
+AC_MSG_CHECKING([whether to build moonetd])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (transcendence-cli transcendence-tx)])
+AC_MSG_CHECKING([whether to build utils (moonet-cli moonet-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -1306,7 +1306,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_transcendence-qt])
+  AC_MSG_CHECKING([whether to build test_moonet-qt])
   if test x$use_gui_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="yes"
@@ -1333,7 +1333,7 @@ esac
 AM_CONDITIONAL([USE_NUM_GMP], [test "x$set_bignum" = "xgmp"])
 AM_CONDITIONAL([USE_NUM_OPENSSL], [test "x$set_bignum" = "xopenssl"])
 
-AC_MSG_CHECKING([whether to build test_transcendence])
+AC_MSG_CHECKING([whether to build test_moonet])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="yes"

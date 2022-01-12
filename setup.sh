@@ -4,7 +4,7 @@ cd ~
 echo "****************************************************************************"
 echo "* Ubuntu 16.04 is the recommended opearting system for this install.       *"
 echo "*                                                                          *"
-echo "* This script will install and configure your Transcendence  masternodes.  *"
+echo "* This script will install and configure your MooNET  masternodes.  *"
 echo "****************************************************************************"
 echo && echo && echo
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
@@ -35,7 +35,7 @@ then
   sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
   cd
 
-  wget https://github.com/phoenixkonsole/transcendence/releases/download/v1.1.0.0/Linux.zip
+  wget https://github.com/phoenixkonsole/moonet/releases/download/v1.1.0.0/Linux.zip
   unzip Linux.zip
   chmod +x Linux/bin/*
   sudo mv  Linux/bin/* /usr/local/bin
@@ -82,37 +82,37 @@ for i in `seq 1 1 $MNCOUNT`; do
   echo "The RPC port is $RPCPORT"
 
   ALIAS=${ALIAS}
-  CONF_DIR=~/.transcendence_$ALIAS
+  CONF_DIR=~/.moonet_$ALIAS
 
   # Create scripts
-  echo '#!/bin/bash' > ~/bin/transcendenced_$ALIAS.sh
-  echo "transcendenced -daemon -conf=$CONF_DIR/transcendence.conf -datadir=$CONF_DIR "'$*' >> ~/bin/transcendenced_$ALIAS.sh
-  echo '#!/bin/bash' > ~/bin/transcendence-cli_$ALIAS.sh
-  echo "transcendence-cli -conf=$CONF_DIR/transcendence.conf -datadir=$CONF_DIR "'$*' >> ~/bin/transcendence-cli_$ALIAS.sh
-  echo '#!/bin/bash' > ~/bin/transcendence-tx_$ALIAS.sh
-  echo "transcendence-tx -conf=$CONF_DIR/transcendence.conf -datadir=$CONF_DIR "'$*' >> ~/bin/transcendence-tx_$ALIAS.sh 
-  chmod 755 ~/bin/transcendence*.sh
+  echo '#!/bin/bash' > ~/bin/moonetd_$ALIAS.sh
+  echo "moonetd -daemon -conf=$CONF_DIR/moonet.conf -datadir=$CONF_DIR "'$*' >> ~/bin/moonetd_$ALIAS.sh
+  echo '#!/bin/bash' > ~/bin/moonet-cli_$ALIAS.sh
+  echo "moonet-cli -conf=$CONF_DIR/moonet.conf -datadir=$CONF_DIR "'$*' >> ~/bin/moonet-cli_$ALIAS.sh
+  echo '#!/bin/bash' > ~/bin/moonet-tx_$ALIAS.sh
+  echo "moonet-tx -conf=$CONF_DIR/moonet.conf -datadir=$CONF_DIR "'$*' >> ~/bin/moonet-tx_$ALIAS.sh 
+  chmod 755 ~/bin/moonet*.sh
 
   mkdir -p $CONF_DIR
-  echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> transcendence.conf_TEMP
-  echo "rpcpassword=pass"`shuf -i 100000-10000000 -n 1` >> transcendence.conf_TEMP
-  echo "rpcallowip=127.0.0.1" >> transcendence.conf_TEMP
-  echo "rpcport=$RPCPORT" >> transcendence.conf_TEMP
-  echo "listen=1" >> transcendence.conf_TEMP
-  echo "server=1" >> transcendence.conf_TEMP
-  echo "daemon=1" >> transcendence.conf_TEMP
-  echo "logtimestamps=1" >> transcendence.conf_TEMP
-  echo "maxconnections=256" >> transcendence.conf_TEMP
-  echo "masternode=1" >> transcendence.conf_TEMP
-  echo "" >> transcendence.conf_TEMP
+  echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> moonet.conf_TEMP
+  echo "rpcpassword=pass"`shuf -i 100000-10000000 -n 1` >> moonet.conf_TEMP
+  echo "rpcallowip=127.0.0.1" >> moonet.conf_TEMP
+  echo "rpcport=$RPCPORT" >> moonet.conf_TEMP
+  echo "listen=1" >> moonet.conf_TEMP
+  echo "server=1" >> moonet.conf_TEMP
+  echo "daemon=1" >> moonet.conf_TEMP
+  echo "logtimestamps=1" >> moonet.conf_TEMP
+  echo "maxconnections=256" >> moonet.conf_TEMP
+  echo "masternode=1" >> moonet.conf_TEMP
+  echo "" >> moonet.conf_TEMP
 
-  echo "" >> transcendence.conf_TEMP
-  echo "port=$PORT" >> transcendence.conf_TEMP
-  echo "masternodeaddr=$IP:$PORT" >> transcendence.conf_TEMP
-  echo "masternodeprivkey=$PRIVKEY" >> transcendence.conf_TEMP
+  echo "" >> moonet.conf_TEMP
+  echo "port=$PORT" >> moonet.conf_TEMP
+  echo "masternodeaddr=$IP:$PORT" >> moonet.conf_TEMP
+  echo "masternodeprivkey=$PRIVKEY" >> moonet.conf_TEMP
   sudo ufw allow $PORT/tcp
 
-  mv transcendence.conf_TEMP $CONF_DIR/transcendence.conf
+  mv moonet.conf_TEMP $CONF_DIR/moonet.conf
   
-  sh ~/bin/transcendenced_$ALIAS.sh
+  sh ~/bin/moonetd_$ALIAS.sh
 done

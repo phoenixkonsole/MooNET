@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsnetworkwidget.h"
-#include "qt/transcendence/settings/forms/ui_settingsnetworkwidget.h"
+#include "qt/moonet/settings/settingsnetworkwidget.h"
+#include "qt/moonet/settings/forms/ui_settingsnetworkwidget.h"
 #include "optionsmodel.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SettingsNetworkWidget::SettingsNetworkWidget(TELOSGUI* _window, QWidget *parent) :
     PWidget(_window, parent),

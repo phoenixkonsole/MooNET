@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/receivewidget.h"
-#include "qt/transcendence/forms/ui_receivewidget.h"
-#include "qt/transcendence/requestdialog.h"
-#include "qt/transcendence/addnewcontactdialog.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/myaddressrow.h"
-#include "qt/transcendence/furlistrow.h"
+#include "qt/moonet/receivewidget.h"
+#include "qt/moonet/forms/ui_receivewidget.h"
+#include "qt/moonet/requestdialog.h"
+#include "qt/moonet/addnewcontactdialog.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/myaddressrow.h"
+#include "qt/moonet/furlistrow.h"
 #include "walletmodel.h"
 #include "guiutil.h"
 

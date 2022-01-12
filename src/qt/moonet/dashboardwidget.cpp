@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/dashboardwidget.h"
-#include "qt/transcendence/forms/ui_dashboardwidget.h"
-#include "qt/transcendence/sendconfirmdialog.h"
-#include "qt/transcendence/txrow.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/dashboardwidget.h"
+#include "qt/moonet/forms/ui_dashboardwidget.h"
+#include "qt/moonet/sendconfirmdialog.h"
+#include "qt/moonet/txrow.h"
+#include "qt/moonet/qtutils.h"
 #include "guiutil.h"
 #include "walletmodel.h"
 #include "clientmodel.h"

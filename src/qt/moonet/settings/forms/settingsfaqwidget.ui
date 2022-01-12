@@ -989,8 +989,8 @@
                            stake zTELOS or take advantage of the privacy benefit it brings,
                            you can enaable the automatic minting in your TELOS wallet by
                            going to Settings-&gt;Options and selecting “Enable zTELOS Automint”.
-                           If you are not making use of the TRANSCENDENCE-QT or GUI you can simply open
-                           your transcendence.conf file and add &lt;i&gt;enablezeromint=1&lt;/i&gt; Without the quotation
+                           If you are not making use of the moonet-QT or GUI you can simply open
+                           your moonet.conf file and add &lt;i&gt;enablezeromint=1&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -1089,7 +1089,7 @@
                         <property name="text">
                          <string>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           zTELOS can be spent and sent to any Transcendence address. The receiver will
+                           zTELOS can be spent and sent to any moonet address. The receiver will
                            receive standard TELOS but the origin of the TELOS is anonymized by the zTELOS Protocol.
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            If you want more zTELOS you will need to mint your balance in the “Privacy” tab.
@@ -1186,7 +1186,7 @@
                         <property name="text">
                          <string>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           To Stake Transcendence:
+                           To Stake moonet:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
@@ -1197,7 +1197,7 @@
                            &lt;li&gt;
                            Once all those steps are followed staking should be enabled.
                            &lt;li&gt;
-                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &quot;Staking Enabled&quot; to indicate it is staking.  Using the command line interface (transcendence-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
+                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &quot;Staking Enabled&quot; to indicate it is staking.  Using the command line interface (moonet-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            To Stake zTELOS:
@@ -1402,7 +1402,7 @@
                         <property name="text">
                          <string>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           A masternode is a computer running a full node Transcendence core wallet with a
+                           A masternode is a computer running a full node moonet core wallet with a
                            requirement of 1K, 3K, 10K, 30K or 100K TELOS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:

@@ -6,7 +6,7 @@
 #define MNINFODIALOG_H
 
 #include <QDialog>
-#include "qt/transcendence/snackbar.h"
+#include "qt/moonet/snackbar.h"
 
 class WalletModel;
 

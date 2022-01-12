@@ -6,18 +6,18 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/settings/settingsbackupwallet.h"
-#include "qt/transcendence/settings/settingsexportcsv.h"
-#include "qt/transcendence/settings/settingsbittoolwidget.h"
-#include "qt/transcendence/settings/settingssignmessagewidgets.h"
-#include "qt/transcendence/settings/settingswalletrepairwidget.h"
-#include "qt/transcendence/settings/settingswalletoptionswidget.h"
-#include "qt/transcendence/settings/settingsmainoptionswidget.h"
-#include "qt/transcendence/settings/settingsdisplayoptionswidget.h"
-#include "qt/transcendence/settings/settingsmultisendwidget.h"
-#include "qt/transcendence/settings/settingsinformationwidget.h"
-#include "qt/transcendence/settings/settingsconsolewidget.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/settings/settingsbackupwallet.h"
+#include "qt/moonet/settings/settingsexportcsv.h"
+#include "qt/moonet/settings/settingsbittoolwidget.h"
+#include "qt/moonet/settings/settingssignmessagewidgets.h"
+#include "qt/moonet/settings/settingswalletrepairwidget.h"
+#include "qt/moonet/settings/settingswalletoptionswidget.h"
+#include "qt/moonet/settings/settingsmainoptionswidget.h"
+#include "qt/moonet/settings/settingsdisplayoptionswidget.h"
+#include "qt/moonet/settings/settingsmultisendwidget.h"
+#include "qt/moonet/settings/settingsinformationwidget.h"
+#include "qt/moonet/settings/settingsconsolewidget.h"
 
 class TELOSGUI;
 

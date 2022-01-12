@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsdisplayoptionswidget.h"
-#include "qt/transcendence/settings/forms/ui_settingsdisplayoptionswidget.h"
+#include "qt/moonet/settings/settingsdisplayoptionswidget.h"
+#include "qt/moonet/settings/forms/ui_settingsdisplayoptionswidget.h"
 #include <QListView>
 #include <QSettings>
 #include <QDir>
@@ -11,7 +11,7 @@
 #include "clientmodel.h"
 #include "optionsmodel.h"
 #include "bitcoinunits.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(TELOSGUI* _window, QWidget *parent) :
     PWidget(_window,parent),

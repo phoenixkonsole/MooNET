@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/sendmultirow.h"
-#include "qt/transcendence/forms/ui_sendmultirow.h"
+#include "qt/moonet/sendmultirow.h"
+#include "qt/moonet/forms/ui_sendmultirow.h"
 #include <QDoubleValidator>
 
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
 #include "guiutil.h"
 #include "bitcoinunits.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SendMultiRow::SendMultiRow(PWidget *parent) :
     PWidget(parent),

@@ -10,7 +10,7 @@
 #include <QAction>
 #include "walletmodel.h"
 #include "amount.h"
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 
 class WalletModel;
 class SendCoinsRecipient;

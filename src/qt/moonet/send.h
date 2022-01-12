@@ -8,14 +8,14 @@
 #include <QWidget>
 #include <QPushButton>
 
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/contactsdropdown.h"
-#include "qt/transcendence/sendmultirow.h"
-#include "qt/transcendence/sendcustomfeedialog.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/contactsdropdown.h"
+#include "qt/moonet/sendmultirow.h"
+#include "qt/moonet/sendcustomfeedialog.h"
 #include "walletmodel.h"
 #include "coincontroldialog.h"
 #include "zteloscontroldialog.h"
-#include "qt/transcendence/tooltipmenu.h"
+#include "qt/moonet/tooltipmenu.h"
 
 static const int MAX_SEND_POPUP_ENTRIES = 8;
 

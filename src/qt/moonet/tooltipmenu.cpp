@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/tooltipmenu.h"
-#include "qt/transcendence/forms/ui_tooltipmenu.h"
+#include "qt/moonet/tooltipmenu.h"
+#include "qt/moonet/forms/ui_tooltipmenu.h"
 
-#include "qt/transcendence/transcendencegui.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/moonetgui.h"
+#include "qt/moonet/qtutils.h"
 #include <QTimer>
 
 TooltipMenu::TooltipMenu(TELOSGUI *_window, QWidget *parent) :

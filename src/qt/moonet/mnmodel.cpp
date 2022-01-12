@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/mnmodel.h"
+#include "qt/moonet/mnmodel.h"
 #include "masternode-sync.h"
 #include "masternodeman.h"
 #include "activemasternode.h"

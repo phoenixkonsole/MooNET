@@ -2,12 +2,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/requestdialog.h"
-#include "qt/transcendence/forms/ui_requestdialog.h"
+#include "qt/moonet/requestdialog.h"
+#include "qt/moonet/forms/ui_requestdialog.h"
 #include <QListView>
 #include <QDoubleValidator>
 
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include "guiutil.h"
 #include "amount.h"
 #include "optionsmodel.h"
@@ -25,7 +25,7 @@ RequestDialog::RequestDialog(QWidget *parent) :
     ui->labelTitle->setText(tr("New Request Payment"));
     setCssProperty(ui->labelTitle, "text-title-dialog");
 
-    ui->labelMessage->setText(tr("Instead of share a Transcendence address, you can create a Payment Request message which bundles up more information than is contained in just a Transcendence address."));
+    ui->labelMessage->setText(tr("Instead of share a moonet address, you can create a Payment Request message which bundles up more information than is contained in just a moonet address."));
     setCssProperty(ui->labelMessage, "text-main-grey");
 
     // Combo Coins

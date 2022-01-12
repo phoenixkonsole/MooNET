@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/sendchangeaddressdialog.h"
-#include "qt/transcendence/forms/ui_sendchangeaddressdialog.h"
+#include "qt/moonet/sendchangeaddressdialog.h"
+#include "qt/moonet/forms/ui_sendchangeaddressdialog.h"
 #include "walletmodel.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SendChangeAddressDialog::SendChangeAddressDialog(QWidget *parent) :
     QDialog(parent),
@@ -21,10 +21,10 @@ SendChangeAddressDialog::SendChangeAddressDialog(QWidget *parent) :
     ui->labelTitle->setText(tr("Custom Change Address"));
     ui->labelTitle->setProperty("cssClass", "text-title-dialog");
 
-    ui->labelMessage->setText(tr("The remainder of the value resultant from the inputs minus the outputs value goes to the \"change\" Transcendence address"));
+    ui->labelMessage->setText(tr("The remainder of the value resultant from the inputs minus the outputs value goes to the \"change\" moonet address"));
     ui->labelMessage->setProperty("cssClass", "text-main-grey");
 
-    ui->lineEditAddress->setPlaceholderText("Enter a Transcendence  address (e.g D7VFR83SQbiezrW72hjc… ");
+    ui->lineEditAddress->setPlaceholderText("Enter a moonet  address (e.g D7VFR83SQbiezrW72hjc… ");
     initCssEditLine(ui->lineEditAddress, true);
 
     // Buttons

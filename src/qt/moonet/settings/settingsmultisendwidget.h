@@ -7,8 +7,8 @@
 
 #include <QWidget>
 #include <QAbstractTableModel>
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/furabstractlistitemdelegate.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/furabstractlistitemdelegate.h"
 
 class TELOSGUI;
 

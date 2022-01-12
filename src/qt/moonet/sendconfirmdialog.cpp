@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/sendconfirmdialog.h"
-#include "qt/transcendence/forms/ui_sendconfirmdialog.h"
+#include "qt/moonet/sendconfirmdialog.h"
+#include "qt/moonet/forms/ui_sendconfirmdialog.h"
 #include "bitcoinunits.h"
 #include "walletmodel.h"
 #include "transactiontablemodel.h"
 #include "transactionrecord.h"
 #include "wallet/wallet.h"
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include <QList>
 #include <QDateTime>
 

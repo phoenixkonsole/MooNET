@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingssignmessagewidgets.h"
-#include "qt/transcendence/settings/forms/ui_settingssignmessagewidgets.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/settings/settingssignmessagewidgets.h"
+#include "qt/moonet/settings/forms/ui_settingssignmessagewidgets.h"
+#include "qt/moonet/qtutils.h"
 #include "addressbookpage.h"
 #include "guiutil.h"
 #include "walletmodel.h"
@@ -39,7 +39,7 @@ SettingsSignMessageWidgets::SettingsSignMessageWidgets(TELOSGUI* _window, QWidge
     ui->labelSubtitle1->setProperty("cssClass", "text-subtitle");
 
     // Address
-    ui->labelSubtitleAddress->setText(tr("Enter a Transcendence address or contact label"));
+    ui->labelSubtitleAddress->setText(tr("Enter a moonet address or contact label"));
     ui->labelSubtitleAddress->setProperty("cssClass", "text-title");
 
     ui->addressIn_SM->setPlaceholderText(tr("Add address"));

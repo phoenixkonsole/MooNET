@@ -2,12 +2,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingswalletoptionswidget.h"
-#include "qt/transcendence/settings/forms/ui_settingswalletoptionswidget.h"
+#include "qt/moonet/settings/settingswalletoptionswidget.h"
+#include "qt/moonet/settings/forms/ui_settingswalletoptionswidget.h"
 #include <QListView>
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SettingsWalletOptionsWidget::SettingsWalletOptionsWidget(TELOSGUI* _window, QWidget *parent) :
     PWidget(_window, parent),

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/defaultdialog.h"
-#include "qt/transcendence/forms/ui_defaultdialog.h"
+#include "qt/moonet/defaultdialog.h"
+#include "qt/moonet/forms/ui_defaultdialog.h"
 #include "guiutil.h"
 DefaultDialog::DefaultDialog(QWidget *parent) :
     QDialog(parent),

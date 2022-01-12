@@ -5,7 +5,7 @@
 #ifndef SETTINGSMAINOPTIONSWIDGET_H
 #define SETTINGSMAINOPTIONSWIDGET_H
 
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 
 #include <QWidget>
 

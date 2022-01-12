@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/welcomecontentwidget.h"
-#include "qt/transcendence/forms/ui_welcomecontentwidget.h"
+#include "qt/moonet/welcomecontentwidget.h"
+#include "qt/moonet/forms/ui_welcomecontentwidget.h"
 #include <QFile>
 #include <QListView>
 #include <QDir>

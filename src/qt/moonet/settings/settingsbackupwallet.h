@@ -6,7 +6,7 @@
 #define SETTINGSBACKUPWALLET_H
 
 #include <QWidget>
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 
 namespace Ui {
 class SettingsBackupWallet;

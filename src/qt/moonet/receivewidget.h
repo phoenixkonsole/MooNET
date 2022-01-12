@@ -5,10 +5,10 @@
 #ifndef RECEIVEWIDGET_H
 #define RECEIVEWIDGET_H
 
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/transcendence/furabstractlistitemdelegate.h"
-#include "qt/transcendence/addressfilterproxymodel.h"
+#include "qt/moonet/furabstractlistitemdelegate.h"
+#include "qt/moonet/addressfilterproxymodel.h"
 
 #include <QSpacerItem>
 #include <QWidget>

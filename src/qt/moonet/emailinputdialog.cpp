@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/emailinputdialog.h"
-#include "qt/transcendence/forms/ui_emailinputdialog.h"
+#include "qt/moonet/emailinputdialog.h"
+#include "qt/moonet/forms/ui_emailinputdialog.h"
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 EmailInputDialog::EmailInputDialog(QWidget *parent) :
     QDialog(parent),

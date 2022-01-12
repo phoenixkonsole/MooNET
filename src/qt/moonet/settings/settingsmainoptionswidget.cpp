@@ -2,19 +2,19 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsmainoptionswidget.h"
-#include "qt/transcendence/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/moonet/settings/settingsmainoptionswidget.h"
+#include "qt/moonet/settings/forms/ui_settingsmainoptionswidget.h"
 #include "QListView"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/transcendence-config.h"
+#include "config/moonet-config.h"
 #endif
 
 #include "bitcoinunits.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 #include "main.h" // for MAX_SCRIPTCHECK_THREADS
 #include "netbase.h"

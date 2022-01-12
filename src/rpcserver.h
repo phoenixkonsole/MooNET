@@ -128,7 +128,7 @@ public:
 };
 
 /**
- * Transcendence RPC command dispatcher.
+ * moonet RPC command dispatcher.
  */
 class CRPCTable
 {

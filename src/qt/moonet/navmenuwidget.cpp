@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/navmenuwidget.h"
-#include "qt/transcendence/forms/ui_navmenuwidget.h"
-#include "qt/transcendence/transcendencegui.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/navmenuwidget.h"
+#include "qt/moonet/forms/ui_navmenuwidget.h"
+#include "qt/moonet/moonetgui.h"
+#include "qt/moonet/qtutils.h"
 #include "clientversion.h"
 
 NavMenuWidget::NavMenuWidget(TELOSGUI *mainWindow, QWidget *parent) :

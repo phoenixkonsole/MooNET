@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/masternodewizarddialog.h"
-#include "qt/transcendence/forms/ui_masternodewizarddialog.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/masternodewizarddialog.h"
+#include "qt/moonet/forms/ui_masternodewizarddialog.h"
+#include "qt/moonet/qtutils.h"
 #include "optionsmodel.h"
 #include "activemasternode.h"
 #include <QFile>

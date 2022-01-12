@@ -6,7 +6,7 @@
 #define SETTINGSCONSOLEWIDGET_H
 
 #include <QWidget>
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 #include "guiutil.h"
 #include "net.h"
 #include <QCompleter>

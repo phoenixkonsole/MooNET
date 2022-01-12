@@ -8,7 +8,7 @@
 #include <QObject>
 #include <QWidget>
 #include <QString>
-#include "qt/transcendence/prunnable.h"
+#include "qt/moonet/prunnable.h"
 
 class TELOSGUI;
 class ClientModel;

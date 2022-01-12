@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/sendcustomfeedialog.h"
-#include "qt/transcendence/forms/ui_sendcustomfeedialog.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/sendcustomfeedialog.h"
+#include "qt/moonet/forms/ui_sendcustomfeedialog.h"
+#include "qt/moonet/qtutils.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "guiutil.h"

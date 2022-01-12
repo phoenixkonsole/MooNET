@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/mnrow.h"
-#include "qt/transcendence/forms/ui_mnrow.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/mnrow.h"
+#include "qt/moonet/forms/ui_mnrow.h"
+#include "qt/moonet/qtutils.h"
 
 MNRow::MNRow(QWidget *parent) :
     QWidget(parent),

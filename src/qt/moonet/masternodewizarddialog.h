@@ -7,7 +7,7 @@
 
 #include <QDialog>
 #include "walletmodel.h"
-#include "qt/transcendence/snackbar.h"
+#include "qt/moonet/snackbar.h"
 #include "masternodeconfig.h"
 #include <QComboBox>
 #include "chainparams.h"

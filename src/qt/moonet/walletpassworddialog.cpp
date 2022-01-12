@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/walletpassworddialog.h"
-#include "qt/transcendence/forms/ui_walletpassworddialog.h"
+#include "qt/moonet/walletpassworddialog.h"
+#include "qt/moonet/forms/ui_walletpassworddialog.h"
 #include <QGraphicsDropShadowEffect>
 
 WalletPasswordDialog::WalletPasswordDialog(QWidget *parent) :

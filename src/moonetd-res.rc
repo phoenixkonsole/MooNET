@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Transcendence"
-            VALUE "FileDescription",    "transcendence-tx (CLI PIVX transaction editor utility)"
+            VALUE "CompanyName",        "moonet"
+            VALUE "FileDescription",    "moonetd (OSS daemon/client for moonet)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "transcendence-tx"
+            VALUE "InternalName",       "moonetd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
-            VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "transcendence-tx.exe"
-            VALUE "ProductName",        "transcendence-tx"
+            VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
+            VALUE "OriginalFilename",   "moonetd.exe"
+            VALUE "ProductName",        "moonetd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/denomgenerationdialog.h"
-#include "qt/transcendence/forms/ui_denomgenerationdialog.h"
+#include "qt/moonet/denomgenerationdialog.h"
+#include "qt/moonet/forms/ui_denomgenerationdialog.h"
 #include "QGraphicsDropShadowEffect"
 
 DenomGenerationDialog::DenomGenerationDialog(QWidget *parent) :

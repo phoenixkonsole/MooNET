@@ -17,7 +17,7 @@
 #include <QPixmap>
 #include <QStandardPaths>
 #include <initializer_list>
-#include "qt/transcendence/transcendencegui.h"
+#include "qt/moonet/moonetgui.h"
 
 static Qt::Modifier SHORT_KEY
 #ifdef Q_OS_MAC

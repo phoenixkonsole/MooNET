@@ -2,12 +2,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/mninfodialog.h"
-#include "qt/transcendence/forms/ui_mninfodialog.h"
+#include "qt/moonet/mninfodialog.h"
+#include "qt/moonet/forms/ui_mninfodialog.h"
 #include "walletmodel.h"
 #include "wallet/wallet.h"
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include <QDateTime>
 
 MnInfoDialog::MnInfoDialog(QWidget *parent) :

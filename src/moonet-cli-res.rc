@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Transcendence"
-            VALUE "FileDescription",    "transcendenced (OSS daemon/client for Transcendence)"
+            VALUE "CompanyName",        "moonet"
+            VALUE "FileDescription",    "moonet-cli (OSS RPC client for moonet)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "transcendenced"
+            VALUE "InternalName",       "moonet-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "transcendenced.exe"
-            VALUE "ProductName",        "transcendenced"
+            VALUE "OriginalFilename",   "moonet-cli.exe"
+            VALUE "ProductName",        "moonet-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

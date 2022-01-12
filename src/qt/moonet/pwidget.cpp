@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/loadingdialog.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/loadingdialog.h"
 #include <QRunnable>
 #include <QThreadPool>
 

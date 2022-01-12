@@ -5,11 +5,11 @@
 #ifndef DASHBOARDWIDGET_H
 #define DASHBOARDWIDGET_H
 
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/furabstractlistitemdelegate.h"
-#include "qt/transcendence/furlistrow.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/furabstractlistitemdelegate.h"
+#include "qt/moonet/furlistrow.h"
 #include "transactiontablemodel.h"
-#include "qt/transcendence/txviewholder.h"
+#include "qt/moonet/txviewholder.h"
 #include "transactionfilterproxy.h"
 
 #include <atomic>
@@ -19,7 +19,7 @@
 #include <QMap>
 
 #if defined(HAVE_CONFIG_H)
-#include "config/transcendence-config.h" /* for USE_QTCHARTS */
+#include "config/moonet-config.h" /* for USE_QTCHARTS */
 #endif
 
 #ifdef USE_QTCHARTS

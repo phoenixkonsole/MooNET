@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsexportcsv.h"
-#include "qt/transcendence/settings/forms/ui_settingsexportcsv.h"
+#include "qt/moonet/settings/settingsexportcsv.h"
+#include "qt/moonet/settings/forms/ui_settingsexportcsv.h"
 #include <QFile>
 #include "csvmodelwriter.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include "guiinterface.h"
 
 SettingsExportCSV::SettingsExportCSV(TELOSGUI* _window, QWidget *parent) :

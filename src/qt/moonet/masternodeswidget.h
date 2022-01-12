@@ -6,16 +6,16 @@
 #define MASTERNODESWIDGET_H
 
 #include <QWidget>
-#include "qt/transcendence/pwidget.h"
-#include "qt/transcendence/furabstractlistitemdelegate.h"
-#include "qt/transcendence/mnmodel.h"
-#include "qt/transcendence/tooltipmenu.h"
+#include "qt/moonet/pwidget.h"
+#include "qt/moonet/furabstractlistitemdelegate.h"
+#include "qt/moonet/mnmodel.h"
+#include "qt/moonet/tooltipmenu.h"
 #include <QTimer>
 #include "masternodeman.h"
 #include "main.h"
 class TELOSGUI;
 #if defined(HAVE_CONFIG_H)
-#include "config/transcendence-config.h" /* for USE_QTCHARTS */
+#include "config/moonet-config.h" /* for USE_QTCHARTS */
 #endif
 
 #ifdef USE_QTCHARTS

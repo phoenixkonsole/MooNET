@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsmultisenddialog.h"
-#include "qt/transcendence/settings/forms/ui_settingsmultisenddialog.h"
+#include "qt/moonet/settings/settingsmultisenddialog.h"
+#include "qt/moonet/settings/forms/ui_settingsmultisenddialog.h"
 #include <QListView>
 #include <QIntValidator>
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SettingsMultisendDialog::SettingsMultisendDialog(QWidget *parent) :
     QDialog(parent),
@@ -32,7 +32,7 @@ SettingsMultisendDialog::SettingsMultisendDialog(QWidget *parent) :
     initCssEditLine(ui->lineEditLabel, true);
 
     // Address
-    ui->labelSubtitleAddress->setText("Enter a Transcendence address or contact label");
+    ui->labelSubtitleAddress->setText("Enter a moonet address or contact label");
     setCssProperty(ui->labelSubtitleAddress, "text-title2-dialog");
     ui->lineEditAddress->setPlaceholderText("e.g D7VFR83SQbiezrW72hjc… ");
     initCssEditLine(ui->lineEditAddress, true);

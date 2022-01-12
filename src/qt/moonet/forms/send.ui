@@ -779,7 +779,7 @@
   <customwidget>
    <class>OptionButton</class>
    <extends>QWidget</extends>
-   <header>qt/transcendence/optionbutton.h</header>
+   <header>qt/moonet/optionbutton.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

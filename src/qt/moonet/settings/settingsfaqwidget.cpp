@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsfaqwidget.h"
-#include "qt/transcendence/settings/forms/ui_settingsfaqwidget.h"
+#include "qt/moonet/settings/settingsfaqwidget.h"
+#include "qt/moonet/settings/forms/ui_settingsfaqwidget.h"
 #include <QScrollBar>
 #include <QMetaObject>
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
 SettingsFaqWidget::SettingsFaqWidget(QWidget *parent) :
     QDialog(parent),

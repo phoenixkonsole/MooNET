@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/loadingdialog.h"
-#include "qt/transcendence/forms/ui_loadingdialog.h"
+#include "qt/moonet/loadingdialog.h"
+#include "qt/moonet/forms/ui_loadingdialog.h"
 #include <QMovie>
 
 void Worker::process(){

@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2018-2019 The Transcendence developers
+// Copyright (c) 2018-2019 The moonet developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -267,11 +267,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Transcendence server.");
+            "\nStop moonet server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Transcendence server stopping";
+    return "moonet server stopping";
 }
 
 
@@ -347,33 +347,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* transcendence features */
-        {"transcendence", "masternode", &masternode, true, true, false},
-        {"transcendence", "listmasternodes", &listmasternodes, true, true, false},
-        {"transcendence", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"transcendence", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"transcendence", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"transcendence", "masternodedebug", &masternodedebug, true, true, false},
-        {"transcendence", "startmasternode", &startmasternode, true, true, false},
-        {"transcendence", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"transcendence", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"transcendence", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"transcendence", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"transcendence", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"transcendence", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"transcendence", "preparebudget", &preparebudget, true, true, false},
-        {"transcendence", "submitbudget", &submitbudget, true, true, false},
-        {"transcendence", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"transcendence", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"transcendence", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"transcendence", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"transcendence", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"transcendence", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"transcendence", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"transcendence", "checkbudgets", &checkbudgets, true, true, false},
-        {"transcendence", "mnsync", &mnsync, true, true, false},
-        {"transcendence", "spork", &spork, true, true, false},
-        {"transcendence", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* moonet features */
+        {"moonet", "masternode", &masternode, true, true, false},
+        {"moonet", "listmasternodes", &listmasternodes, true, true, false},
+        {"moonet", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"moonet", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"moonet", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"moonet", "masternodedebug", &masternodedebug, true, true, false},
+        {"moonet", "startmasternode", &startmasternode, true, true, false},
+        {"moonet", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"moonet", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"moonet", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"moonet", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"moonet", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"moonet", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"moonet", "preparebudget", &preparebudget, true, true, false},
+        {"moonet", "submitbudget", &submitbudget, true, true, false},
+        {"moonet", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"moonet", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"moonet", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"moonet", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"moonet", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"moonet", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"moonet", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"moonet", "checkbudgets", &checkbudgets, true, true, false},
+        {"moonet", "mnsync", &mnsync, true, true, false},
+        {"moonet", "spork", &spork, true, true, false},
+        {"moonet", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -600,7 +600,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> transcendence-cli " + methodname + " " + args + "\n";
+    return "> moonet-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

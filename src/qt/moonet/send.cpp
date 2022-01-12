@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/send.h"
-#include "qt/transcendence/forms/ui_send.h"
-#include "qt/transcendence/addnewcontactdialog.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/sendchangeaddressdialog.h"
-#include "qt/transcendence/optionbutton.h"
-#include "qt/transcendence/sendconfirmdialog.h"
-#include "qt/transcendence/myaddressrow.h"
+#include "qt/moonet/send.h"
+#include "qt/moonet/forms/ui_send.h"
+#include "qt/moonet/addnewcontactdialog.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/sendchangeaddressdialog.h"
+#include "qt/moonet/optionbutton.h"
+#include "qt/moonet/sendconfirmdialog.h"
+#include "qt/moonet/myaddressrow.h"
 #include "clientmodel.h"
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
@@ -59,7 +59,7 @@ SendWidget::SendWidget(TELOSGUI* parent) :
     setCssProperty(ui->labelSubtitle2, "text-subtitle");
 
     /* Address */
-    ui->labelSubtitleAddress->setText(tr("Enter a Transcendence address or contact label"));
+    ui->labelSubtitleAddress->setText(tr("Enter a moonet address or contact label"));
     setCssProperty(ui->labelSubtitleAddress, "text-title");
 
 
@@ -446,7 +446,7 @@ bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
         return true;
     } else {
         QString body;
-        if (receipt.GetStatus() == ZTRANSCENDENCE_SPEND_V1_SEC_LEVEL) {
+        if (receipt.GetStatus() == Zmoonet_SPEND_V1_SEC_LEVEL) {
             body = tr("Version 1 zTELOS require a security level of 100 to successfully spend.");
         } else {
             int nNeededSpends = receipt.GetNeededSpends(); // Number of spends we would need for this transaction

@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsbackupwallet.h"
-#include "qt/transcendence/settings/forms/ui_settingsbackupwallet.h"
+#include "qt/moonet/settings/settingsbackupwallet.h"
+#include "qt/moonet/settings/forms/ui_settingsbackupwallet.h"
 #include <QFile>
 #include <QGraphicsDropShadowEffect>
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include "guiinterface.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 SettingsBackupWallet::SettingsBackupWallet(TELOSGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsBackupWallet)

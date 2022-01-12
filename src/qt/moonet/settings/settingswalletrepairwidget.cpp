@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingswalletrepairwidget.h"
-#include "qt/transcendence/settings/forms/ui_settingswalletrepairwidget.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/settings/settingswalletrepairwidget.h"
+#include "qt/moonet/settings/forms/ui_settingswalletrepairwidget.h"
+#include "qt/moonet/qtutils.h"
 
 // Repair parameters
 const QString SALVAGEWALLET("-salvagewallet");

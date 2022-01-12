@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 
-#include "qt/transcendence/snackbar.h"
+#include "qt/moonet/snackbar.h"
 #include "qrencode.h"
 #include "guiconstants.h"
 

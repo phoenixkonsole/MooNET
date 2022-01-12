@@ -6,7 +6,7 @@
 #define SETTINGSINFORMATIONWIDGET_H
 
 #include <QWidget>
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 #include "rpcconsole.h"
 
 namespace Ui {

@@ -10,7 +10,7 @@
 #include <QPointer>
 #include <iostream>
 #include <QTimer>
-#include "qt/transcendence/prunnable.h"
+#include "qt/moonet/prunnable.h"
 
 namespace Ui {
 class LoadingDialog;

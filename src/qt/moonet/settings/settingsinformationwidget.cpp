@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/settings/settingsinformationwidget.h"
-#include "qt/transcendence/settings/forms/ui_settingsinformationwidget.h"
+#include "qt/moonet/settings/settingsinformationwidget.h"
+#include "qt/moonet/settings/forms/ui_settingsinformationwidget.h"
 #include "clientmodel.h"
 #include "chainparams.h"
 #include "db.h"
 #include "util.h"
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include <QDir>
 
 SettingsInformationWidget::SettingsInformationWidget(TELOSGUI* _window,QWidget *parent) :

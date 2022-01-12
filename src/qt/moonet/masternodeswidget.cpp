@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/masternodeswidget.h"
-#include "qt/transcendence/forms/ui_masternodeswidget.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/mnrow.h"
-#include "qt/transcendence/mninfodialog.h"
+#include "qt/moonet/masternodeswidget.h"
+#include "qt/moonet/forms/ui_masternodeswidget.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/mnrow.h"
+#include "qt/moonet/mninfodialog.h"
 
-#include "qt/transcendence/masternodewizarddialog.h"
+#include "qt/moonet/masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "clientmodel.h"
@@ -22,7 +22,7 @@
 #include "walletmodel.h"
 #include "askpassphrasedialog.h"
 #include "util.h"
-#include "qt/transcendence/optionbutton.h"
+#include "qt/moonet/optionbutton.h"
 #include <boost/filesystem.hpp>
 #include <iostream>
 #include <fstream>

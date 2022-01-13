@@ -569,7 +569,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelAmountZTelos">
+           <widget class="QLabel" name="labelAmountZmuu">
             <property name="text">
              <string>TextLabel</string>
             </property>
@@ -686,9 +686,9 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelTelos">
+                 <widget class="QLabel" name="labelmuu">
                   <property name="text">
-                   <string>TELOS</string>
+                   <string>muu</string>
                   </property>
                  </widget>
                 </item>
@@ -709,7 +709,7 @@
                  </spacer>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelSquarezTelos">
+                 <widget class="QLabel" name="labelSquarezmuu">
                   <property name="minimumSize">
                    <size>
                     <width>14</width>
@@ -728,9 +728,9 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelZTelos">
+                 <widget class="QLabel" name="labelZmuu">
                   <property name="text">
-                   <string>zTELOS</string>
+                   <string>zmuu</string>
                   </property>
                  </widget>
                 </item>

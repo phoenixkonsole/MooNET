@@ -15,11 +15,11 @@
 #include "addresstablemodel.h"
 #include "coincontrol.h"
 #include "script/standard.h"
-#include "ztelos/deterministicmint.h"
+#include "zmuu/deterministicmint.h"
 #include "openuridialog.h"
-#include "zteloscontroldialog.h"
+#include "zmuucontroldialog.h"
 
-SendWidget::SendWidget(TELOSGUI* parent) :
+SendWidget::SendWidget(muuGUI* parent) :
     PWidget(parent),
     ui(new Ui::send),
     coinIcon(new QPushButton()),
@@ -45,14 +45,14 @@ SendWidget::SendWidget(TELOSGUI* parent) :
     ui->labelTitle->setFont(fontLight);
 
     /* Button Group */
-    ui->pushLeft->setText("TELOS");
+    ui->pushLeft->setText("muu");
     setCssProperty(ui->pushLeft, "btn-check-left");
     ui->pushLeft->setChecked(true);
-    ui->pushRight->setText("zTELOS");
+    ui->pushRight->setText("zmuu");
     setCssProperty(ui->pushRight, "btn-check-right");
 
     /* Subtitle */
-    ui->labelSubtitle1->setText(tr("You can transfer public coins (TELOS) or private coins (zTELOS)"));
+    ui->labelSubtitle1->setText(tr("You can transfer public coins (muu) or private coins (zmuu)"));
     setCssProperty(ui->labelSubtitle1, "text-subtitle");
 
     ui->labelSubtitle2->setText(tr("Select coin type to spend"));
@@ -107,7 +107,7 @@ SendWidget::SendWidget(TELOSGUI* parent) :
     ui->labelTitleTotalSend->setText(tr("Total to send"));
     setCssProperty(ui->labelTitleTotalSend, "text-title");
 
-    ui->labelAmountSend->setText("0.00 TELOS");
+    ui->labelAmountSend->setText("0.00 muu");
     setCssProperty(ui->labelAmountSend, "text-body1");
 
     // Total Remaining
@@ -134,8 +134,8 @@ SendWidget::SendWidget(TELOSGUI* parent) :
     addEntry();
 
     // Connect
-    connect(ui->pushLeft, &QPushButton::clicked, [this](){onTELOSSelected(true);});
-    connect(ui->pushRight,  &QPushButton::clicked, [this](){onTELOSSelected(false);});
+    connect(ui->pushLeft, &QPushButton::clicked, [this](){onmuuSelected(true);});
+    connect(ui->pushRight,  &QPushButton::clicked, [this](){onmuuSelected(false);});
     connect(ui->pushButtonSave, SIGNAL(clicked()), this, SLOT(onSendClicked()));
     connect(ui->pushButtonAddRecipient, SIGNAL(clicked()), this, SLOT(onAddEntryClicked()));
     connect(ui->pushButtonClear, SIGNAL(clicked()), this, SLOT(clearAll()));
@@ -144,10 +144,10 @@ SendWidget::SendWidget(TELOSGUI* parent) :
 void SendWidget::refreshView(){
     QString btnText;
     if(ui->pushLeft->isChecked()){
-        btnText = tr("Send TELOS");
+        btnText = tr("Send muu");
         ui->pushButtonAddRecipient->setVisible(true);
     }else{
-        btnText = tr("Send zTELOS");
+        btnText = tr("Send zmuu");
         ui->pushButtonAddRecipient->setVisible(false);
     }
     ui->pushButtonSave->setText(btnText);
@@ -166,10 +166,10 @@ void SendWidget::refreshAmounts() {
             total += amount;
     }
 
-    bool isZTelos = ui->pushRight->isChecked();
+    bool isZmuu = ui->pushRight->isChecked();
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
 
-    ui->labelAmountSend->setText(GUIUtil::formatBalance(total, nDisplayUnit, isZTelos));
+    ui->labelAmountSend->setText(GUIUtil::formatBalance(total, nDisplayUnit, isZmuu));
 
     CAmount totalAmount = 0;
     if (CoinControlDialog::coinControl->HasSelected()){
@@ -178,14 +178,14 @@ void SendWidget::refreshAmounts() {
         ui->labelTitleTotalRemaining->setText(tr("Total remaining from the selected UTXO"));
     } else {
         // Wallet's balance
-        totalAmount = (isZTelos ? walletModel->getZerocoinBalance() : walletModel->getBalance()) - total;
+        totalAmount = (isZmuu ? walletModel->getZerocoinBalance() : walletModel->getBalance()) - total;
         ui->labelTitleTotalRemaining->setText(tr("Total remaining"));
     }
     ui->labelAmountRemaining->setText(
             GUIUtil::formatBalance(
                     totalAmount,
                     nDisplayUnit,
-                    isZTelos
+                    isZmuu
                     )
     );
 }
@@ -321,13 +321,13 @@ void SendWidget::onSendClicked(){
     // this way we let users unlock by walletpassphrase or by menu
     // and make many transactions while unlocking through this dialog
     // will call relock
-    if(!GUIUtil::requestUnlock(walletModel, sendPiv ? AskPassphraseDialog::Context::Send_PIV : AskPassphraseDialog::Context::Send_zTELOS, true)){
+    if(!GUIUtil::requestUnlock(walletModel, sendPiv ? AskPassphraseDialog::Context::Send_PIV : AskPassphraseDialog::Context::Send_zmuu, true)){
         // Unlock wallet was cancelled
         inform(tr("Cannot send, wallet locked"));
         return;
     }
 
-    if((sendPiv) ? send(recipients) : sendZTelos(recipients)) {
+    if((sendPiv) ? send(recipients) : sendZmuu(recipients)) {
         updateEntryLabels(recipients);
     }
 }
@@ -376,12 +376,12 @@ bool SendWidget::send(QList<SendCoinsRecipient> recipients){
     return false;
 }
 
-bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
+bool SendWidget::sendZmuu(QList<SendCoinsRecipient> recipients){
     if (!walletModel || !walletModel->getOptionsModel())
         return false;
 
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE)) {
-        emit message(tr("Spend Zerocoin"), tr("zTELOS is currently undergoing maintenance."), CClientUIInterface::MSG_ERROR);
+        emit message(tr("Spend Zerocoin"), tr("zmuu is currently undergoing maintenance."), CClientUIInterface::MSG_ERROR);
         return false;
     }
 
@@ -392,11 +392,11 @@ bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
         outputs.push_back(std::pair<CBitcoinAddress*, CAmount>(new CBitcoinAddress(rec.address.toStdString()),rec.amount));
     }
 
-    // use mints from zTELOS selector if applicable
+    // use mints from zmuu selector if applicable
     std::vector<CMintMeta> vMintsToFetch;
     std::vector<CZerocoinMint> vMintsSelected;
-    if (!ZTelosControlDialog::setSelectedMints.empty()) {
-        vMintsToFetch = ZTelosControlDialog::GetSelectedMints();
+    if (!ZmuuControlDialog::setSelectedMints.empty()) {
+        vMintsToFetch = ZmuuControlDialog::GetSelectedMints();
 
         for (auto& meta : vMintsToFetch) {
             CZerocoinMint mint;
@@ -431,7 +431,7 @@ bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
         changeAddress = walletModel->getAddressTableModel()->getLastUnusedAddress().toStdString();
     }
 
-    if (walletModel->sendZTelos(
+    if (walletModel->sendZmuu(
             vMintsSelected,
             true,
             true,
@@ -440,17 +440,17 @@ bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
             changeAddress
     )
             ) {
-        inform(tr("zTELOS transaction sent!"));
-        ZTelosControlDialog::setSelectedMints.clear();
+        inform(tr("zmuu transaction sent!"));
+        ZmuuControlDialog::setSelectedMints.clear();
         clearAll();
         return true;
     } else {
         QString body;
         if (receipt.GetStatus() == Zmoonet_SPEND_V1_SEC_LEVEL) {
-            body = tr("Version 1 zTELOS require a security level of 100 to successfully spend.");
+            body = tr("Version 1 zmuu require a security level of 100 to successfully spend.");
         } else {
             int nNeededSpends = receipt.GetNeededSpends(); // Number of spends we would need for this transaction
-            const int nMaxSpends = Params().Zerocoin_MaxSpendsPerTransaction(); // Maximum possible spends for one zTELOS transaction
+            const int nMaxSpends = Params().Zerocoin_MaxSpendsPerTransaction(); // Maximum possible spends for one zmuu transaction
             if (nNeededSpends > nMaxSpends) {
                 body = tr("Too much inputs (") + QString::number(nNeededSpends, 10) +
                        tr(") needed.\nMaximum allowed: ") + QString::number(nMaxSpends, 10);
@@ -460,7 +460,7 @@ bool SendWidget::sendZTelos(QList<SendCoinsRecipient> recipients){
                 body = QString::fromStdString(receipt.GetStatusMessage());
             }
         }
-        emit message("zTELOS transaction failed", body, CClientUIInterface::MSG_ERROR);
+        emit message("zmuu transaction failed", body, CClientUIInterface::MSG_ERROR);
         return false;
     }
 }
@@ -646,17 +646,17 @@ void SendWidget::onCoinControlClicked(){
             ui->btnCoinControl->setActive(CoinControlDialog::coinControl->HasSelected());
             refreshAmounts();
         } else {
-            inform(tr("You don't have any TELOS to select."));
+            inform(tr("You don't have any muu to select."));
         }
     }else{
         if (walletModel->getZerocoinBalance() > 0) {
-            ZTelosControlDialog *zTelosControl = new ZTelosControlDialog(this);
-            zTelosControl->setModel(walletModel);
-            zTelosControl->exec();
-            ui->btnCoinControl->setActive(!ZTelosControlDialog::setSelectedMints.empty());
-            zTelosControl->deleteLater();
+            ZmuuControlDialog *zmuuControl = new ZmuuControlDialog(this);
+            zmuuControl->setModel(walletModel);
+            zmuuControl->exec();
+            ui->btnCoinControl->setActive(!ZmuuControlDialog::setSelectedMints.empty());
+            zmuuControl->deleteLater();
         } else {
-            inform(tr("You don't have any zTELOS in your balance to select."));
+            inform(tr("You don't have any zmuu in your balance to select."));
         }
     }
 }
@@ -665,9 +665,9 @@ void SendWidget::onValueChanged() {
     refreshAmounts();
 }
 
-void SendWidget::onTELOSSelected(bool _isPIV){
+void SendWidget::onmuuSelected(bool _isPIV){
     isPIV = _isPIV;
-    setCssProperty(coinIcon, _isPIV ? "coin-icon-piv" : "coin-icon-ztelos");
+    setCssProperty(coinIcon, _isPIV ? "coin-icon-piv" : "coin-icon-zmuu");
     refreshView();
     updateStyle(coinIcon);
 }

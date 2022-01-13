@@ -444,7 +444,7 @@ background:transparent;
                    <item>
                     <widget class="QLabel" name="textAmount">
                      <property name="text">
-                      <string>2 TELOS</string>
+                      <string>2 muu</string>
                      </property>
                     </widget>
                    </item>
@@ -600,7 +600,7 @@ background:transparent;
                    <item>
                     <widget class="QLabel" name="textFee">
                      <property name="text">
-                      <string>0.0001 TELOS</string>
+                      <string>0.0001 muu</string>
                      </property>
                     </widget>
                    </item>

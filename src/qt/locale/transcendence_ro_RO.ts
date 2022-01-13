@@ -192,7 +192,7 @@
     </message>
     </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     </context>
 <context>
     <name>moonet-core</name>

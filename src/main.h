@@ -21,7 +21,7 @@
 #include "pow.h"
 #include "primitives/block.h"
 #include "primitives/transaction.h"
-#include "ztelos/zerocoin.h"
+#include "zmuu/zerocoin.h"
 #include "script/script.h"
 #include "script/sigcache.h"
 #include "script/standard.h"

@@ -37,7 +37,7 @@ using namespace QtCharts;
 
 #endif
 
-class TELOSGUI;
+class muuGUI;
 class WalletModel;
 
 namespace Ui {
@@ -81,9 +81,9 @@ public:
     QMap<int, std::pair<qint64, qint64>> amountsByCache;
     qreal maxValue = 0;
     qint64 totalPiv = 0;
-    qint64 totalZTelos = 0;
+    qint64 totalZmuu = 0;
     QList<qreal> valuesPiv;
-    QList<qreal> valueszTelos;
+    QList<qreal> valueszmuu;
     QStringList xLabels;
 };
 
@@ -96,7 +96,7 @@ class DashboardWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit DashboardWidget(TELOSGUI* _window);
+    explicit DashboardWidget(muuGUI* _window);
     ~DashboardWidget();
 
     void loadWalletModel() override;
@@ -163,7 +163,7 @@ private:
     int yearFilter = 0;
     int monthFilter = 0;
     int dayStart = 1;
-    bool hasZTelosStakes = false;
+    bool hasZmuuStakes = false;
 
     ChartData* chartData = nullptr;
     bool hasStakes = false;

@@ -21,18 +21,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(TELOS);
-    unitlist.append(mTELOS);
-    unitlist.append(uTELOS);
+    unitlist.append(muu);
+    unitlist.append(mmuu);
+    unitlist.append(umuu);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case TELOS:
-    case mTELOS:
-    case uTELOS:
+    case muu:
+    case mmuu:
+    case umuu:
         return true;
     default:
         return false;
@@ -42,40 +42,40 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case TELOS:
-        return QString("TELOS");
-    case mTELOS:
-        return QString("mtelos");
-    case uTELOS:
-        return QString::fromUtf8("utelos");
+    case muu:
+        return QString("muu");
+    case mmuu:
+        return QString("mmuu");
+    case umuu:
+        return QString::fromUtf8("umuu");
     default:
         return QString("???");
     }
 }
 
-QString BitcoinUnits::name(int unit, bool isZTelos)
+QString BitcoinUnits::name(int unit, bool isZmuu)
 {
     QString z = "";
-    if(isZTelos) z = "z";
+    if(isZmuu) z = "z";
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TELOS:
-            return z + QString("TELOS");
-        case mTELOS:
-            return z + QString("mTELOS");
-        case uTELOS:
-            return z + QString::fromUtf8("μTELOS");
+        case muu:
+            return z + QString("muu");
+        case mmuu:
+            return z + QString("mmuu");
+        case umuu:
+            return z + QString::fromUtf8("μmuu");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TELOS:
-            return z + QString("tTELOS");
-        case mTELOS:
-            return z + QString("mtTELOS");
-        case uTELOS:
-            return z + QString::fromUtf8("μtTELOS");
+        case muu:
+            return z + QString("tmuu");
+        case mmuu:
+            return z + QString("mtmuu");
+        case umuu:
+            return z + QString::fromUtf8("μtmuu");
         default:
             return QString("???");
         }
@@ -86,23 +86,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TELOS:
-            return QString("TELOS");
-        case mTELOS:
-            return QString("Milli-TELOS (1 / 1" THIN_SP_UTF8 "000)");
-        case uTELOS:
-            return QString("Micro-TELOS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case muu:
+            return QString("muu");
+        case mmuu:
+            return QString("Milli-muu (1 / 1" THIN_SP_UTF8 "000)");
+        case umuu:
+            return QString("Micro-muu (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TELOS:
-            return QString("TestTELOSs");
-        case mTELOS:
-            return QString("Milli-TestTELOS (1 / 1" THIN_SP_UTF8 "000)");
-        case uTELOS:
-            return QString("Micro-TestTELOS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case muu:
+            return QString("Testmuus");
+        case mmuu:
+            return QString("Milli-Testmuu (1 / 1" THIN_SP_UTF8 "000)");
+        case umuu:
+            return QString("Micro-Testmuu (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -112,11 +112,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case TELOS:
+    case muu:
         return 100000000;
-    case mTELOS:
+    case mmuu:
         return 100000;
-    case uTELOS:
+    case umuu:
         return 100;
     default:
         return 100000000;
@@ -126,11 +126,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case TELOS:
+    case muu:
         return 8;
-    case mTELOS:
+    case mmuu:
         return 5;
-    case uTELOS:
+    case umuu:
         return 2;
     default:
         return 0;
@@ -212,7 +212,7 @@ QString BitcoinUnits::formatHtmlWithUnit(int unit, const CAmount& amount, bool p
     return QString("<span style='white-space: nowrap;'>%1</span>").arg(str);
 }
 
-QString BitcoinUnits::floorWithUnit(int unit, const CAmount& amount, bool plussign, SeparatorStyle separators, bool cleanRemainderZeros, bool isZTELOS)
+QString BitcoinUnits::floorWithUnit(int unit, const CAmount& amount, bool plussign, SeparatorStyle separators, bool cleanRemainderZeros, bool isZmuu)
 {
     QSettings settings;
     int digits = settings.value("digits").toInt();
@@ -229,12 +229,12 @@ QString BitcoinUnits::floorWithUnit(int unit, const CAmount& amount, bool plussi
         }
     }
 
-    return result + QString(" ") + name(unit, isZTELOS);
+    return result + QString(" ") + name(unit, isZmuu);
 }
 
-QString BitcoinUnits::floorHtmlWithUnit(int unit, const CAmount& amount, bool plussign, SeparatorStyle separators, bool cleanRemainderZeros, bool isZTELOS)
+QString BitcoinUnits::floorHtmlWithUnit(int unit, const CAmount& amount, bool plussign, SeparatorStyle separators, bool cleanRemainderZeros, bool isZmuu)
 {
-    QString str(floorWithUnit(unit, amount, plussign, separators, cleanRemainderZeros, isZTELOS));
+    QString str(floorWithUnit(unit, amount, plussign, separators, cleanRemainderZeros, isZmuu));
     str.replace(QChar(THIN_SP_CP), QString(COMMA_HTML));
     return QString("<span style='white-space: nowrap;'>%1</span>").arg(str);
 }

@@ -62,11 +62,11 @@
         <translation>Ricevanta adresojn</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ĉi tiuj estas viaj TELOS adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ĉi tiuj estas viaj muu adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ĉi tiuj estas vian adreson por ricevi pagojn. Ĝi rekomendas uzi novajn ricenvantan adreson por ĉiu nova transakcio.</translation>
     </message>
     <message>
@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -254,11 +254,11 @@
         <translation>Adreso:</translation>
     </message>
     <message>
-        <source>Enter a TELOS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Eniri unu TELOS adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
+        <source>Enter a muu Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Eniri unu muu adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
     </message>
     <message>
-        <source>The TELOS address to encrypt</source>
+        <source>The muu address to encrypt</source>
         <translation>Adreson por ĉifri</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@
         <translation>Kopiu la aktualan subskribo al la sistemo-poŝo</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TELOS address</source>
-        <translation>Ĉifri la privata ŝlosilo por ĉi tiu TELOS adreso</translation>
+        <source>Encrypt the private key for this muu address</source>
+        <translation>Ĉifri la privata ŝlosilo por ĉi tiu muu adreso</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>Privataj agoj por zTELOS</translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>Privataj agoj por zmuu</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,12 +641,12 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS kerno</translation>
+        <source>muu Core</source>
+        <translation>muu kerno</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Sendu mono al TELOS addreso</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Sendu mono al muu addreso</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>&amp;Pri TELOS Kerno</translation>
+        <source>&amp;About muu Core</source>
+        <translation>&amp;Pri muu Kerno</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Montri informon pri TELOS Kerno</translation>
+        <source>Show information about muu Core</source>
+        <translation>Montri informon pri muu Kerno</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Modifi agordajn opciojn por TELOS</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Modifi agordajn opciojn por muu</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Subskribu mesaĝo per via TELOS adreso por pruvi vi posedas ĝin</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Subskribu mesaĝo per via muu adreso por pruvi vi posedas ĝin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita TELOS adreso</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita muu adreso</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Malfermi mastro-nodo agord-dosieron</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Malfermi unu TELOS: URI aŭ pago peto</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Malfermi unu muu: URI aŭ pago peto</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Montri la TELOS Kore help-mesaĝo por havi liston de havebla TELOS komandlinion opciojn</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Montri la muu Kore help-mesaĝo por havi liston de havebla muu komandlinion opciojn</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
-        <translation>TELOS Kerno kliento</translation>
+        <source>muu Core client</source>
+        <translation>muu Kerno kliento</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1153,8 +1153,8 @@ Muktisendi: %1</translation>
         <translation>Redaktu sendantan adreson</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>La enirita "%1" adreso ne estas validan TELOS adreson.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>La enirita "%1" adreso ne estas validan muu adreson.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS kerno</translation>
+        <source>muu Core</source>
+        <translation>muu kerno</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>Pri TELOS Kerno</translation>
+        <source>About muu Core</source>
+        <translation>Pri muu Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Bonvenon al la TELOS Kerno.</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Bonvenon al la muu Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie TELOS kernk storigis sian datumojn. </translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie muu kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS kerno elŝutos kaj konservi kopion de la TELOS blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu kerno elŝutos kaj konservi kopion de la muu blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS kerno</translation>
+        <source>muu Core</source>
+        <translation>muu kerno</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send TELOS to</source>
-        <translation>Aldonu destinoj por sendi TELOS al</translation>
+        <source>Add destinations to send muu to</source>
+        <translation>Aldonu destinoj por sendi muu al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1604,8 +1604,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Monujo</translation>
     </message>
     <message>
-        <source>Automatically open the TELOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi TELOS klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
+        <source>Automatically open the muu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi muu klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1616,8 +1616,8 @@ Muktisendi: %1</translation>
         <translation>Sperta</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>&amp;Komencu TELOS en sistem-ensaluto</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>&amp;Komencu muu en sistem-ensaluto</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1628,8 +1628,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TELOS.</source>
-        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci TELOS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting muu.</source>
+        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci muu.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1638,8 +1638,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
 https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the TELOS network through a SOCKS5 proxy.</source>
-        <translation>Konekti al la TELOS reto per SOCKS5 prokurilo.</translation>
+        <source>Connect to the muu network through a SOCKS5 proxy.</source>
+        <translation>Konekti al la muu reto per SOCKS5 prokurilo.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1705,20 +1705,20 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>TELOS Balance</source>
-        <translation>TELOS kvanto</translation>
+        <source>muu Balance</source>
+        <translation>muu kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
         <translation>Nematura:</translation>
     </message>
     <message>
-        <source>Your current TELOS balance, unconfirmed and immature transactions included</source>
-        <translation>Via aktuala TELOS totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
+        <source>Your current muu balance, unconfirmed and immature transactions included</source>
+        <translation>Via aktuala muu totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zTELOS Balance</source>
-        <translation>zTELOS kvanto</translation>
+        <source>zmuu Balance</source>
+        <translation>zmuu kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1727,8 +1727,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mintita</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la TELOS reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la muu reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1780,28 +1780,28 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la TELOS reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la muu reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zTELOS Control</source>
-        <translation>zTELOS kontrolu</translation>
+        <source>zmuu Control</source>
+        <translation>zmuu kontrolu</translation>
     </message>
     <message>
-        <source>zTELOS Selected:</source>
-        <translation>Elektita zTELOS</translation>
+        <source>zmuu Selected:</source>
+        <translation>Elektita zmuu</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,20 +1812,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zTELOS por elspezi</translation>
+        <source>Available (mature and spendable) zmuu for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zmuu por elspezi</translation>
     </message>
     <message>
-        <source>0 zTELOS</source>
-        <translation>0 zTELOS</translation>
+        <source>0 zmuu</source>
+        <translation>0 zmuu</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>TELOS adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
+        <source>The muu address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>muu adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1928,8 +1928,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>NEKONATA</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS kerno</translation>
+        <source>muu Core</source>
+        <translation>muu kerno</translation>
     </message>
     </context>
 <context>
@@ -1994,8 +1994,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Rekonstrui indekson</translation>
     </message>
     <message>
-        <source>Welcome to the TELOS RPC console.</source>
-        <translation>Bonvenon al la TELOS RPC konzolo.</translation>
+        <source>Welcome to the muu RPC console.</source>
+        <translation>Bonvenon al la muu RPC konzolo.</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2242,8 +2242,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Kopi ŝanĝo</translation>
     </message>
     <message>
-        <source>Warning: Invalid TELOS address</source>
-        <translation>Averto: nevalida TELOS adreson</translation>
+        <source>Warning: Invalid muu address</source>
+        <translation>Averto: nevalida muu adreson</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2269,7 +2269,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to</source>
+        <source>The muu address to send the payment to</source>
         <translation>PIVC adreso por sendi la pago al</translation>
     </message>
     <message>
@@ -2304,8 +2304,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TELOS Core is shutting down...</source>
-        <translation>TELOS kerno fermanta...</translation>
+        <source>muu Core is shutting down...</source>
+        <translation>muu kerno fermanta...</translation>
     </message>
     </context>
 <context>
@@ -2358,8 +2358,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS kerno</translation>
+        <source>muu Core</source>
+        <translation>muu kerno</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2370,8 +2370,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>La Dash kerno programistoj</translation>
     </message>
     <message>
-        <source>The TELOS Core developers</source>
-        <translation>La TELOS kerno programistoj</translation>
+        <source>The muu Core developers</source>
+        <translation>La muu kerno programistoj</translation>
     </message>
     </context>
 <context>
@@ -2546,14 +2546,14 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     </context>
 <context>

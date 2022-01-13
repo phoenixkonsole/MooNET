@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços TELOS para onde enviar pagamentos. Confira sempre o montante e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços muu para onde enviar pagamentos. Confira sempre o montante e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços TELOS onde receber pagamentos. Recomenda-se o uso de um novo endereço para cada transacção.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços muu onde receber pagamentos. Recomenda-se o uso de um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PIVs contra roubo por malware infectando seu computador.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PIVs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA TELOS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA muu&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -669,8 +669,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>Um endereço TELOS para assinar a mensagem</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>Um endereço muu para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -701,12 +701,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço TELOS.</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço muu.</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>O endereço TELOS que foi assinado com</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>O endereço muu que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -904,7 +904,7 @@
     </message>
     </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     </context>
 <context>
     <name>moonet-core</name>
@@ -1181,8 +1181,8 @@
         <translation>carteira %s reside fora do diretório %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TELOS Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o TELOS Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart muu Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o muu Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

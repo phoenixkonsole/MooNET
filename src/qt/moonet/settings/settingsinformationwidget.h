@@ -18,7 +18,7 @@ class SettingsInformationWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsInformationWidget(TELOSGUI* _window, QWidget *parent = nullptr);
+    explicit SettingsInformationWidget(muuGUI* _window, QWidget *parent = nullptr);
     ~SettingsInformationWidget();
 
     void loadClientModel() override;

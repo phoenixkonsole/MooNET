@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "accumulatormap.h"
-#include "ztelos/accumulators.h"
+#include "zmuu/accumulators.h"
 #include "main.h"
 #include "txdb.h"
 #include "libzerocoin/Denominations.h"

@@ -56,7 +56,7 @@ public:
 };
 
 
-AddressesWidget::AddressesWidget(TELOSGUI* parent) :
+AddressesWidget::AddressesWidget(muuGUI* parent) :
     PWidget(parent),
     ui(new Ui::AddressesWidget)
 {

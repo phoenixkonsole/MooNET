@@ -7,7 +7,7 @@
 
 #include <QWidget>
 
-class TELOSGUI;
+class muuGUI;
 
 namespace Ui {
 class NavMenuWidget;
@@ -18,7 +18,7 @@ class NavMenuWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit NavMenuWidget(TELOSGUI* mainWindow, QWidget *parent = nullptr);
+    explicit NavMenuWidget(muuGUI* mainWindow, QWidget *parent = nullptr);
     ~NavMenuWidget();
 
 public slots:
@@ -35,7 +35,7 @@ private slots:
     void updateButtonStyles();
 private:
     Ui::NavMenuWidget *ui;
-    TELOSGUI* window;
+    muuGUI* window;
     QList<QWidget*> btns;
 
     void connectActions();

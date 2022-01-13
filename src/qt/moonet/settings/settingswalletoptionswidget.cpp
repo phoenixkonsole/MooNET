@@ -9,7 +9,7 @@
 #include "clientmodel.h"
 #include "qt/moonet/qtutils.h"
 
-SettingsWalletOptionsWidget::SettingsWalletOptionsWidget(TELOSGUI* _window, QWidget *parent) :
+SettingsWalletOptionsWidget::SettingsWalletOptionsWidget(muuGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsWalletOptionsWidget)
 {

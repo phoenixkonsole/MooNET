@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų TELOS adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų muu adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų TELOS adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų muu adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>Dabar TELOS išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų TELOS nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>Dabar muu išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų muu nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO TELOS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO muu&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a TELOS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a muu Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Įveskite Pivx adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The TELOS address to encrypt</source>
-        <translation>TELOS adresas, kurį norite užšifruoti</translation>
+        <source>The muu address to encrypt</source>
+        <translation>muu adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TELOS address</source>
-        <translation>Užšifruoti šio TELOS adreso privatų raktą</translation>
+        <source>Encrypt the private key for this muu address</source>
+        <translation>Užšifruoti šio muu adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>zTELOS Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>zmuu Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,12 +641,12 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Siųsti monetas į TELOS adresą</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Siųsti monetas į muu adresą</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>&amp;Apie TELOS Core</translation>
+        <source>&amp;About muu Core</source>
+        <translation>&amp;Apie muu Core</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Rodyti informaciją apie TELOS Core</translation>
+        <source>Show information about muu Core</source>
+        <translation>Rodyti informaciją apie muu Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Keisti TELOS konfigūravimo parinktis</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Keisti muu konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo TELOS adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo muu adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais TELOS adresais</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais muu adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Atidaryti TELOS: URI arba mokėjimo prašymą</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Atidaryti muu: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Rodyti TELOS Core žinyną, kad gautumėte sąrašą su galimomis TELOS komandinės eilutės parinktimis</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Rodyti muu Core žinyną, kad gautumėte sąrašą su galimomis muu komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
-        <translation>TELOS Core piniginė</translation>
+        <source>muu Core client</source>
+        <translation>muu Core piniginė</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis TELOS adresas.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis muu adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>Apie TELOS Core</translation>
+        <source>About muu Core</source>
+        <translation>Apie muu Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1265,16 +1265,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Sveiki atvykę į TELOS Core</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Sveiki atvykę į muu Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur TELOS Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur muu Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS Core atsisiųs ir saugos TELOS blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu Core atsisiųs ir saugos muu blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1285,8 +1285,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1427,12 +1427,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TELOS addresses after it matures.
-To Add: enter percentage to give and TELOS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other muu addresses after it matures.
+To Add: enter percentage to give and muu address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus TELOS adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir TELOS adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus muu adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir muu adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send TELOS to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti TELOS</translation>
+        <source>Add destinations to send muu to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti muu</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1730,12 +1730,12 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Ekspertas</translation>
     </message>
     <message>
-        <source>Automatically start TELOS after logging in to the system.</source>
-        <translation>Automatiškai paleisti TELOS prisijungus prie sistemos.</translation>
+        <source>Automatically start muu after logging in to the system.</source>
+        <translation>Automatiškai paleisti muu prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>&amp;Paleisti TELOS sistemai įsijungiant</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>&amp;Paleisti muu sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1762,8 +1762,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TELOS.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "TELOS".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting muu.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "muu".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1776,28 +1776,28 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TELOS units to zTELOS</source>
-        <translation>Įgalinti automatinį konvertavimą iš TELOS į zTELOS</translation>
+        <source>Enable automatic minting of muu units to zmuu</source>
+        <translation>Įgalinti automatinį konvertavimą iš muu į zmuu</translation>
     </message>
     <message>
-        <source>Enable zTELOS Automint</source>
-        <translation>Įgalinti zTELOS Automatinį nukaldinima</translation>
+        <source>Enable zmuu Automint</source>
+        <translation>Įgalinti zmuu Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming TELOS which get automatically converted to zTELOS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto TELOS, kuris automatiškai bus konvertuotas į zTELOS naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming muu which get automatically converted to zmuu via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto muu, kuris automatiškai bus konvertuotas į zmuu naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTELOS</source>
-        <translation>Automatiškai sukurtų zTELOS procentas</translation>
+        <source>Percentage of autominted zmuu</source>
+        <translation>Automatiškai sukurtų zmuu procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zTELOS Denomination</source>
-        <translation>Pageidautinas zTELOS Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zmuu Denomination</source>
+        <translation>Pageidautinas zmuu Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the TELOS network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie TELOS tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the muu network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie muu tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>TELOS Balance</source>
-        <translation>TELOS Balansas</translation>
+        <source>muu Balance</source>
+        <translation>muu Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1939,18 +1939,18 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current TELOS balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis TELOS balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current muu balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis muu balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zTELOS Balance</source>
-        <translation>zTELOS Balansas</translation>
+        <source>zmuu Balance</source>
+        <translation>zmuu Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTELOS are spendable.</source>
+These zmuu are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zTELOS galima išleisti.</translation>
+Šiuos zmuu galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1959,8 +1959,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo po to, kai buvo konvertuotas.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su TELOS tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su muu tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2003,8 +2003,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked TELOS or Masternode collaterals. These are excluded from zTELOS minting.</source>
-        <translation>Užrakinti TELOS arba Masternode užstatai. Jie yra neįtraukti į zTELOS kalimą.</translation>
+        <source>Locked muu or Masternode collaterals. These are excluded from zmuu minting.</source>
+        <translation>Užrakinti muu arba Masternode užstatai. Jie yra neįtraukti į zmuu kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2096,8 +2096,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su TELOS tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su muu tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2108,8 +2108,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2128,12 +2128,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zTELOS Control</source>
-        <translation>zTelos Kontrolė</translation>
+        <source>zmuu Control</source>
+        <translation>zmuu Kontrolė</translation>
     </message>
     <message>
-        <source>zTELOS Selected:</source>
-        <translation>Pasirinkta zTELOS:</translation>
+        <source>zmuu Selected:</source>
+        <translation>Pasirinkta zmuu:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2152,8 +2152,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zTELOS</source>
-        <translation>0 zTELOS</translation>
+        <source>0 zmuu</source>
+        <translation>0 zmuu</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2192,8 +2192,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTELOS</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zTELOS</translation>
+        <source>Total Balance including unconfirmed and immature zmuu</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zmuu</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2362,12 +2362,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Konvertavimo Statusas: Geras</translation>
     </message>
     <message>
-        <source>zTELOS Spend #: </source>
-        <translation>zTELOS Išleidimas #:</translation>
+        <source>zmuu Spend #: </source>
+        <translation>zmuu Išleidimas #:</translation>
     </message>
     <message>
-        <source>zTELOS Mint</source>
-        <translation>zTELOS Konvertavimas</translation>
+        <source>zmuu Mint</source>
+        <translation>zmuu Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2488,8 +2488,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a TELOS address (e.g. %1)</source>
-        <translation>Įveskite TELOS adresą (pvz. %1)</translation>
+        <source>Enter a muu address (e.g. %1)</source>
+        <translation>Įveskite muu adresą (pvz. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2524,8 +2524,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>N/A</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -2670,8 +2670,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the TELOS RPC console.</source>
-        <translation>Sveiki atvykę į TELOS RPC konsolę.</translation>
+        <source>Welcome to the muu RPC console.</source>
+        <translation>Sveiki atvykę į muu RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -2850,8 +2850,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3007,8 +3007,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>TELOS adresas, kuriuo pasirašyti žinute</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>muu adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3031,16 +3031,16 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio TELOS adreso savininkas</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio muu adreso savininkas</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>TELOS adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>muu adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TELOS address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu TELOS adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified muu address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu muu adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3078,8 +3078,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -3298,14 +3298,14 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     </context>
 <context>
@@ -3335,8 +3335,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TELOS Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės TELOS Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of muu Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės muu Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3511,8 +3511,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Piniginė %s yra ne duomenų kataloge %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TELOS Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite TELOS Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart muu Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite muu Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

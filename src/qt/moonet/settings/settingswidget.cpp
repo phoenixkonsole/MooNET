@@ -22,7 +22,7 @@
 #include <QScrollBar>
 #include <QDataWidgetMapper>
 
-SettingsWidget::SettingsWidget(TELOSGUI* parent) :
+SettingsWidget::SettingsWidget(muuGUI* parent) :
     PWidget(parent),
     ui(new Ui::SettingsWidget)
 {

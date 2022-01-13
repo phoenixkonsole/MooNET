@@ -10,7 +10,7 @@
 #include "walletmodel.h"
 
 class WalletModel;
-class TELOSGUI;
+class muuGUI;
 
 namespace Ui {
 class RequestDialog;

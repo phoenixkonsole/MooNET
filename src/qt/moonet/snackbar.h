@@ -7,7 +7,7 @@
 
 #include <QDialog>
 
-class TELOSGUI;
+class muuGUI;
 
 namespace Ui {
 class SnackBar;
@@ -18,7 +18,7 @@ class SnackBar : public QDialog
     Q_OBJECT
 
 public:
-    explicit SnackBar(TELOSGUI* _window = nullptr, QWidget *parent = nullptr);
+    explicit SnackBar(muuGUI* _window = nullptr, QWidget *parent = nullptr);
     ~SnackBar();
 
     virtual void showEvent(QShowEvent *event) override;
@@ -29,7 +29,7 @@ private slots:
     void windowResizeEvent(QResizeEvent *event);
 private:
     Ui::SnackBar *ui;
-    TELOSGUI* window = nullptr;
+    muuGUI* window = nullptr;
 };
 
 #endif // SNACKBAR_H

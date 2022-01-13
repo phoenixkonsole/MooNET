@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše TELOS adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše muu adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše TELOS adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše muu adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,15 +172,15 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
         <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE PIVy&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>Řešení soukromí pro zTELOS</translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>Řešení soukromí pro zmuu</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,12 +601,12 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Odeslat platbuna TELOS adresu</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Odeslat platbuna muu adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>&amp;O TELOS Core</translation>
+        <source>&amp;About muu Core</source>
+        <translation>&amp;O muu Core</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Zobraz informace o TELOS Core</translation>
+        <source>Show information about muu Core</source>
+        <translation>Zobraz informace o muu Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Upravit možnosti konfigurace pro TELOS</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Upravit možnosti konfigurace pro muu</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší TELOS adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší muu adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými TELOS adresami</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými muu adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Otevřít TELOS: URI nebo platební žádost</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Otevřít muu: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Zobrazit TELOS Core pomocnou zpráv pro získání seznamu možných parametrů TELOS pro příkazy do příkazové řádky</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Zobrazit muu Core pomocnou zpráv pro získání seznamu možných parametrů muu pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
-        <translation>TELOS Core klient</translation>
+        <source>muu Core client</source>
+        <translation>muu Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>Zadaná adresa "%1" není validní TELOS adresa.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>Zadaná adresa "%1" není validní muu adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1138,12 +1138,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>O TELOS Core</translation>
+        <source>About muu Core</source>
+        <translation>O muu Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Vítejte v TELOS Core.</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Vítejte v muu Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude TELOS Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude muu Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS Core stáhne a uloží kopii TELOS blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu Core stáhne a uloží kopii muu blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1197,8 +1197,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1480,12 +1480,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start TELOS after logging in to the system.</source>
-        <translation>Automaticky spustit TELOS po přihlášení do systému</translation>
+        <source>Automatically start muu after logging in to the system.</source>
+        <translation>Automaticky spustit muu po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>&amp;Spusti TELOS při přihlášení do systému</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>&amp;Spusti muu při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1690,8 +1690,8 @@ MultiSend: %1</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2141,8 +2141,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>TELOS adresa pro podepsání zprávy</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>muu adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2169,16 +2169,16 @@ MultiSend: %1</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto TELOS adresu</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto muu adresu</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>TELOS adresa zprávy byla podpsána</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>muu adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TELOS address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou TELOS adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified muu address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou muu adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,8 +2220,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -2324,7 +2324,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

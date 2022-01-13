@@ -19,7 +19,7 @@
 #include "qt/moonet/settings/settingsinformationwidget.h"
 #include "qt/moonet/settings/settingsconsolewidget.h"
 
-class TELOSGUI;
+class muuGUI;
 
 QT_BEGIN_NAMESPACE
 class QDataWidgetMapper;
@@ -34,7 +34,7 @@ class SettingsWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsWidget(TELOSGUI* parent);
+    explicit SettingsWidget(muuGUI* parent);
     ~SettingsWidget();
 
     void loadClientModel() override;

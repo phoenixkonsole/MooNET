@@ -12,7 +12,7 @@
 #include "qt/moonet/qtutils.h"
 #include <QDir>
 
-SettingsInformationWidget::SettingsInformationWidget(TELOSGUI* _window,QWidget *parent) :
+SettingsInformationWidget::SettingsInformationWidget(muuGUI* _window,QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsInformationWidget)
 {

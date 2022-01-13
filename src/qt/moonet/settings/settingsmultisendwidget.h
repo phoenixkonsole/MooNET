@@ -10,7 +10,7 @@
 #include "qt/moonet/pwidget.h"
 #include "qt/moonet/furabstractlistitemdelegate.h"
 
-class TELOSGUI;
+class muuGUI;
 
 namespace Ui {
 class SettingsMultisendWidget;

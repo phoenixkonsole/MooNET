@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите TELOS адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите muu адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите TELOS адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите muu адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия TELOS от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия muu от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ TELOS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ muu&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a TELOS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a muu Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Въведете Pivx адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
     </message>
     <message>
-        <source>The TELOS address to encrypt</source>
-        <translation>TELOS Адреса за криптиране</translation>
+        <source>The muu address to encrypt</source>
+        <translation>muu Адреса за криптиране</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TELOS address</source>
-        <translation>Криптирай тайния ключ за този TELOS адрес</translation>
+        <source>Encrypt the private key for this muu address</source>
+        <translation>Криптирай тайния ключ за този muu адрес</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>История на транзакциите</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>Поверителни Действия за ZTELOS</translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>Поверителни Действия за Zmuu</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,16 +641,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Ядро</translation>
+        <source>muu Core</source>
+        <translation>muu Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Изпратете монети до TELOS адрес</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Изпратете монети до muu адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  TELOS:URI)</translation>
+        <translation>Поискай плащане (генерира QR кодове и  muu:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>&amp;Относно TELOS Ядрото</translation>
+        <source>&amp;About muu Core</source>
+        <translation>&amp;Относно muu Ядрото</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Информациза за TELOS Ядрото</translation>
+        <source>Show information about muu Core</source>
+        <translation>Информациза за muu Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Промени TELOS конфигурацията</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Промени muu конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте TELOS адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте muu адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните TELOS адреси</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните muu адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Отвори TELOS:URI платежно нареждане</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Отвори muu:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Разкрийте Помощ за TELOS Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Разкрийте Помощ за muu Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
-        <translation>Клиент TELOS Ядро</translation>
+        <source>muu Core client</source>
+        <translation>Клиент muu Ядро</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1161,8 +1161,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>Зададения адрес "%1"не е валиден TELOS адрес.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>Зададения адрес "%1"не е валиден muu адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Ядро</translation>
+        <source>muu Core</source>
+        <translation>muu Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>Относно TELOS Ядрото</translation>
+        <source>About muu Core</source>
+        <translation>Относно muu Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Добре Дошли в TELOS Ядрото</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Добре Дошли в muu Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде TELOS Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде muu Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS Ядрото ще изтегли и запише копие на целия TELOS блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu Ядрото ще изтегли и запише копие на целия muu блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Ядро</translation>
+        <source>muu Core</source>
+        <translation>muu Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TELOS addresses after it matures.
-To Add: enter percentage to give and TELOS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other muu addresses after it matures.
+To Add: enter percentage to give and muu address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други TELOS адреси.
-Да Добавите: въведете процент и задайте TELOS адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други muu адреси.
+Да Добавите: въведете процент и задайте muu адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1628,8 +1628,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес / Сума:</translation>
     </message>
     <message>
-        <source>Add destinations to send TELOS to</source>
-        <translation>Добави получател на TELOS</translation>
+        <source>Add destinations to send muu to</source>
+        <translation>Добави получател на muu</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1762,8 +1762,8 @@ Please be patient after clicking import.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the TELOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори TELOS порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the muu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори muu порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1782,12 +1782,12 @@ Please be patient after clicking import.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start TELOS after logging in to the system.</source>
-        <translation>Стартирай TELOS автоматично след влизане в системата.</translation>
+        <source>Automatically start muu after logging in to the system.</source>
+        <translation>Стартирай muu автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>&amp;Стартирай TELOS заедно с операционната система</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>&amp;Стартирай muu заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1814,7 +1814,7 @@ Please be patient after clicking import.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TELOS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting muu.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
@@ -1828,36 +1828,36 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Картографирай портовете използвайки &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TELOS units to zTELOS</source>
-        <translation>Включи автоматичното емитиране на TELOS единици в zTELOS</translation>
+        <source>Enable automatic minting of muu units to zmuu</source>
+        <translation>Включи автоматичното емитиране на muu единици в zmuu</translation>
     </message>
     <message>
-        <source>Enable zTELOS Automint</source>
-        <translation>Включи Автоматично емитиране на zTELOS</translation>
+        <source>Enable zmuu Automint</source>
+        <translation>Включи Автоматично емитиране на zmuu</translation>
     </message>
     <message>
-        <source>Percentage of incoming TELOS which get automatically converted to zTELOS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите TELOS, който автоматично да се конвертира в zTELOS посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming muu which get automatically converted to zmuu via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите muu, който автоматично да се конвертира в zmuu посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTELOS</source>
-        <translation>Процент автоматично сечени zTELOS</translation>
+        <source>Percentage of autominted zmuu</source>
+        <translation>Процент автоматично сечени zmuu</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TELOS for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zTELOS докато не се съберат достатъчно TELOS за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough muu for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zmuu докато не се съберат достатъчно muu за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zTELOS Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zTELOS</translation>
+        <source>Preferred Automint zmuu Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zmuu</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Праг на споделеното съхранение:</translation>
     </message>
     <message>
-        <source>Connect to the TELOS network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с TELOS мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the muu network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с muu мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2007,8 +2007,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Обща Наличност, включително и неналичните монети.</translation>
     </message>
     <message>
-        <source>TELOS Balance</source>
-        <translation>TELOS Наличности</translation>
+        <source>muu Balance</source>
+        <translation>muu Наличности</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2031,18 +2031,18 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Сегашния баланс по портфейли в режим на наблюдение само</translation>
     </message>
     <message>
-        <source>Your current TELOS balance, unconfirmed and immature transactions included</source>
-        <translation>Вашите TELOS наличности, включително непотвърдените и неузрели преводи</translation>
+        <source>Your current muu balance, unconfirmed and immature transactions included</source>
+        <translation>Вашите muu наличности, включително непотвърдените и неузрели преводи</translation>
     </message>
     <message>
-        <source>zTELOS Balance</source>
-        <translation>zTELOS Наличности</translation>
+        <source>zmuu Balance</source>
+        <translation>zmuu Наличности</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTELOS are spendable.</source>
+These zmuu are spendable.</source>
         <translation>Узрели: повече от 20 потвърждения и повече от 1 емисии от същата деноминация след като е била емитирана.
-Тези zTELOS могат да се похарчат.</translation>
+Тези zmuu могат да се похарчат.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2051,8 +2051,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TELOS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с muu мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2095,8 +2095,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>Locked TELOS or Masternode collaterals. These are excluded from zTELOS minting.</source>
-        <translation>Заключен TELOS или допълнителни гаранции в Главни Възли. Тези не са включени в zTELOS емитирането.</translation>
+        <source>Locked muu or Masternode collaterals. These are excluded from zmuu minting.</source>
+        <translation>Заключен muu или допълнителни гаранции в Главни Възли. Тези не са включени в zmuu емитирането.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2107,8 +2107,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Непотвърден</translation>
     </message>
     <message>
-        <source>Your current zTELOS balance, unconfirmed and immature zTELOS included.</source>
-        <translation>Вашите zTELOS наличности, включеително непотвърдените и неузрелите zTELOS.</translation>
+        <source>Your current zmuu balance, unconfirmed and immature zmuu included.</source>
+        <translation>Вашите zmuu наличности, включеително непотвърдените и неузрелите zmuu.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2160,8 +2160,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Провал при стартирането на moonet: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден TELOS адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid muu address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден muu адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2246,8 +2246,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TELOS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с muu мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2258,8 +2258,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2286,12 +2286,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>КОНФИДЕНЦИАЛНОСТ</translation>
     </message>
     <message>
-        <source>zTELOS Control</source>
-        <translation>zTELOS Контрол</translation>
+        <source>zmuu Control</source>
+        <translation>zmuu Контрол</translation>
     </message>
     <message>
-        <source>zTELOS Selected:</source>
-        <translation>Избрани zTELOS:</translation>
+        <source>zmuu Selected:</source>
+        <translation>Избрани zmuu:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2306,31 +2306,31 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Похарчи Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending</source>
-        <translation>Налични (узрели и готови за харчене) zTELOS за употреба</translation>
+        <source>Available (mature and spendable) zmuu for spending</source>
+        <translation>Налични (узрели и готови за харчене) zmuu за употреба</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending
+        <source>Available (mature and spendable) zmuu for spending
 
-zTELOS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Налични (узрели и готови за харчене) zTELOS за употреба
+zmuu are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Налични (узрели и готови за харчене) zmuu за употреба
 
-zTELOS са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
+zmuu са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>0 zTELOS</source>
-        <translation>0 zTELOS</translation>
+        <source>0 zmuu</source>
+        <translation>0 zmuu</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The muu address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2363,7 +2363,7 @@ zTELOS са узрели, тогава когато имат повече от 2
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zTELOS от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zmuu от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2382,8 +2382,8 @@ zTELOS са узрели, тогава когато имат повече от 2
         <translation>Zerocoin статистика:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTELOS</source>
-        <translation>Обща Наличност включеително непотвърдените и неузрели zTELOS</translation>
+        <source>Total Balance including unconfirmed and immature zmuu</source>
+        <translation>Обща Наличност включеително непотвърдените и неузрели zmuu</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2404,24 +2404,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTELOS minting.
+        <source>Show the current status of automatic zmuu minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
 - disable: add 'enablezeromint=0' to pivx.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTELOS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zmuu
 
 </source>
-        <translation>Покажи състоянието на автоматичното zTELOS емитиране.
+        <translation>Покажи състоянието на автоматичното zmuu емитиране.
 
 За да пормените състоянието (изисква рестарт):
 - вклчване: добавете 'enablezeromint=1' в pivx.conf
 - изключване: добавете 'enablezeromint=0' в pivx.conf
 
 За промяна в процентите (не изисква рестарт):
-- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zTELOS
+- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zmuu
 </translation>
     </message>
     <message>
@@ -2595,12 +2595,12 @@ Please be patient...</source>
 Моля изчакате...</translation>
     </message>
     <message>
-        <source>zTELOS Spend #: </source>
-        <translation>zTELOS Похарчени #:</translation>
+        <source>zmuu Spend #: </source>
+        <translation>zmuu Похарчени #:</translation>
     </message>
     <message>
-        <source>zTELOS Mint</source>
-        <translation>Сечене на zTELOS</translation>
+        <source>zmuu Mint</source>
+        <translation>Сечене на zmuu</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2615,12 +2615,12 @@ Please be patient...</source>
         <translation>Конфигуриран целеви процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTELOS is currently disabled due to maintenance.</source>
-        <translation>В момента zTELOS не работи поради ремонт.</translation>
+        <source>zmuu is currently disabled due to maintenance.</source>
+        <translation>В момента zmuu не работи поради ремонт.</translation>
     </message>
     <message>
-        <source>zTELOS is currently undergoing maintenance.</source>
-        <translation>В момента zTELOS е в ремонт.</translation>
+        <source>zmuu is currently undergoing maintenance.</source>
+        <translation>В момента zmuu е в ремонт.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2710,7 +2710,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Invalid Pivx Address</source>
-        <translation>Невалиден TELOS адрес</translation>
+        <translation>Невалиден muu адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2787,8 +2787,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a TELOS address (e.g. %1)</source>
-        <translation>Задайте TELOS адрес (например %1)</translation>
+        <source>Enter a muu address (e.g. %1)</source>
+        <translation>Задайте muu адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2831,8 +2831,8 @@ Please be patient...</source>
         <translation>%1 милисек.</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Ядро</translation>
+        <source>muu Core</source>
+        <translation>muu Ядро</translation>
     </message>
     </context>
 <context>
@@ -2929,8 +2929,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the TELOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори TELOS дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the muu debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори muu дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3065,8 +3065,8 @@ Please be patient...</source>
         <translation>Персонален резервен път:</translation>
     </message>
     <message>
-        <source>Custom zTELOS Backup Path:</source>
-        <translation>Персонализиран zTELOS резервен път:</translation>
+        <source>Custom zmuu Backup Path:</source>
+        <translation>Персонализиран zmuu резервен път:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3145,8 +3145,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the TELOS RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на TELOS.</translation>
+        <source>Welcome to the muu RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на muu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3272,16 +3272,16 @@ Please be patient...</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TELOS мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по muu мрежата.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧИ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TELOS мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по muu мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3513,8 +3513,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3569,15 +3569,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uTELOS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTELOS входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uTELOS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 umuu и превода е само 250 байта, то тогава "за килобайт" само плаща 250 umuu входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 umuu. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "total at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uTELOS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTELOS входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uTELOS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "total at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 umuu и превода е само 250 байта, то тогава "за килобайт" само плаща 250 umuu входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 umuu. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TELOS transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for muu transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3625,8 +3625,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized TELOS</source>
-        <translation>Анонимизиран TELOS</translation>
+        <source>Anonymized muu</source>
+        <translation>Анонимизиран muu</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3673,8 +3673,8 @@ Please be patient...</source>
         <translation>Инструмента за разделяне на блока не работи, когато се изпраща до няколко адреса едновременно. Опитайте пак.</translation>
     </message>
     <message>
-        <source>Warning: Invalid TELOS address</source>
-        <translation>Предупреждение: Невалиден TELOS адрес</translation>
+        <source>Warning: Invalid muu address</source>
+        <translation>Предупреждение: Невалиден muu адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3772,8 +3772,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to</source>
-        <translation>TELOS адреса - получател на плащането</translation>
+        <source>The muu address to send the payment to</source>
+        <translation>muu адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3812,8 +3812,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TELOS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TELOS network.</source>
-        <translation>Съобщение, което е било прикачено към TELOS:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по TELOS мрежата.</translation>
+        <source>A message that was attached to the muu: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the muu network.</source>
+        <translation>Съобщение, което е било прикачено към muu:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по muu мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3839,8 +3839,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TELOS Core is shutting down...</source>
-        <translation>Изключване на TELOS Ядрото...</translation>
+        <source>muu Core is shutting down...</source>
+        <translation>Изключване на muu Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3862,8 +3862,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>TELOS адреса, с който да подпишете съобщението</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>muu адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3894,16 +3894,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този TELOS адрес</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този muu адрес</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>TELOS адреса, който е подписано съобщението</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>muu адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TELOS address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения TELOS адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified muu address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения muu адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3989,8 +3989,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Ядро</translation>
+        <source>muu Core</source>
+        <translation>muu Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4005,8 +4005,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The TELOS Core developers</source>
-        <translation>TELOS Core разработчици</translation>
+        <source>The muu Core developers</source>
+        <translation>muu Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4269,12 +4269,12 @@ Please be patient...</source>
         <translation>Получен посредством обфускация</translation>
     </message>
     <message>
-        <source>TELOS Stake</source>
-        <translation>TELOS Stake</translation>
+        <source>muu Stake</source>
+        <translation>muu Stake</translation>
     </message>
     <message>
-        <source>zTELOS Stake</source>
-        <translation>zTELOS Stake</translation>
+        <source>zmuu Stake</source>
+        <translation>zmuu Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4293,32 +4293,32 @@ Please be patient...</source>
         <translation>Обфускация и направа на Деноминации</translation>
     </message>
     <message>
-        <source>Converted TELOS to zTELOS</source>
-        <translation>Конвертиран TELOS във zTELOS</translation>
+        <source>Converted muu to zmuu</source>
+        <translation>Конвертиран muu във zmuu</translation>
     </message>
     <message>
-        <source>Spent zTELOS</source>
-        <translation>Похарчени zTELOS</translation>
+        <source>Spent zmuu</source>
+        <translation>Похарчени zmuu</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Получен TELOS от zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Получен muu от zmuu</translation>
     </message>
     <message>
-        <source>Minted Change as zTELOS from zTELOS Spend</source>
-        <translation>Исечено ресто като zTELOS от похарчените zTELOS</translation>
+        <source>Minted Change as zmuu from zmuu Spend</source>
+        <translation>Исечено ресто като zmuu от похарчените zmuu</translation>
     </message>
     <message>
-        <source>Converted zTELOS to TELOS</source>
-        <translation>Конвертиран zTELOS във TELOS</translation>
+        <source>Converted zmuu to muu</source>
+        <translation>Конвертиран zmuu във muu</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Transaction)</source>
-        <translation>Анонимен (транзакция zTELOS)</translation>
+        <source>Anonymous (zmuu Transaction)</source>
+        <translation>Анонимен (транзакция zmuu)</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Stake)</source>
-        <translation>Анонимен (zTELOS Stake)</translation>
+        <source>Anonymous (zmuu Stake)</source>
+        <translation>Анонимен (zmuu Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4528,12 +4528,12 @@ Please be patient...</source>
         <translation>Експортирането Успешно</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Получен TELOS от zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Получен muu от zmuu</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTELOS</source>
-        <translation>Харчене на Zerocoin, Ресто в zTELOS</translation>
+        <source>Zerocoin Spend, Change in zmuu</source>
+        <translation>Харчене на Zerocoin, Ресто в zmuu</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4569,8 +4569,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TELOS.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 TELOS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 muu.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 muu.</translation>
     </message>
 </context>
 <context>
@@ -4601,10 +4601,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
-        <source>Select zTELOS to Spend</source>
-        <translation>Изберете zTELOS за Изпращане</translation>
+        <source>Select zmuu to Spend</source>
+        <translation>Изберете zmuu за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4615,8 +4615,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4650,8 +4650,8 @@ Please be patient...</source>
         <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TELOS Core is probably already running.</source>
-        <translation>Не може да заключи папката с данни %s. TELOS Портфейла вероятно вече е стартиран.</translation>
+        <source>Cannot obtain a lock on data directory %s. muu Core is probably already running.</source>
+        <translation>Не може да заключи папката с данни %s. muu Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4678,16 +4678,16 @@ Please be patient...</source>
         <translation>Разпространява се пот MIT софтуерен лиценз, виж съпровождащия файл от &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTELOS minting (0-1, default: %u)</source>
-        <translation>Включи автоматичните бекъпи на портфейла след всяко zTELOS емитиране (0-1, по подразбиране: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zmuu minting (0-1, default: %u)</source>
+        <translation>Включи автоматичните бекъпи на портфейла след всяко zmuu емитиране (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TELOS inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за TELOS входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for muu inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за muu входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTELOS inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за zTELOS входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for zmuu inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за zmuu входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4722,12 +4722,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в TELOS/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в muu/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в TELOS/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в muu/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4822,20 +4822,20 @@ Please be patient...</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TELOS Core is probably already running.</source>
-        <translation>Не може да се прикачи към %s на този компютър. TELOS Портфейла вероятно вече е стартиран.</translation>
+        <source>Unable to bind to %s on this computer. muu Core is probably already running.</source>
+        <translation>Не може да се прикачи към %s на този компютър. muu Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Не намираме достатъчно Обфускационно деноминирани средства за този превод.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 TELOS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 muu.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 TELOS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 muu.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4850,8 +4850,8 @@ Please be patient...</source>
         <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TELOS Core will not work properly.</source>
-        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, TELOS Портфейла няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong muu Core will not work properly.</source>
+        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, muu Портфейла няма да работи правилно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4982,8 +4982,8 @@ Please be patient...</source>
         <translation>Всички права запазени (c) 2014-%i Dash Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The TELOS Core Developers</source>
-        <translation>Всички права запазени (c) 2015-%i TELOS Core разработчици</translation>
+        <source>Copyright (C) 2015-%i The muu Core Developers</source>
+        <translation>Всички права запазени (c) 2015-%i muu Core разработчици</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5062,7 +5062,7 @@ Please be patient...</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TELOS Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of muu Core</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
     </message>
     <message>
@@ -5110,8 +5110,8 @@ Please be patient...</source>
         <translation>Неуспешно четене на блок</translation>
     </message>
     <message>
-        <source>Fee (in TELOS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такса (в TELOS/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
+        <source>Fee (in muu/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такса (в muu/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5150,7 +5150,7 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TELOS Core is shutting down.</source>
+        <source>Initialization sanity check failed. muu Core is shutting down.</source>
         <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
     </message>
     <message>
@@ -5214,8 +5214,8 @@ Please be patient...</source>
         <translation>Процент автоматично емитирани Zerocoin (1-100, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TELOS and zTELOS money supply statistics</source>
-        <translation>Индексирай наново TELOS и zTELOS данните по наличности</translation>
+        <source>Reindex the muu and zmuu money supply statistics</source>
+        <translation>Индексирай наново muu и zmuu данните по наличности</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5254,8 +5254,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all TELOS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи TELOS специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
+        <source>Disable all muu specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи muu специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5290,8 +5290,8 @@ Please be patient...</source>
         <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/5000), 0 за каквито и да е. (По подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTELOS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zTELOS. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
+        <source>Specify custom backup path to add a copy of any automatic zmuu backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zmuu. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5702,8 +5702,8 @@ Please be patient...</source>
         <translation>Синхронизиране на вилицо-лъжиците...</translation>
     </message>
     <message>
-        <source>Syncing zTELOS wallet...</source>
-        <translation>Синхронизиране на zTELOS портфейла ...</translation>
+        <source>Syncing zmuu wallet...</source>
+        <translation>Синхронизиране на zmuu портфейла ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5810,8 +5810,8 @@ Please be patient...</source>
         <translation>Потребителско име за JSON-RPC свръзките</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTELOS</source>
-        <translation>Стойността е под най-малката налична деноминация (= 1) в zTELOS</translation>
+        <source>Value is below the smallest available denomination (= 1) of zmuu</source>
+        <translation>Стойността е под най-малката налична деноминация (= 1) в zmuu</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5826,7 +5826,7 @@ Please be patient...</source>
         <translation>Портфейла %s е извън папката с данни %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TELOS Core to complete</source>
+        <source>Wallet needed to be rewritten: restart muu Core to complete</source>
         <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
     </message>
     <message>

@@ -62,12 +62,12 @@
         <translation>Adresa primatelja</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše TELOS adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše muu adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše TELOS adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše muu adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše TELOS od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše muu od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
         <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše PIVove 1 !</translation>
     </message>
     <message>
@@ -254,12 +254,12 @@
         <translation>Adresa: </translation>
     </message>
     <message>
-        <source>Enter a TELOS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Unesite TELOS adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
+        <source>Enter a muu Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Unesite muu adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
     </message>
     <message>
-        <source>The TELOS address to encrypt</source>
-        <translation>TELOS adresa za šifriranje</translation>
+        <source>The muu address to encrypt</source>
+        <translation>muu adresa za šifriranje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TELOS address</source>
-        <translation>Šifriranje privatnog ključa za ovu TELOS adresu</translation>
+        <source>Encrypt the private key for this muu address</source>
+        <translation>Šifriranje privatnog ključa za ovu muu adresu</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>Postavke privatnosti za zTELOS</translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>Postavke privatnosti za zmuu</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,12 +641,12 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Pošaljite kovanice na TELOS adresu</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Pošaljite kovanice na muu adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Pretraži masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>O TELOS Core</translation>
+        <source>&amp;About muu Core</source>
+        <translation>O muu Core</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Prikaz informacija o TELOS Core-u</translation>
+        <source>Show information about muu Core</source>
+        <translation>Prikaz informacija o muu Core-u</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Izmijenite konfiguracijske opcije za TELOS</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Izmijenite konfiguracijske opcije za muu</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim TELOS adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim muu adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim TELOS adresama</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim muu adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Otvori Masternode konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Otvori TELOS: URI zahtjev za plačanje</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Otvori muu: URI zahtjev za plačanje</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,11 +725,11 @@
         <translation>Prozor Block preglednika</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Pokažite poruku TELOS Core pomoći da biste dobili popis s mogućim TELOS opcijama naredbenog retka</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Pokažite poruku muu Core pomoći da biste dobili popis s mogućim muu opcijama naredbenog retka</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
+        <source>muu Core client</source>
         <translation>PIVIX Core Klijent</translation>
     </message>
     <message>
@@ -1161,8 +1161,8 @@ Višestruko slanje: %1</translation>
         <translation>Uređivanje adrese slanja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>Unesena adresa "%1" nije važeća TELOS adresa.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>Unesena adresa "%1" nije važeća muu adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Višestruko slanje: %1</translation>
         <translation>verzija</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>O TELOS Core</translation>
+        <source>About muu Core</source>
+        <translation>O muu Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Višestruko slanje: %1</translation>
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Dobrodošli u TELOS Core.</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Dobrodošli u muu Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će TELOS Core pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će muu Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS Core preuzima i pohranjuje kopiju TELOS blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu Core preuzima i pohranjuje kopiju muu blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Višestruko slanje: %1</translation>
         <translation>Koristite prilagođeni direktorij podataka:</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Višestruko slanje: %1</translation>
         <translation>Unesite adresu za slanje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TELOS addresses after it matures.
-To Add: enter percentage to give and TELOS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other muu addresses after it matures.
+To Add: enter percentage to give and muu address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih TELOS adresa nakon što sazrijete.
-Za Dodaj: unesite postotak za davanje i TELOS adresu za dodavanje MultiSend vektoru.
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih muu adresa nakon što sazrijete.
+Za Dodaj: unesite postotak za davanje i muu adresu za dodavanje MultiSend vektoru.
 Za brisanje: Unesite adresu za brisanje i pritisnite Delete.
 MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
     </message>
@@ -1629,8 +1629,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send TELOS to</source>
-        <translation>Dodajte odredišta za slanje TELOS
+        <source>Add destinations to send muu to</source>
+        <translation>Dodajte odredišta za slanje muu
 </translation>
     </message>
     <message>
@@ -1764,8 +1764,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Ako onemogućite potrošnju nepotvrđenih promjena, promjena s transakcijskog kanala bit će upotrijebljena sve dok ta transakcija nema barem jednu potvrdu. To također utječe na izračun salda.</translation>
     </message>
     <message>
-        <source>Automatically open the TELOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite TELOS klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the muu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite muu klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1784,12 +1784,12 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start TELOS after logging in to the system.</source>
-        <translation>Automatski pokrenite TELOS nakon prijave u sustav.</translation>
+        <source>Automatically start muu after logging in to the system.</source>
+        <translation>Automatski pokrenite muu nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>Pokrenite TELOS na prijavi u sustav</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>Pokrenite muu na prijavi u sustav</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1816,8 +1816,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TELOS.</source>
-        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja TELOS-a.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting muu.</source>
+        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja muu-a.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1831,36 +1831,36 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of TELOS units to zTELOS</source>
-        <translation>Omogućite automint TELOS jedinica na zTELOS</translation>
+        <source>Enable automatic minting of muu units to zmuu</source>
+        <translation>Omogućite automint muu jedinica na zmuu</translation>
     </message>
     <message>
-        <source>Enable zTELOS Automint</source>
-        <translation>Omogući zTELOS Automint</translation>
+        <source>Enable zmuu Automint</source>
+        <translation>Omogući zmuu Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming TELOS which get automatically converted to zTELOS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih TELOS koji se automatski pretvara u zTELOS putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming muu which get automatically converted to zmuu via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih muu koji se automatski pretvara u zmuu putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTELOS</source>
-        <translation>Postotak automatiziranog zTELOS</translation>
+        <source>Percentage of autominted zmuu</source>
+        <translation>Postotak automatiziranog zmuu</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TELOS for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno TELOS za apoen</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough muu for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno muu za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zTELOS Denomination</source>
-        <translation>Preferirana Automint zTELOS denominacijad</translation>
+        <source>Preferred Automint zmuu Denomination</source>
+        <translation>Preferirana Automint zmuu denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the TELOS network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s TELOS mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the muu network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s muu mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2010,8 +2010,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>TELOS Balance</source>
-        <translation>TELOS Saldo</translation>
+        <source>muu Balance</source>
+        <translation>muu Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2034,18 +2034,18 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Trenutačno zaključana ravnoteža u adresama samo za gledanje</translation>
     </message>
     <message>
-        <source>Your current TELOS balance, unconfirmed and immature transactions included</source>
-        <translation>Uključena je vaša trenutna bilanca TELOS, nepotvrđene i nezrele transakcije</translation>
+        <source>Your current muu balance, unconfirmed and immature transactions included</source>
+        <translation>Uključena je vaša trenutna bilanca muu, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zTELOS Balance</source>
-        <translation>zTELOS Bilanca</translation>
+        <source>zmuu Balance</source>
+        <translation>zmuu Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTELOS are spendable.</source>
+These zmuu are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zTELOSs se mogu potrošiti.</translation>
+Ti zmuus se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2054,8 +2054,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TELOS mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s muu mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2098,8 +2098,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked TELOS or Masternode collaterals. These are excluded from zTELOS minting.</source>
-        <translation>Zaključani TELOS ili Masternode kolateral. Oni su isključeni iz zTELOS kovanja.</translation>
+        <source>Locked muu or Masternode collaterals. These are excluded from zmuu minting.</source>
+        <translation>Zaključani muu ili Masternode kolateral. Oni su isključeni iz zmuu kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zTELOS balance, unconfirmed and immature zTELOS included.</source>
-        <translation>Vaša trenutačna zTELOS bilanca, nepotvrđena i nezrela zTELOS.</translation>
+        <source>Your current zmuu balance, unconfirmed and immature zmuu included.</source>
+        <translation>Vaša trenutačna zmuu bilanca, nepotvrđena i nezrela zmuu.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zTELOS.
+        <source>Current percentage of zmuu.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zTELOS.
+        <translation>Trenutni postotak zmuu.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2171,8 +2171,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Ne može se pokrenuti moonet: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom TELOS adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid muu address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom muu adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2257,8 +2257,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Zerocoin radnje:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TELOS mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s muu mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2269,8 +2269,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>zTELOS Control</source>
-        <translation>Upravljanje zTELOS</translation>
+        <source>zmuu Control</source>
+        <translation>Upravljanje zmuu</translation>
     </message>
     <message>
-        <source>zTELOS Selected:</source>
-        <translation>zTELOS Odabrani:</translation>
+        <source>zmuu Selected:</source>
+        <translation>zmuu Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,32 +2317,32 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending</source>
-        <translation>Dostupni (zreli) zTELOS za potrošnju</translation>
+        <source>Available (mature and spendable) zmuu for spending</source>
+        <translation>Dostupni (zreli) zmuu za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending
+        <source>Available (mature and spendable) zmuu for spending
 
-zTELOS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zTELOS za potrošnju
+zmuu are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zmuu za potrošnju
 
-zTELOS su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zmuu su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zTELOS</source>
-        <translation>0 zTELOS</translation>
+        <source>0 zmuu</source>
+        <translation>0 zmuu</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Platiti:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>TELOS adresa za slanje uplate. Stvara lokalno plaćanje za sebe kada je prazno.</translation>
+        <source>The muu address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>muu adresa za slanje uplate. Stvara lokalno plaćanje za sebe kada je prazno.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,8 +2393,8 @@ zTELOS su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomin
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTELOS</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zTELOS</translation>
+        <source>Total Balance including unconfirmed and immature zmuu</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zmuu</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTELOS minting.
+        <source>Show the current status of automatic zmuu minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
 - disable: add 'enablezeromint=0' to pivx.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTELOS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zmuu
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zTELOS mintanja.
+        <translation>Pokažite trenutačni status automatskog zmuu mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
 - omogući: dodajte 'enablezeromint = 1' u pivx.conf
 - onemogućiti: dodajte 'enablezeromint = 0' na pivx.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zTELOS</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zmuu</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2604,12 +2604,12 @@ Please be patient...</source>
         <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
     </message>
     <message>
-        <source>zTELOS Spend #: </source>
-        <translation>zTELOS utrošeno #: </translation>
+        <source>zmuu Spend #: </source>
+        <translation>zmuu utrošeno #: </translation>
     </message>
     <message>
-        <source>zTELOS Mint</source>
-        <translation>zTELOS Mint</translation>
+        <source>zmuu Mint</source>
+        <translation>zmuu Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2624,12 +2624,12 @@ Please be patient...</source>
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTELOS is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zTELOS je trenutačno onemogućen.</translation>
+        <source>zmuu is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zmuu je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zTELOS is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zTELOS.</translation>
+        <source>zmuu is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zmuu.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2796,8 +2796,8 @@ Please be patient...</source>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter a TELOS address (e.g. %1)</source>
-        <translation>Unesite TELOS adresu (npr., %1)</translation>
+        <source>Enter a muu address (e.g. %1)</source>
+        <translation>Unesite muu adresu (npr., %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2840,8 +2840,8 @@ Please be patient...</source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -2939,8 +2939,8 @@ Please be patient...</source>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the TELOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite TELOS debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the muu debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite muu debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zTELOS Backup Path:</source>
-        <translation>Prilagođeni put zTELOS sigurnosne kopije:</translation>
+        <source>Custom zmuu Backup Path:</source>
+        <translation>Prilagođeni put zmuu sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3155,8 +3155,8 @@ Please be patient...</source>
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the TELOS RPC console.</source>
-        <translation>Dobrodošli na TELOS RPC konzolu.</translation>
+        <source>Welcome to the muu RPC console.</source>
+        <translation>Dobrodošli na muu RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3282,16 +3282,16 @@ Please be patient...</source>
         <translation>Količina:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem TELOS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem muu mreže.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>PRIMI</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem TELOS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem muu mreže.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,16 +3582,16 @@ Please be patient...</source>
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uTELOS-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uTELOS-a, dok se "barem" plaća 1000 uTELOS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 umuu-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 umuu-a, dok se "barem" plaća 1000 umuu-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "total at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uTELOS, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uTELOS-ova, a "ukupno barem" plaća 1000 uTELOS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "total at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 umuu, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 umuu-ova, a "ukupno barem" plaća 1000 umuu-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TELOS transactions than the network can process.</source>
-        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za TELOS transakcijama nego što mreža može obraditi.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for muu transactions than the network can process.</source>
+        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za muu transakcijama nego što mreža može obraditi.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized TELOS</source>
-        <translation>Anonimiziran TELOS</translation>
+        <source>Anonymized muu</source>
+        <translation>Anonimiziran muu</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3686,8 +3686,8 @@ Please be patient...</source>
         <translation>Alat za podjelu blocka ne funkcionira s više adresa. Pokušajte ponovo.</translation>
     </message>
     <message>
-        <source>Warning: Invalid TELOS address</source>
-        <translation>Upozorenje: Nevažeća TELOS adresa</translation>
+        <source>Warning: Invalid muu address</source>
+        <translation>Upozorenje: Nevažeća muu adresa</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3785,8 +3785,8 @@ Please be patient...</source>
         <translation>Platiti:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to</source>
-        <translation>TELOS adresa za slanje uplate</translation>
+        <source>The muu address to send the payment to</source>
+        <translation>muu adresa za slanje uplate</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3825,8 +3825,8 @@ Please be patient...</source>
         <translation>Poruka:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TELOS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TELOS network.</source>
-        <translation>Poruka koja je bila povezana s TELOS: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko TELOS mreže.</translation>
+        <source>A message that was attached to the muu: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the muu network.</source>
+        <translation>Poruka koja je bila povezana s muu: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko muu mreže.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3852,8 +3852,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TELOS Core is shutting down...</source>
-        <translation>TELOS Core se zatvara ...</translation>
+        <source>muu Core is shutting down...</source>
+        <translation>muu Core se zatvara ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3875,8 +3875,8 @@ Please be patient...</source>
         <translation>Možete potpisati poruke s vašim adresama kako biste dokazali da ih posjedujete. Pazite da ne potpišete ništa nejasno, jer napadi za krađu identiteta mogu Vas pokušati uvjeriti da vam potpišu identitet. Potpišite samo detalje oko kojih se slažete.</translation>
     </message>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>TELOS adresa za potpisivanje poruke</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>muu adresa za potpisivanje poruke</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3907,16 +3907,16 @@ Please be patient...</source>
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove TELOS adrese</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove muu adrese</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>TELOS adresa s kojom je potpisana poruka</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>muu adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TELOS address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom TELOS adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified muu address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom muu adresom</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4002,8 +4002,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4018,8 +4018,8 @@ Please be patient...</source>
         <translation>Dash Core programeri</translation>
     </message>
     <message>
-        <source>The TELOS Core developers</source>
-        <translation>TELOS Core programeri</translation>
+        <source>The muu Core developers</source>
+        <translation>muu Core programeri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>TELOS Stake</source>
-        <translation>TELOS Stake</translation>
+        <source>muu Stake</source>
+        <translation>muu Stake</translation>
     </message>
     <message>
-        <source>zTELOS Stake</source>
-        <translation>zTELOS Stake</translation>
+        <source>zmuu Stake</source>
+        <translation>zmuu Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted TELOS to zTELOS</source>
-        <translation>Pretvoreni TELOS u zTELOS</translation>
+        <source>Converted muu to zmuu</source>
+        <translation>Pretvoreni muu u zmuu</translation>
     </message>
     <message>
-        <source>Spent zTELOS</source>
-        <translation>Utrošeni zTELOS</translation>
+        <source>Spent zmuu</source>
+        <translation>Utrošeni zmuu</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Primljeni TELOS od zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Primljeni muu od zmuu</translation>
     </message>
     <message>
-        <source>Minted Change as zTELOS from zTELOS Spend</source>
-        <translation>Mintana razlika zTELOS od zTELOS Utroška</translation>
+        <source>Minted Change as zmuu from zmuu Spend</source>
+        <translation>Mintana razlika zmuu od zmuu Utroška</translation>
     </message>
     <message>
-        <source>Converted zTELOS to TELOS</source>
-        <translation>Pretvoreni zTELOS u TELOS</translation>
+        <source>Converted zmuu to muu</source>
+        <translation>Pretvoreni zmuu u muu</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Transaction)</source>
-        <translation>Anonimno (zTELOS Transakcija)</translation>
+        <source>Anonymous (zmuu Transaction)</source>
+        <translation>Anonimno (zmuu Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Stake)</source>
-        <translation>Anonimno (zTELOS Stake)</translation>
+        <source>Anonymous (zmuu Stake)</source>
+        <translation>Anonimno (zmuu Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Primljeni TELOS od zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Primljeni muu od zmuu</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTELOS</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zTELOS</translation>
+        <source>Zerocoin Spend, Change in zmuu</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zmuu</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TELOS.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 TELOS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 muu.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 muu.</translation>
     </message>
 </context>
 <context>
@@ -4615,10 +4615,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
-        <source>Select zTELOS to Spend</source>
-        <translation>Odabrani zTELOS za utrošiti</translation>
+        <source>Select zmuu to Spend</source>
+        <translation>Odabrani zmuu za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4664,8 +4664,8 @@ Please be patient...</source>
         <translation>Izračunata kontrolna točka akumulatora nije ono što se bilježi indeksom blokova</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TELOS Core is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. TELOS Core vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. muu Core is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. muu Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTELOS minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zTELOS mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zmuu minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zmuu mintanja (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TELOS inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za TELOS unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for muu inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za muu unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTELOS inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zTELOS unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zmuu inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zmuu unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u TELOS / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u muu / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u TELOS / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u muu / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4836,20 +4836,20 @@ Please be patient...</source>
         <translation>Ovaj proizvod uključuje softver razvijen od strane OpenSSL projekta za uporabu u OpenSSL Toolkitu i kriptografskom softveru kojeg je napisao Eric Young i UPnP softver koji je napisao Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TELOS Core is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. TELOS Core vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. muu Core is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. muu Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 TELOS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 muu.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 TELOS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 muu.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4864,8 +4864,8 @@ Please be patient...</source>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TELOS Core will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, TELOS Core neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong muu Core will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, muu Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4996,8 +4996,8 @@ Please be patient...</source>
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The TELOS Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The TELOS Core Developers</translation>
+        <source>Copyright (C) 2015-%i The muu Core Developers</source>
+        <translation>Autorska prava (C) 2015-%i The muu Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5077,8 +5077,8 @@ Please be patient...</source>
         <translation>Pogreška pri učitavanju wallet.dat: novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TELOS Core</source>
-        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju TELOS jezgre</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of muu Core</source>
+        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju muu jezgre</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in TELOS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u TELOS / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in muu/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u muu / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5169,8 +5169,8 @@ Please be patient...</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TELOS Core is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. TELOS Core se zatvara.</translation>
+        <source>Initialization sanity check failed. muu Core is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. muu Core se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TELOS and zTELOS money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku TELOS i zTELOS ponude novca</translation>
+        <source>Reindex the muu and zmuu money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku muu i zmuu ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5272,8 +5272,8 @@ Please be patient...</source>
         <translation>uklonjene nepotvrđene transakcije</translation>
     </message>
     <message>
-        <source>Disable all TELOS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije TELOS (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
+        <source>Disable all muu specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogući sve specifične funkcije muu (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5308,8 +5308,8 @@ Please be patient...</source>
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTELOS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zTELOS sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zmuu backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zmuu sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5720,8 +5720,8 @@ Please be patient...</source>
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zTELOS wallet...</source>
-        <translation>Sinkronizacija zTELOS novčanika...</translation>
+        <source>Syncing zmuu wallet...</source>
+        <translation>Sinkronizacija zmuu novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5828,8 +5828,8 @@ Please be patient...</source>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTELOS</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zTELOS-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zmuu</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zmuu-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5844,8 +5844,8 @@ Please be patient...</source>
         <translation>Novčanik %s nalazi se izvan direktorija podataka %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TELOS Core to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite TELOS Core</translation>
+        <source>Wallet needed to be rewritten: restart muu Core to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite muu Core</translation>
     </message>
     <message>
         <source>Wallet options:</source>

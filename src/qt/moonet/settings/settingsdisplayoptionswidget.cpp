@@ -13,7 +13,7 @@
 #include "bitcoinunits.h"
 #include "qt/moonet/qtutils.h"
 
-SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(TELOSGUI* _window, QWidget *parent) :
+SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(muuGUI* _window, QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsDisplayOptionsWidget)
 {

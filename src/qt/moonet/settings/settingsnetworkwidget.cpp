@@ -7,7 +7,7 @@
 #include "optionsmodel.h"
 #include "qt/moonet/qtutils.h"
 
-SettingsNetworkWidget::SettingsNetworkWidget(TELOSGUI* _window, QWidget *parent) :
+SettingsNetworkWidget::SettingsNetworkWidget(muuGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsNetworkWidget)
 {

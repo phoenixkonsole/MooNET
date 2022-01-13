@@ -65,7 +65,7 @@ QT_FORMS_UI = \
   qt/forms/signverifymessagedialog.ui \
   qt/forms/transactiondescdialog.ui \
   qt/moonet/forms/loadingdialog.ui \
-  qt/forms/zteloscontroldialog.ui \
+  qt/forms/zmuucontroldialog.ui \
   qt/moonet/forms/snackbar.ui \
   qt/moonet/forms/navmenuwidget.ui \
   qt/moonet/forms/lockunlock.ui \
@@ -170,7 +170,7 @@ QT_MOC_CPP = \
   qt/moc_walletmodel.cpp \
   qt/moc_walletview.cpp \
   qt/moonet/moc_loadingdialog.cpp \
-  qt/moc_zteloscontroldialog.cpp \
+  qt/moc_zmuucontroldialog.cpp \
   qt/moonet/moc_pwidget.cpp \
   qt/moonet/moc_snackbar.cpp \
   qt/moonet/moc_navmenuwidget.cpp \
@@ -308,7 +308,7 @@ BITCOIN_QT_H = \
   qt/moonet/loadingdialog.h \
   qt/walletview.h \
   qt/winshutdownmonitor.h \
-  qt/zteloscontroldialog.h \
+  qt/zmuucontroldialog.h \
   qt/moonet/pwidget.h \
   qt/moonet/snackbar.h \
   qt/moonet/navmenuwidget.h \
@@ -540,11 +540,11 @@ RES_ICONS = \
   qt/moonet/res/img/ic-receive-off.svg \
   qt/moonet/res/img/img-empty-staking-on.svg \
   qt/moonet/res/img/ic-arrow-drop-up-white.svg \
-  qt/moonet/res/img/ic-coin-ztelos.png \
+  qt/moonet/res/img/ic-coin-zmuu.png \
   qt/moonet/res/img/ic-receive-on.svg \
   qt/moonet/res/img/img-empty-transactions.svg \
   qt/moonet/res/img/ic-arrow-drop-up.svg \
-  qt/moonet/res/img/ic-coin-ztelos.svg \
+  qt/moonet/res/img/ic-coin-zmuu.svg \
   qt/moonet/res/img/ic-received.svg \
   qt/moonet/res/img/img-logo-moonet.png \
   qt/moonet/res/img/ic-arrow-drop-white-down.svg \
@@ -690,7 +690,7 @@ BITCOIN_QT_WALLET_CPP = \
   qt/walletmodeltransaction.cpp \
   qt/walletview.cpp \
   qt/moonet/loadingdialog.cpp \
-  qt/zteloscontroldialog.cpp \
+  qt/zmuucontroldialog.cpp \
   qt/moonet/pwidget.cpp \
   qt/moonet/snackbar.cpp \
   qt/moonet/navmenuwidget.cpp \

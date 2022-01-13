@@ -11,7 +11,7 @@
 #include "qt/moonet/qtutils.h"
 #include "guiinterface.h"
 
-SettingsExportCSV::SettingsExportCSV(TELOSGUI* _window, QWidget *parent) :
+SettingsExportCSV::SettingsExportCSV(muuGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsExportCSV)
 {
@@ -59,7 +59,7 @@ void SettingsExportCSV::selectFileOutput(const bool& isTxExport)
 {
     QString filename = GUIUtil::getSaveFileName(this,
                                         isTxExport ? tr("Export CSV") : tr("Export Address List"), QString(),
-                                        isTxExport ? tr("TELOS_tx_csv_export(*.csv)") : tr("TELOS_addresses_csv_export(*.csv)"),
+                                        isTxExport ? tr("muu_tx_csv_export(*.csv)") : tr("muu_addresses_csv_export(*.csv)"),
                                         nullptr);
 
     if (isTxExport) {

@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw TELOS adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your muu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw muu adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
     </message>
     <message>
-        <source>These are your TELOS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw TELOS adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your muu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw muu adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>TELOS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TELOS from being stolen by malware infecting your computer.</source>
-        <translation>TELOS zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw TELOS's kunnen stelen.</translation>
+        <source>muu will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muu from being stolen by malware infecting your computer.</source>
+        <translation>muu zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw muu's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TELOS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW TELOS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR muu&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW muu VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>Enter a TELOS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een TELOS adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
+        <source>Enter a muu Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een muu adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
     </message>
     <message>
-        <source>The TELOS address to encrypt</source>
-        <translation>Het TELOS adres om te versleutelen</translation>
+        <source>The muu address to encrypt</source>
+        <translation>Het muu adres om te versleutelen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TELOS address</source>
-        <translation>Versleutel de privé sleutel voor dit TELOS adres</translation>
+        <source>Encrypt the private key for this muu address</source>
+        <translation>Versleutel de privé sleutel voor dit muu adres</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTELOS</source>
-        <translation>Privacy Acties voor zTELOS</translation>
+        <source>Privacy Actions for zmuu</source>
+        <translation>Privacy Acties voor zmuu</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -653,16 +653,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
-        <source>Send coins to a TELOS address</source>
-        <translation>Verstuur munten naar een TELOS adres</translation>
+        <source>Send coins to a muu address</source>
+        <translation>Verstuur munten naar een muu adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and moonet: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en TELOS: URI's)</translation>
+        <translation>Vraag betaling aan (genereert QR codes en muu: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -677,24 +677,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TELOS Core</source>
-        <translation>&amp;Over TELOS Core</translation>
+        <source>&amp;About muu Core</source>
+        <translation>&amp;Over muu Core</translation>
     </message>
     <message>
-        <source>Show information about TELOS Core</source>
-        <translation>Toon informatie over TELOS Kern</translation>
+        <source>Show information about muu Core</source>
+        <translation>Toon informatie over muu Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for TELOS</source>
-        <translation>Wijzig TELOS configuratie opties</translation>
+        <source>Modify configuration options for muu</source>
+        <translation>Wijzig muu configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your TELOS addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw TELOS adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
+        <source>Sign messages with your muu addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw muu adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TELOS addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde TELOS adressen</translation>
+        <source>Verify messages to ensure they were signed with specified muu addresses</source>
+        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde muu adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,8 +725,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a TELOS: URI or payment request</source>
-        <translation>Open een TELOS: URI of betaalverzoek</translation>
+        <source>Open a muu: URI or payment request</source>
+        <translation>Open een muu: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -737,12 +737,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the TELOS Core help message to get a list with possible TELOS command-line options</source>
-        <translation>Toon het TELOS Core help bericht om een ​​lijst te krijgen met mogelijke TELOS command line opties</translation>
+        <source>Show the muu Core help message to get a list with possible muu command-line options</source>
+        <translation>Toon het muu Core help bericht om een ​​lijst te krijgen met mogelijke muu command line opties</translation>
     </message>
     <message>
-        <source>TELOS Core client</source>
-        <translation>TELOS Core client</translation>
+        <source>muu Core client</source>
+        <translation>muu Core client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzend adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TELOS address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig TELOS adres.</translation>
+        <source>The entered address "%1" is not a valid muu address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig muu adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1258,16 +1258,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TELOS Core</source>
-        <translation>Over TELOS Core</translation>
+        <source>About muu Core</source>
+        <translation>Over muu Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1313,16 +1313,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to TELOS Core.</source>
-        <translation>Welkom bij TELOS Core.</translation>
+        <source>Welcome to muu Core.</source>
+        <translation>Welkom bij muu Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TELOS Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar TELOS Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where muu Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar muu Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>TELOS Core will download and store a copy of the TELOS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TELOS Core zal een kopie van de TELOS blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>muu Core will download and store a copy of the muu block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>muu Core zal een kopie van de muu blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1333,8 +1333,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1475,12 +1475,12 @@ MultiSend: %1</translation>
         <translation>Vul het adres in om naar te verzenden</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TELOS addresses after it matures.
-To Add: enter percentage to give and TELOS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other muu addresses after it matures.
+To Add: enter percentage to give and muu address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere TELOS adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en TELOS adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere muu adressen nadat het volwassen is. 
+Toevoegen: voer het te geven percentage in en muu adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1734,8 +1734,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Adres / Bedrag:</translation>
     </message>
     <message>
-        <source>Add destinations to send TELOS to</source>
-        <translation>Voeg bestemmingen toe om TELOS naar te verzenden</translation>
+        <source>Add destinations to send muu to</source>
+        <translation>Voeg bestemmingen toe om muu naar te verzenden</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1868,8 +1868,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the TELOS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de TELOS client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the muu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de muu client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1888,12 +1888,12 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start TELOS after logging in to the system.</source>
-        <translation>TELOS automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start muu after logging in to the system.</source>
+        <translation>muu automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start TELOS on system login</source>
-        <translation>&amp;TELOS starten bij systeemlogin</translation>
+        <source>&amp;Start muu on system login</source>
+        <translation>&amp;muu starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1920,8 +1920,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TELOS.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van TELOS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting muu.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van muu.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1934,40 +1934,40 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TELOS units to zTELOS</source>
-        <translation>Schakel automatisch slaan van TELOS-eenheden in op zTELOS</translation>
+        <source>Enable automatic minting of muu units to zmuu</source>
+        <translation>Schakel automatisch slaan van muu-eenheden in op zmuu</translation>
     </message>
     <message>
-        <source>Enable zTELOS Automint</source>
-        <translation>Schakel zTELOS Automint in</translation>
+        <source>Enable zmuu Automint</source>
+        <translation>Schakel zmuu Automint in</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
     <message>
-        <source>Percentage of incoming TELOS which get automatically converted to zTELOS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende TELOS die automatisch wordt omgezet naar zTELOS via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming muu which get automatically converted to zmuu via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende muu die automatisch wordt omgezet naar zmuu via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTELOS</source>
-        <translation>Percentage autominted zTELOS</translation>
+        <source>Percentage of autominted zmuu</source>
+        <translation>Percentage autominted zmuu</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TELOS for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg TELOS voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough muu for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg muu voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zTELOS Denomination</source>
-        <translation>Gewenste Automint zTELOS denominatie</translation>
+        <source>Preferred Automint zmuu Denomination</source>
+        <translation>Gewenste Automint zmuu denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Inzet splitdrempel:</translation>
     </message>
     <message>
-        <source>Connect to the TELOS network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het TELOS netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the muu network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het muu netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
     </message>
     <message>
-        <source>TELOS Balance</source>
-        <translation>TELOS Saldi</translation>
+        <source>muu Balance</source>
+        <translation>muu Saldi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2149,16 +2149,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
     </message>
     <message>
-        <source>Your current TELOS balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige TELOS-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <source>Your current muu balance, unconfirmed and immature transactions included</source>
+        <translation>Uw huidige muu-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
-        <source>zTELOS Balance</source>
-        <translation>zTELOS-saldo</translation>
+        <source>zmuu Balance</source>
+        <translation>zmuu-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTELOS are spendable.</source>
+These zmuu are spendable.</source>
         <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
 Deze zPIB zijn besteedbaar.</translation>
     </message>
@@ -2169,8 +2169,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het TELOS netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het muu netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2213,8 +2213,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked TELOS or Masternode collaterals. These are excluded from zTELOS minting.</source>
-        <translation>Vergrendelde TELOS of Masternode onderpanden. Deze zijn uitgesloten van de zTELOS muntage.</translation>
+        <source>Locked muu or Masternode collaterals. These are excluded from zmuu minting.</source>
+        <translation>Vergrendelde muu of Masternode onderpanden. Deze zijn uitgesloten van de zmuu muntage.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2225,8 +2225,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Onbevestigd:</translation>
     </message>
     <message>
-        <source>Your current zTELOS balance, unconfirmed and immature zTELOS included.</source>
-        <translation>Uw huidige zTELOS-saldo, onbevestigde en onvolgroeide zTELOS inbegrepen.</translation>
+        <source>Your current zmuu balance, unconfirmed and immature zmuu included.</source>
+        <translation>Uw huidige zmuu-saldo, onbevestigde en onvolgroeide zmuu inbegrepen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2237,10 +2237,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
-        <source>Current percentage of zTELOS.
+        <source>Current percentage of zmuu.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zTELOS
+        <translation>Huidige percentage van zmuu
 Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
 </translation>
     </message>
@@ -2286,8 +2286,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Kan pivx niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig TELOS adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid muu address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig muu adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2372,8 +2372,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TELOS network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het TELOS netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the muu network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het muu netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2384,8 +2384,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2412,12 +2412,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>LINKS</translation>
     </message>
     <message>
-        <source>zTELOS Control</source>
-        <translation>zTELOS Control</translation>
+        <source>zmuu Control</source>
+        <translation>zmuu Control</translation>
     </message>
     <message>
-        <source>zTELOS Selected:</source>
-        <translation>zTELOS geselecteerd:</translation>
+        <source>zmuu Selected:</source>
+        <translation>zmuu geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2432,32 +2432,32 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zTELOS voor besteding</translation>
+        <source>Available (mature and spendable) zmuu for spending</source>
+        <translation>Beschikbare (volwassen en uitgeefbaar) zmuu voor besteding</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTELOS for spending
+        <source>Available (mature and spendable) zmuu for spending
 
-zTELOS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zTELOS voor besteding
+zmuu are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Beschikbare (volwwassen en uitgeefbaar) zmuu voor besteding
 
-zTelos zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
+zmuu zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
-        <source>0 zTELOS</source>
-        <translation>0 zTELOS</translation>
+        <source>0 zmuu</source>
+        <translation>0 zmuu</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het TELOS adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The muu address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het muu adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2508,8 +2508,8 @@ zTelos zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTELOS</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zTELOS</translation>
+        <source>Total Balance including unconfirmed and immature zmuu</source>
+        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zmuu</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2530,24 +2530,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTELOS minting.
+        <source>Show the current status of automatic zmuu minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
 - disable: add 'enablezeromint=0' to pivx.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTELOS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zmuu
 
 </source>
-        <translation>Toon de huidige status van automatische zTELOS-markering.
+        <translation>Toon de huidige status van automatische zmuu-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
 - enable: voeg 'enablezeromint = 1' toe aan pivx.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan pivx.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zTELOS
+- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zmuu
 </translation>
     </message>
     <message>
@@ -2595,8 +2595,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation> 0 x</translation>
     </message>
     <message>
-        <source>Show zTELOS denominations list</source>
-        <translation>Toon zTELOS denominatielijst</translation>
+        <source>Show zmuu denominations list</source>
+        <translation>Toon zmuu denominatielijst</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2733,12 +2733,12 @@ Please be patient...</source>
 Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
-        <source>zTELOS Spend #: </source>
-        <translation>zTELOS besteed #:</translation>
+        <source>zmuu Spend #: </source>
+        <translation>zmuu besteed #:</translation>
     </message>
     <message>
-        <source>zTELOS Mint</source>
-        <translation>zTELOS mint</translation>
+        <source>zmuu Mint</source>
+        <translation>zmuu mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2753,12 +2753,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTELOS is currently disabled due to maintenance.</source>
-        <translation>zTELOS is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zmuu is currently disabled due to maintenance.</source>
+        <translation>zmuu is momenteel uitgeschakeld vanwege onderhoud.</translation>
     </message>
     <message>
-        <source>zTELOS is currently undergoing maintenance.</source>
-        <translation>zTELOS wordt momenteel onderhouden.</translation>
+        <source>zmuu is currently undergoing maintenance.</source>
+        <translation>zmuu wordt momenteel onderhouden.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2973,8 +2973,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a TELOS address (e.g. %1)</source>
-        <translation>Voer een TELOS adres in (b.v. %1)</translation>
+        <source>Enter a muu address (e.g. %1)</source>
+        <translation>Voer een muu adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3021,8 +3021,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     </context>
 <context>
@@ -3119,8 +3119,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the TELOS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het TELOS debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the muu debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het muu debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3255,8 +3255,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zTELOS Backup Path:</source>
-        <translation>Aangepast zTELOS back-up pad:</translation>
+        <source>Custom zmuu Backup Path:</source>
+        <translation>Aangepast zmuu back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3335,8 +3335,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the TELOS RPC console.</source>
-        <translation>Welkom bij de TELOS RPC console.</translation>
+        <source>Welcome to the muu RPC console.</source>
+        <translation>Welkom bij de muu RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3470,16 +3470,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>&amp;Hoeveelheid:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het TELOS netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het muu netwerk.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ontvangen</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TELOS network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het TELOS netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the muu network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het muu netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3715,8 +3715,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 TELOS</source>
-        <translation>0 TELOS</translation>
+        <source>0 muu</source>
+        <translation>0 muu</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3771,16 +3771,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uTELOSs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uTELOS's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uTELOS's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 umuus en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 umuu's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 umuu's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTELOSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTELOSs in fee,&lt;br /&gt;while "total at least" pays 1000 uTELOSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uTELOSs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uTELOS's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uTELOS's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 umuus and the transaction is only 250 bytes, then "per kilobyte" only pays 250 umuus in fee,&lt;br /&gt;while "total at least" pays 1000 umuus. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 umuus en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 umuu's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 umuu's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TELOS transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar TELOS transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for muu transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar muu transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3827,8 +3827,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized TELOS</source>
-        <translation>Geanonimiseerde TELOS</translation>
+        <source>Anonymized muu</source>
+        <translation>Geanonimiseerde muu</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3875,8 +3875,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
     </message>
     <message>
-        <source>Warning: Invalid TELOS address</source>
-        <translation>Waarschuwing: Ongeldig TELOS adres</translation>
+        <source>Warning: Invalid muu address</source>
+        <translation>Waarschuwing: Ongeldig muu adres</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3974,8 +3974,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The TELOS address to send the payment to</source>
-        <translation>Het TELOS adres om de betaling naar te verzenden</translation>
+        <source>The muu address to send the payment to</source>
+        <translation>Het muu adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4014,8 +4014,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TELOS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TELOS network.</source>
-        <translation>Een bericht dat is gehecht aan de TELOS: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het TELOS netwerk.</translation>
+        <source>A message that was attached to the muu: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the muu network.</source>
+        <translation>Een bericht dat is gehecht aan de muu: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het muu netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4041,8 +4041,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TELOS Core is shutting down...</source>
-        <translation>TELOS Core is aan het afsluiten...</translation>
+        <source>muu Core is shutting down...</source>
+        <translation>muu Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4064,8 +4064,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The TELOS address to sign the message with</source>
-        <translation>Het TELOS adres om het bericht met te ondertekenen</translation>
+        <source>The muu address to sign the message with</source>
+        <translation>Het muu adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4096,16 +4096,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TELOS address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het TELOS adres bezit</translation>
+        <source>Sign the message to prove you own this muu address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het muu adres bezit</translation>
     </message>
     <message>
-        <source>The TELOS address the message was signed with</source>
-        <translation>Het TELOS adres waarmee het bericht was ondertekend</translation>
+        <source>The muu address the message was signed with</source>
+        <translation>Het muu adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TELOS address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde TELOS adres</translation>
+        <source>Verify the message to ensure it was signed with the specified muu address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde muu adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4191,8 +4191,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TELOS Core</source>
-        <translation>TELOS Core</translation>
+        <source>muu Core</source>
+        <translation>muu Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4207,8 +4207,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The TELOS Core developers</source>
-        <translation>De TELOS Kernontwikkelaars</translation>
+        <source>The muu Core developers</source>
+        <translation>De muu Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4471,12 +4471,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verkregen via verduistering</translation>
     </message>
     <message>
-        <source>TELOS Stake</source>
-        <translation>TELOS Stake</translation>
+        <source>muu Stake</source>
+        <translation>muu Stake</translation>
     </message>
     <message>
-        <source>zTELOS Stake</source>
-        <translation>zTELOS Stake</translation>
+        <source>zmuu Stake</source>
+        <translation>zmuu Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4495,32 +4495,32 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted TELOS to zTELOS</source>
-        <translation>Geconverteerde TELOS naar zTELOS</translation>
+        <source>Converted muu to zmuu</source>
+        <translation>Geconverteerde muu naar zmuu</translation>
     </message>
     <message>
-        <source>Spent zTELOS</source>
-        <translation>Bestede zTELOS</translation>
+        <source>Spent zmuu</source>
+        <translation>Bestede zmuu</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Ontvangen TELOS van zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Ontvangen muu van zmuu</translation>
     </message>
     <message>
-        <source>Minted Change as zTELOS from zTELOS Spend</source>
-        <translation>Gemint wisselgeld als zTELOS van bestede zTELOS</translation>
+        <source>Minted Change as zmuu from zmuu Spend</source>
+        <translation>Gemint wisselgeld als zmuu van bestede zmuu</translation>
     </message>
     <message>
-        <source>Converted zTELOS to TELOS</source>
-        <translation>Geconverteerde zTELOS naar TELOS</translation>
+        <source>Converted zmuu to muu</source>
+        <translation>Geconverteerde zmuu naar muu</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Transaction)</source>
-        <translation>Anonieme (zTELOS transactie)</translation>
+        <source>Anonymous (zmuu Transaction)</source>
+        <translation>Anonieme (zmuu transactie)</translation>
     </message>
     <message>
-        <source>Anonymous (zTELOS Stake)</source>
-        <translation>Anonieme (zTELOS stake)</translation>
+        <source>Anonymous (zmuu Stake)</source>
+        <translation>Anonieme (zmuu stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4734,12 +4734,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received TELOS from zTELOS</source>
-        <translation>Ontvangen TELOS van zTELOS</translation>
+        <source>Received muu from zmuu</source>
+        <translation>Ontvangen muu van zmuu</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTELOS</source>
-        <translation>Zerocoin besteed, wisselgeld in zTELOS</translation>
+        <source>Zerocoin Spend, Change in zmuu</source>
+        <translation>Zerocoin besteed, wisselgeld in zmuu</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4775,8 +4775,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TELOS.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 TELOS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 muu.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 muu.</translation>
     </message>
 </context>
 <context>
@@ -4807,10 +4807,10 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>ZTelosControlDialog</name>
+    <name>ZmuuControlDialog</name>
     <message>
-        <source>Select zTELOS to Spend</source>
-        <translation>Selecteer zTELOS om te besteden</translation>
+        <source>Select zmuu to Spend</source>
+        <translation>Selecteer zmuu om te besteden</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4821,8 +4821,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTELOS</source>
-        <translation>zTELOS</translation>
+        <source>zmuu</source>
+        <translation>zmuu</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4860,8 +4860,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TELOS Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. TELOS Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. muu Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. muu Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4888,16 +4888,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTELOS minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zTELOS (0-1, standaard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zmuu minting (0-1, default: %u)</source>
+        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zmuu (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TELOS inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor TELOS inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for muu inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor muu inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTELOS inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zTELOS inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for zmuu inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor zmuu inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4932,12 +4932,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in TELOS/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in muu/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TELOS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in TELOS/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in muu/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in muu/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5032,20 +5032,20 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TELOS Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. TELOS Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. muu Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. muu Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 TELOS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 muu.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TELOS.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 TELOS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 muu.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 muu.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5060,8 +5060,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TELOS Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt TELOS Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong muu Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt muu Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5196,8 +5196,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The TELOS Core Developers</source>
-        <translation>Copyright (C) 2015-%i The TELOS Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The muu Core Developers</source>
+        <translation>Copyright (C) 2015-%i The muu Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5276,8 +5276,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TELOS Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van TELOS Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of muu Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van muu Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5332,8 +5332,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in TELOS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in TELOS/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in muu/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in muu/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5372,8 +5372,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TELOS Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. TELOS Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. muu Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. muu Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5436,8 +5436,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TELOS and zTELOS money supply statistics</source>
-        <translation>Indexeer de TELOS- en zTELOS-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the muu and zmuu money supply statistics</source>
+        <translation>Indexeer de muu- en zmuu-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5476,8 +5476,8 @@ Wees alsjeblieft geduldig...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all TELOS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle specifieke TELOS functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
+        <source>Disable all muu specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle specifieke muu functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5512,8 +5512,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTELOS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zTELOS back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zmuu backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zmuu back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5924,8 +5924,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zTELOS wallet...</source>
-        <translation>Synchroniseren zTELOS portemonnee...</translation>
+        <source>Syncing zmuu wallet...</source>
+        <translation>Synchroniseren zmuu portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6036,8 +6036,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTELOS</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zTELOS</translation>
+        <source>Value is below the smallest available denomination (= 1) of zmuu</source>
+        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zmuu</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -6052,8 +6052,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TELOS Core to complete</source>
-        <translation>Wallet moest worden herschreven: start TELOS Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart muu Core to complete</source>
+        <translation>Wallet moest worden herschreven: start muu Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

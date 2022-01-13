@@ -288,7 +288,7 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHi
     // set library version labels
 #ifdef ENABLE_WALLET
     std::string strPathCustom = GetArg("-backuppath", "");
-    std::string strzTELOSPathCustom = GetArg("-ztelosbackuppath", "");
+    std::string strzmuuPathCustom = GetArg("-zmuubackuppath", "");
     int nCustomBackupThreshold = GetArg("-custombackupthreshold", DEFAULT_CUSTOMBACKUPTHRESHOLD);
 
     if(!strPathCustom.empty()) {
@@ -297,13 +297,13 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHi
         ui->wallet_custombackuppath->show();
     }
 
-    if(!strzTELOSPathCustom.empty()) {
-        ui->wallet_customztelosbackuppath->setText(QString::fromStdString(strzTELOSPathCustom));
-        ui->wallet_customztelosbackuppath_label->setVisible(true);
-        ui->wallet_customztelosbackuppath->setVisible(true);
+    if(!strzmuuPathCustom.empty()) {
+        ui->wallet_customzmuubackuppath->setText(QString::fromStdString(strzmuuPathCustom));
+        ui->wallet_customzmuubackuppath_label->setVisible(true);
+        ui->wallet_customzmuubackuppath->setVisible(true);
     }
 
-    if((!strPathCustom.empty() || !strzTELOSPathCustom.empty()) && nCustomBackupThreshold > 0) {
+    if((!strPathCustom.empty() || !strzmuuPathCustom.empty()) && nCustomBackupThreshold > 0) {
         ui->wallet_custombackupthreshold->setText(QString::fromStdString(std::to_string(nCustomBackupThreshold)));
         ui->wallet_custombackupthreshold_label->setVisible(true);
         ui->wallet_custombackupthreshold->setVisible(true);

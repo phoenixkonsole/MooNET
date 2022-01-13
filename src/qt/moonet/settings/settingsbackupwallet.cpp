@@ -10,7 +10,7 @@
 #include "qt/moonet/qtutils.h"
 #include "guiinterface.h"
 #include "qt/moonet/qtutils.h"
-SettingsBackupWallet::SettingsBackupWallet(TELOSGUI* _window, QWidget *parent) :
+SettingsBackupWallet::SettingsBackupWallet(muuGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsBackupWallet)
 {

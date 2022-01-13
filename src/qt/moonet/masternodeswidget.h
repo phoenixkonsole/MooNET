@@ -13,7 +13,7 @@
 #include <QTimer>
 #include "masternodeman.h"
 #include "main.h"
-class TELOSGUI;
+class muuGUI;
 #if defined(HAVE_CONFIG_H)
 #include "config/moonet-config.h" /* for USE_QTCHARTS */
 #endif
@@ -43,7 +43,7 @@ class MasterNodesWidget : public PWidget
 
 public:
 
-    explicit MasterNodesWidget(TELOSGUI *parent = nullptr);
+    explicit MasterNodesWidget(muuGUI *parent = nullptr);
     ~MasterNodesWidget();
 
     void loadWalletModel() override;

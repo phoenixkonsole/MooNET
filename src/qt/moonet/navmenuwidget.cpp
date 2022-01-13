@@ -8,7 +8,7 @@
 #include "qt/moonet/qtutils.h"
 #include "clientversion.h"
 
-NavMenuWidget::NavMenuWidget(TELOSGUI *mainWindow, QWidget *parent) :
+NavMenuWidget::NavMenuWidget(muuGUI *mainWindow, QWidget *parent) :
     QWidget(parent),
     ui(new Ui::NavMenuWidget),
     window(mainWindow)

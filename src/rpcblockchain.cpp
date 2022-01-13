@@ -121,7 +121,7 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
         zmoonetObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
     zmoonetObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zTBPsupply", zmoonetObj));
+    result.push_back(Pair("zmuusupply", zmoonetObj));
 
     return result;
 }
@@ -308,17 +308,17 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zTBPsupply\" :\n"
+            "  \"zmuusupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zTBP denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zTBP denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zTBP denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zTBP denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zTBP denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zTBP denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zTBP denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zTBP denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zTBP denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zmuu denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zmuu denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zmuu denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zmuu denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zmuu denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zmuu denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zmuu denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zmuu denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zmuu denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"

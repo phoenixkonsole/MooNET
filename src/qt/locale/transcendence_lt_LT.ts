@@ -649,7 +649,7 @@
         <translation>Siųsti monetas į TELOS adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
         <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir pivx URI)</translation>
     </message>
     <message>
@@ -2042,8 +2042,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Netinkamas mokėjimo adresas %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
-        <translation>Nepavyksta paleisti transcendence: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
+        <source>Cannot start moonet: click-to-pay handler</source>
+        <translation>Nepavyksta paleisti moonet: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -3309,7 +3309,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>

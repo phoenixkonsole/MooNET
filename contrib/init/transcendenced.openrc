@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/transcendence/.transcendence" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/transcendence/.transcendence"
+if [ -d "/var/lib/moonet/.moonet" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/moonet/.moonet"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/transcendenced"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/moonetd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/transcendence/transcendence.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/transcendenced}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/transcendenced.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/moonet/moonet.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/moonetd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/moonetd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-transcendence}
-BITCOIND_GROUP=${BITCOIND_GROUP:-transcendence}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/transcendenced}
+BITCOIND_USER=${BITCOIND_USER:-moonet}
+BITCOIND_GROUP=${BITCOIND_GROUP:-moonet}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/moonetd}
 
-name="Transcendence Core Daemon"
-description="Transcendence crypto-currency p2p network daemon"
+name="moonet Core Daemon"
+description="moonet crypto-currency p2p network daemon"
 
-command="/usr/bin/transcendenced"
+command="/usr/bin/moonetd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run transcendenced."
+		eerror "ERROR: You must set a secure rpcpassword to run moonetd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Transcendence Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"moonet Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

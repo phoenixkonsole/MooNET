@@ -609,8 +609,8 @@
         <translation>Odeslat platbuna TELOS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2331,7 +2331,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

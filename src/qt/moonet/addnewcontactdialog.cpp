@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/addnewcontactdialog.h"
-#include "qt/transcendence/forms/ui_addnewcontactdialog.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/addnewcontactdialog.h"
+#include "qt/moonet/forms/ui_addnewcontactdialog.h"
+#include "qt/moonet/qtutils.h"
 
 AddNewContactDialog::AddNewContactDialog(QWidget *parent) :
     QDialog(parent),

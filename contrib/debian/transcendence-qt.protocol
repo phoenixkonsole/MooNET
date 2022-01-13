@@ -1,6 +1,6 @@
 [Protocol]
-exec=transcendence-qt '%u'
-protocol=transcendence
+exec=moonet-qt '%u'
+protocol=moonet
 input=none
 output=none
 helper=true

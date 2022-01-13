@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/addnewaddressdialog.h"
-#include "qt/transcendence/forms/ui_addnewaddressdialog.h"
+#include "qt/moonet/addnewaddressdialog.h"
+#include "qt/moonet/forms/ui_addnewaddressdialog.h"
 
 AddNewAddressDialog::AddNewAddressDialog(QWidget *parent) :
     QWidget(parent),

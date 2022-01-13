@@ -1,39 +1,39 @@
-Transcendence Core
+moonet Core
 =====================
 
 Setup
 ---------------------
-[Transcendence Core](http://Transcendencecoin.com) is the original Transcendence client and it builds the backbone of the network. However, it downloads and stores the entire history of Transcendence transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[moonet Core](http://moonetcoin.com) is the original moonet client and it builds the backbone of the network. However, it downloads and stores the entire history of moonet transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Transcendence on your native platform.
+The following are some helpful notes on how to run moonet on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/transcendence-qt (GUI, 32-bit) or bin/32/transcendenced (headless, 32-bit)
-- bin/64/transcendence-qt (GUI, 64-bit) or bin/64/transcendenced (headless, 64-bit)
+- bin/32/moonet-qt (GUI, 32-bit) or bin/32/moonetd (headless, 32-bit)
+- bin/64/moonet-qt (GUI, 64-bit) or bin/64/moonetd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run transcendence-qt.exe.
+Unpack the files into a directory, and then run moonet-qt.exe.
 
 ### OSX
 
-Drag Transcendence-Qt to your applications folder, and then run Transcendence-Qt.
+Drag moonet-Qt to your applications folder, and then run moonet-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Transcendence Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [moonet Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [Transcendence Forum](http://Transcendencecoin.com/).
-* Join one of our Discord groups [Transcendence Discord Groups](https://discord.gg/YcnvMqt).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [moonet Forum](http://moonetcoin.com/).
+* Join one of our Discord groups [moonet Discord Groups](https://discord.gg/YcnvMqt).
 
 Building
 ---------------------
-The following are developer notes on how to build Transcendence on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build moonet on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Transcendence on your native p
 
 Development
 ---------------------
-The Transcendence repo's [root README](https://github.com/eastcoastcrypto/Transcendence/blob/master/README.md) contains relevant information on the development process and automated testing.
+The moonet repo's [root README](https://github.com/eastcoastcrypto/moonet/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,7 +56,7 @@ The Transcendence repo's [root README](https://github.com/eastcoastcrypto/Transc
 ### Resources
 
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) .
-* Join the [Transcendence-Dev] Discord groups [Transcendence Discord Groups](https://discord.gg/YcnvMqt).
+* Join the [moonet-Dev] Discord groups [moonet Discord Groups](https://discord.gg/YcnvMqt).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

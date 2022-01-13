@@ -649,8 +649,8 @@
         <translation>Pošaljite kovanice na TELOS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Zahtjev za plaćanje (generira QR kodove i transcendence: URI)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Zahtjev za plaćanje (generira QR kodove i moonet: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2167,8 +2167,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti transcendence: clik-to-pay handler</translation>
+        <source>Cannot start moonet: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti moonet: clik-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
@@ -4638,7 +4638,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>

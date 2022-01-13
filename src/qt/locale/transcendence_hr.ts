@@ -625,8 +625,8 @@
         <translation>Pošaljite kovanice na TELOS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i transcendence: URI)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i moonet: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -1567,7 +1567,7 @@
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/coincontrolpivwidget.h"
-#include "qt/transcendence/forms/ui_coincontrolpivwidget.h"
+#include "qt/moonet/coincontrolpivwidget.h"
+#include "qt/moonet/forms/ui_coincontrolpivwidget.h"
 
 CoinControlPivWidget::CoinControlPivWidget(QWidget *parent) :
     QDialog(parent),

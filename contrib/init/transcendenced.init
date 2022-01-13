@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  transcendenced The Transcendence core server.
+#  moonetd The moonet core server.
 #
 #
 # chkconfig: 345 80 20
-# description: transcendenced
-# processname: transcendenced
+# description: moonetd
+# processname: moonetd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/transcendenced, see below
-if [ -f /etc/sysconfig/transcendenced ]; then
-        . /etc/sysconfig/transcendenced
+# you can override defaults in /etc/sysconfig/moonetd, see below
+if [ -f /etc/sysconfig/moonetd ]; then
+        . /etc/sysconfig/moonetd
 fi
 
 RETVAL=0
 
-prog=transcendenced
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/transcendenced
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/transcendenced}
+prog=moonetd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/moonetd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/moonetd}
 
-# transcendenced defaults to /usr/bin/transcendenced, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/transcendenced}
+# moonetd defaults to /usr/bin/moonetd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/moonetd}
 
-# transcendenced opts default to -disablewallet, override with BITCOIND_OPTS
+# moonetd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

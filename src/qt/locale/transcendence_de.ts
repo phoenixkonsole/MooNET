@@ -653,8 +653,8 @@
         <translation>An eine TELOS-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2163,7 +2163,7 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
         <translation>Ungültige Zahlungsaufforderungsadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
+        <source>Cannot start moonet: click-to-pay handler</source>
         <translation>Kann TELOS nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
@@ -4631,7 +4631,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>

@@ -327,7 +327,7 @@
     <name>ZTelosControlDialog</name>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

@@ -621,8 +621,8 @@
         <translation>Enviar moedas para um endereço TELOS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -3534,7 +3534,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>

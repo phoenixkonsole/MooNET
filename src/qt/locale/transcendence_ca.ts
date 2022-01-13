@@ -1911,7 +1911,7 @@
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Connection options:</source>
         <translation>Opcions de connexió:</translation>

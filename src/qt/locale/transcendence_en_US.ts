@@ -239,8 +239,8 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a Transcendence Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a Transcendence Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a moonet Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a moonet Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -610,8 +610,8 @@
         <translation>Send coins to a TELOS address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Request payments (generates QR codes and transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Request payments (generates QR codes and moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -2092,8 +2092,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
-        <translation>Cannot start transcendence: click-to-pay handler</translation>
+        <source>Cannot start moonet: click-to-pay handler</source>
+        <translation>Cannot start moonet: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
@@ -3884,7 +3884,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>

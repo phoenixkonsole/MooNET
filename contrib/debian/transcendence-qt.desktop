@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Transcendence
-Comment=Transcendence P2P Cryptocurrency
-Comment[fr]=Transcendence, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Transcendence, eşten eşe kriptografik sanal para birimi
-Exec=transcendence-qt %u
+Name=moonet
+Comment=moonet P2P Cryptocurrency
+Comment[fr]=moonet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=moonet, eşten eşe kriptografik sanal para birimi
+Exec=moonet-qt %u
 Terminal=false
 Type=Application
-Icon=transcendence128
-MimeType=x-scheme-handler/transcendence;
+Icon=moonet128
+MimeType=x-scheme-handler/moonet;
 Categories=Office;Finance;

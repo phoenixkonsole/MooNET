@@ -2,16 +2,16 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/addresseswidget.h"
-#include "qt/transcendence/forms/ui_addresseswidget.h"
-#include "qt/transcendence/addresslabelrow.h"
-#include "qt/transcendence/addnewaddressdialog.h"
-#include "qt/transcendence/tooltipmenu.h"
+#include "qt/moonet/addresseswidget.h"
+#include "qt/moonet/forms/ui_addresseswidget.h"
+#include "qt/moonet/addresslabelrow.h"
+#include "qt/moonet/addnewaddressdialog.h"
+#include "qt/moonet/tooltipmenu.h"
 
-#include "qt/transcendence/addnewcontactdialog.h"
-#include "qt/transcendence/transcendencegui.h"
+#include "qt/moonet/addnewcontactdialog.h"
+#include "qt/moonet/moonetgui.h"
 #include "guiutil.h"
-#include "qt/transcendence/qtutils.h"
+#include "qt/moonet/qtutils.h"
 #include "walletmodel.h"
 
 #include <QModelIndex>
@@ -112,7 +112,7 @@ AddressesWidget::AddressesWidget(TELOSGUI* parent) :
     setCssEditLine(ui->lineEditName, true);
 
     // Address
-    ui->labelAddress->setText(tr("Enter a Transcendence address"));
+    ui->labelAddress->setText(tr("Enter a moonet address"));
     setCssProperty(ui->labelAddress, "text-title");
     ui->lineEditAddress->setPlaceholderText("e.g. D7VFR83SQbiezrW72hjc…");
     setCssEditLine(ui->lineEditAddress, true);

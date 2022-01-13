@@ -649,7 +649,7 @@
         <translation>Send mønter til en TELOS adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og TELOS URL)</translation>
     </message>
     <message>
@@ -2181,7 +2181,7 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
+        <source>Cannot start moonet: click-to-pay handler</source>
         <translation>Kan ikke starte TELOS "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -4653,7 +4653,7 @@ Vær tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>

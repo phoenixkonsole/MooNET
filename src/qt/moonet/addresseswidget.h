@@ -5,11 +5,11 @@
 #ifndef ADDRESSESWIDGET_H
 #define ADDRESSESWIDGET_H
 
-#include "qt/transcendence/pwidget.h"
+#include "qt/moonet/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/transcendence/tooltipmenu.h"
+#include "qt/moonet/tooltipmenu.h"
 #include "furabstractlistitemdelegate.h"
-#include "qt/transcendence/addressfilterproxymodel.h"
+#include "qt/moonet/addressfilterproxymodel.h"
 
 #include <QWidget>
 

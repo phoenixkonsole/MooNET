@@ -215,6 +215,6 @@
     <name>ZTelosControlDialog</name>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     </context>
 </TS>

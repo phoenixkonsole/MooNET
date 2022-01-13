@@ -2,44 +2,44 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/transcendence-qt
+bin_PROGRAMS += qt/moonet-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# transcendence qt core #
+# moonet qt core #
 QT_TS = \
-  qt/locale/transcendence_bg.ts \
-  qt/locale/transcendence_ca.ts \
-  qt/locale/transcendence_cs.ts \
-  qt/locale/transcendence_da.ts \
-  qt/locale/transcendence_de.ts \
-  qt/locale/transcendence_en.ts \
-  qt/locale/transcendence_en_GB.ts \
-  qt/locale/transcendence_en_US.ts \
-  qt/locale/transcendence_eo.ts \
-  qt/locale/transcendence_es.ts \
-  qt/locale/transcendence_es_ES.ts \
-  qt/locale/transcendence_fi.ts \
-  qt/locale/transcendence_fr_FR.ts \
-  qt/locale/transcendence_hi_IN.ts \
-  qt/locale/transcendence_hr.ts \
-  qt/locale/transcendence_hr_HR.ts \
-  qt/locale/transcendence_it.ts \
-  qt/locale/transcendence_ja.ts \
-  qt/locale/transcendence_ko_KR.ts \
-  qt/locale/transcendence_lt_LT.ts \
-  qt/locale/transcendence_nl.ts \
-  qt/locale/transcendence_pl.ts \
-  qt/locale/transcendence_pt.ts \
-  qt/locale/transcendence_pt_BR.ts \
-  qt/locale/transcendence_ro_RO.ts \
-  qt/locale/transcendence_ru.ts \
-  qt/locale/transcendence_sk.ts \
-  qt/locale/transcendence_sv.ts \
-  qt/locale/transcendence_tr.ts \
-  qt/locale/transcendence_uk.ts \
-  qt/locale/transcendence_vi.ts \
-  qt/locale/transcendence_zh_CN.ts \
-  qt/locale/transcendence_zh_TW.ts
+  qt/locale/moonet_bg.ts \
+  qt/locale/moonet_ca.ts \
+  qt/locale/moonet_cs.ts \
+  qt/locale/moonet_da.ts \
+  qt/locale/moonet_de.ts \
+  qt/locale/moonet_en.ts \
+  qt/locale/moonet_en_GB.ts \
+  qt/locale/moonet_en_US.ts \
+  qt/locale/moonet_eo.ts \
+  qt/locale/moonet_es.ts \
+  qt/locale/moonet_es_ES.ts \
+  qt/locale/moonet_fi.ts \
+  qt/locale/moonet_fr_FR.ts \
+  qt/locale/moonet_hi_IN.ts \
+  qt/locale/moonet_hr.ts \
+  qt/locale/moonet_hr_HR.ts \
+  qt/locale/moonet_it.ts \
+  qt/locale/moonet_ja.ts \
+  qt/locale/moonet_ko_KR.ts \
+  qt/locale/moonet_lt_LT.ts \
+  qt/locale/moonet_nl.ts \
+  qt/locale/moonet_pl.ts \
+  qt/locale/moonet_pt.ts \
+  qt/locale/moonet_pt_BR.ts \
+  qt/locale/moonet_ro_RO.ts \
+  qt/locale/moonet_ru.ts \
+  qt/locale/moonet_sk.ts \
+  qt/locale/moonet_sv.ts \
+  qt/locale/moonet_tr.ts \
+  qt/locale/moonet_uk.ts \
+  qt/locale/moonet_vi.ts \
+  qt/locale/moonet_zh_CN.ts \
+  qt/locale/moonet_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -64,58 +64,58 @@ QT_FORMS_UI = \
   qt/forms/sendcoinsentry.ui \
   qt/forms/signverifymessagedialog.ui \
   qt/forms/transactiondescdialog.ui \
-  qt/transcendence/forms/loadingdialog.ui \
+  qt/moonet/forms/loadingdialog.ui \
   qt/forms/zteloscontroldialog.ui \
-  qt/transcendence/forms/snackbar.ui \
-  qt/transcendence/forms/navmenuwidget.ui \
-  qt/transcendence/forms/lockunlock.ui \
-  qt/transcendence/forms/expandablebutton.ui \
-  qt/transcendence/forms/receivedialog.ui \
-  qt/transcendence/forms/walletpassworddialog.ui \
-  qt/transcendence/forms/topbar.ui \
-  qt/transcendence/forms/txrow.ui \
-  qt/transcendence/forms/dashboardwidget.ui \
-  qt/transcendence/forms/coincontrolpivwidget.ui \
-  qt/transcendence/forms/addresslabelrow.ui \
-  qt/transcendence/forms/contactdropdownrow.ui \
-  qt/transcendence/forms/mninfodialog.ui \
-  qt/transcendence/forms/optionbutton.ui \
-  qt/transcendence/forms/masternodewizarddialog.ui \
-  qt/transcendence/forms/mnrow.ui \
-  qt/transcendence/forms/masternodeswidget.ui \
-  qt/transcendence/forms/myaddressrow.ui \
-  qt/transcendence/forms/sendchangeaddressdialog.ui \
-  qt/transcendence/forms/sendconfirmdialog.ui \
-  qt/transcendence/forms/sendcustomfeedialog.ui \
-  qt/transcendence/forms/sendchangeaddressdialog.ui \
-  qt/transcendence/forms/sendmultirow.ui \
-  qt/transcendence/forms/send.ui \
-  qt/transcendence/forms/addnewaddressdialog.ui \
-  qt/transcendence/forms/addnewcontactdialog.ui \
-  qt/transcendence/forms/requestdialog.ui \
-  qt/transcendence/forms/receivewidget.ui \
-  qt/transcendence/forms/tooltipmenu.ui \
-  qt/transcendence/forms/addresseswidget.ui \
-  qt/transcendence/forms/defaultdialog.ui \
-  qt/transcendence/forms/emailinputdialog.ui \
-  qt/transcendence/forms/denomgenerationdialog.ui \
-  qt/transcendence/forms/linkswidget.ui \
-  qt/transcendence/settings/forms/settingsbackupwallet.ui \
-  qt/transcendence/settings/forms/settingsexportcsv.ui \
-  qt/transcendence/settings/forms/settingsbittoolwidget.ui \
-  qt/transcendence/settings/forms/settingsconsolewidget.ui \
-  qt/transcendence/settings/forms/settingsdisplayoptionswidget.ui \
-  qt/transcendence/settings/forms/settingsfaqwidget.ui \
-  qt/transcendence/settings/forms/settingsinformationwidget.ui \
-  qt/transcendence/settings/forms/settingsmainoptionswidget.ui \
-  qt/transcendence/settings/forms/settingsmultisenddialog.ui \
-  qt/transcendence/settings/forms/settingsmultisendwidget.ui \
-  qt/transcendence/settings/forms/settingssignmessagewidgets.ui \
-  qt/transcendence/settings/forms/settingswalletoptionswidget.ui \
-  qt/transcendence/settings/forms/settingswalletrepairwidget.ui \
-  qt/transcendence/settings/forms/settingswidget.ui \
-  qt/transcendence/forms/welcomecontentwidget.ui \
-  qt/transcendence/forms/splash.ui
+  qt/moonet/forms/snackbar.ui \
+  qt/moonet/forms/navmenuwidget.ui \
+  qt/moonet/forms/lockunlock.ui \
+  qt/moonet/forms/expandablebutton.ui \
+  qt/moonet/forms/receivedialog.ui \
+  qt/moonet/forms/walletpassworddialog.ui \
+  qt/moonet/forms/topbar.ui \
+  qt/moonet/forms/txrow.ui \
+  qt/moonet/forms/dashboardwidget.ui \
+  qt/moonet/forms/coincontrolpivwidget.ui \
+  qt/moonet/forms/addresslabelrow.ui \
+  qt/moonet/forms/contactdropdownrow.ui \
+  qt/moonet/forms/mninfodialog.ui \
+  qt/moonet/forms/optionbutton.ui \
+  qt/moonet/forms/masternodewizarddialog.ui \
+  qt/moonet/forms/mnrow.ui \
+  qt/moonet/forms/masternodeswidget.ui \
+  qt/moonet/forms/myaddressrow.ui \
+  qt/moonet/forms/sendchangeaddressdialog.ui \
+  qt/moonet/forms/sendconfirmdialog.ui \
+  qt/moonet/forms/sendcustomfeedialog.ui \
+  qt/moonet/forms/sendchangeaddressdialog.ui \
+  qt/moonet/forms/sendmultirow.ui \
+  qt/moonet/forms/send.ui \
+  qt/moonet/forms/addnewaddressdialog.ui \
+  qt/moonet/forms/addnewcontactdialog.ui \
+  qt/moonet/forms/requestdialog.ui \
+  qt/moonet/forms/receivewidget.ui \
+  qt/moonet/forms/tooltipmenu.ui \
+  qt/moonet/forms/addresseswidget.ui \
+  qt/moonet/forms/defaultdialog.ui \
+  qt/moonet/forms/emailinputdialog.ui \
+  qt/moonet/forms/denomgenerationdialog.ui \
+  qt/moonet/forms/linkswidget.ui \
+  qt/moonet/settings/forms/settingsbackupwallet.ui \
+  qt/moonet/settings/forms/settingsexportcsv.ui \
+  qt/moonet/settings/forms/settingsbittoolwidget.ui \
+  qt/moonet/settings/forms/settingsconsolewidget.ui \
+  qt/moonet/settings/forms/settingsdisplayoptionswidget.ui \
+  qt/moonet/settings/forms/settingsfaqwidget.ui \
+  qt/moonet/settings/forms/settingsinformationwidget.ui \
+  qt/moonet/settings/forms/settingsmainoptionswidget.ui \
+  qt/moonet/settings/forms/settingsmultisenddialog.ui \
+  qt/moonet/settings/forms/settingsmultisendwidget.ui \
+  qt/moonet/settings/forms/settingssignmessagewidgets.ui \
+  qt/moonet/settings/forms/settingswalletoptionswidget.ui \
+  qt/moonet/settings/forms/settingswalletrepairwidget.ui \
+  qt/moonet/settings/forms/settingswidget.ui \
+  qt/moonet/forms/welcomecontentwidget.ui \
+  qt/moonet/forms/splash.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -126,7 +126,7 @@ QT_MOC_CPP = \
   qt/moc_bitcoinaddressvalidator.cpp \
   qt/moc_bitcoinamountfield.cpp \
   qt/moc_bitcoingui.cpp \
-  qt/transcendence/moc_transcendencegui.cpp \
+  qt/moonet/moc_moonetgui.cpp \
   qt/moc_bitcoinunits.cpp \
   qt/moc_blockexplorer.cpp \
   qt/moc_clientmodel.cpp \
@@ -169,79 +169,79 @@ QT_MOC_CPP = \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
   qt/moc_walletview.cpp \
-  qt/transcendence/moc_loadingdialog.cpp \
+  qt/moonet/moc_loadingdialog.cpp \
   qt/moc_zteloscontroldialog.cpp \
-  qt/transcendence/moc_pwidget.cpp \
-  qt/transcendence/moc_snackbar.cpp \
-  qt/transcendence/moc_navmenuwidget.cpp \
-  qt/transcendence/moc_lockunlock.cpp \
-  qt/transcendence/moc_expandablebutton.cpp \
-  qt/transcendence/moc_furabstractlistitemdelegate.cpp \
-  qt/transcendence/moc_receivedialog.cpp \
-  qt/transcendence/moc_walletpassworddialog.cpp \
-  qt/transcendence/moc_topbar.cpp \
-  qt/transcendence/moc_txrow.cpp \
-  qt/transcendence/moc_dashboardwidget.cpp \
-  qt/transcendence/moc_coincontrolpivwidget.cpp \
-  qt/transcendence/moc_addresslabelrow.cpp \
-  qt/transcendence/moc_contactdropdownrow.cpp \
-  qt/transcendence/moc_mninfodialog.cpp \
-  qt/transcendence/moc_optionbutton.cpp \
-  qt/transcendence/moc_mnmodel.cpp \
-  qt/transcendence/moc_masternodewizarddialog.cpp \
-  qt/transcendence/moc_mnrow.cpp \
-  qt/transcendence/moc_masternodeswidget.cpp \
-  qt/transcendence/moc_myaddressrow.cpp \
-  qt/transcendence/moc_contactsdropdown.cpp \
-  qt/transcendence/moc_sendchangeaddressdialog.cpp \
-  qt/transcendence/moc_sendconfirmdialog.cpp \
-  qt/transcendence/moc_sendcustomfeedialog.cpp \
-  qt/transcendence/moc_sendchangeaddressdialog.cpp \
-  qt/transcendence/moc_sendmultirow.cpp \
-  qt/transcendence/moc_send.cpp \
-  qt/transcendence/moc_addnewaddressdialog.cpp \
-  qt/transcendence/moc_addnewcontactdialog.cpp \
-  qt/transcendence/moc_requestdialog.cpp \
-  qt/transcendence/moc_receivewidget.cpp \
-  qt/transcendence/moc_tooltipmenu.cpp \
-  qt/transcendence/moc_addresseswidget.cpp \
-  qt/transcendence/moc_defaultdialog.cpp \
-  qt/transcendence/moc_emailinputdialog.cpp \
-  qt/transcendence/moc_denomgenerationdialog.cpp \
-  qt/transcendence/moc_linkswidget.cpp \
-  qt/transcendence/settings/moc_settingsbackupwallet.cpp \
-  qt/transcendence/settings/moc_settingsexportcsv.cpp \
-  qt/transcendence/settings/moc_settingsbittoolwidget.cpp \
-  qt/transcendence/settings/moc_settingsconsolewidget.cpp \
-  qt/transcendence/settings/moc_settingsdisplayoptionswidget.cpp \
-  qt/transcendence/settings/moc_settingsfaqwidget.cpp \
-  qt/transcendence/settings/moc_settingsinformationwidget.cpp \
-  qt/transcendence/settings/moc_settingsmainoptionswidget.cpp \
-  qt/transcendence/settings/moc_settingsmultisenddialog.cpp \
-  qt/transcendence/settings/moc_settingsmultisendwidget.cpp \
-  qt/transcendence/settings/moc_settingssignmessagewidgets.cpp \
-  qt/transcendence/settings/moc_settingswalletoptionswidget.cpp \
-  qt/transcendence/settings/moc_settingswalletrepairwidget.cpp \
-  qt/transcendence/settings/moc_settingswidget.cpp \
-  qt/transcendence/moc_welcomecontentwidget.cpp \
-  qt/transcendence/moc_splash.cpp
+  qt/moonet/moc_pwidget.cpp \
+  qt/moonet/moc_snackbar.cpp \
+  qt/moonet/moc_navmenuwidget.cpp \
+  qt/moonet/moc_lockunlock.cpp \
+  qt/moonet/moc_expandablebutton.cpp \
+  qt/moonet/moc_furabstractlistitemdelegate.cpp \
+  qt/moonet/moc_receivedialog.cpp \
+  qt/moonet/moc_walletpassworddialog.cpp \
+  qt/moonet/moc_topbar.cpp \
+  qt/moonet/moc_txrow.cpp \
+  qt/moonet/moc_dashboardwidget.cpp \
+  qt/moonet/moc_coincontrolpivwidget.cpp \
+  qt/moonet/moc_addresslabelrow.cpp \
+  qt/moonet/moc_contactdropdownrow.cpp \
+  qt/moonet/moc_mninfodialog.cpp \
+  qt/moonet/moc_optionbutton.cpp \
+  qt/moonet/moc_mnmodel.cpp \
+  qt/moonet/moc_masternodewizarddialog.cpp \
+  qt/moonet/moc_mnrow.cpp \
+  qt/moonet/moc_masternodeswidget.cpp \
+  qt/moonet/moc_myaddressrow.cpp \
+  qt/moonet/moc_contactsdropdown.cpp \
+  qt/moonet/moc_sendchangeaddressdialog.cpp \
+  qt/moonet/moc_sendconfirmdialog.cpp \
+  qt/moonet/moc_sendcustomfeedialog.cpp \
+  qt/moonet/moc_sendchangeaddressdialog.cpp \
+  qt/moonet/moc_sendmultirow.cpp \
+  qt/moonet/moc_send.cpp \
+  qt/moonet/moc_addnewaddressdialog.cpp \
+  qt/moonet/moc_addnewcontactdialog.cpp \
+  qt/moonet/moc_requestdialog.cpp \
+  qt/moonet/moc_receivewidget.cpp \
+  qt/moonet/moc_tooltipmenu.cpp \
+  qt/moonet/moc_addresseswidget.cpp \
+  qt/moonet/moc_defaultdialog.cpp \
+  qt/moonet/moc_emailinputdialog.cpp \
+  qt/moonet/moc_denomgenerationdialog.cpp \
+  qt/moonet/moc_linkswidget.cpp \
+  qt/moonet/settings/moc_settingsbackupwallet.cpp \
+  qt/moonet/settings/moc_settingsexportcsv.cpp \
+  qt/moonet/settings/moc_settingsbittoolwidget.cpp \
+  qt/moonet/settings/moc_settingsconsolewidget.cpp \
+  qt/moonet/settings/moc_settingsdisplayoptionswidget.cpp \
+  qt/moonet/settings/moc_settingsfaqwidget.cpp \
+  qt/moonet/settings/moc_settingsinformationwidget.cpp \
+  qt/moonet/settings/moc_settingsmainoptionswidget.cpp \
+  qt/moonet/settings/moc_settingsmultisenddialog.cpp \
+  qt/moonet/settings/moc_settingsmultisendwidget.cpp \
+  qt/moonet/settings/moc_settingssignmessagewidgets.cpp \
+  qt/moonet/settings/moc_settingswalletoptionswidget.cpp \
+  qt/moonet/settings/moc_settingswalletrepairwidget.cpp \
+  qt/moonet/settings/moc_settingswidget.cpp \
+  qt/moonet/moc_welcomecontentwidget.cpp \
+  qt/moonet/moc_splash.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/transcendence.moc \
+  qt/moonet.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc \
-  qt/transcendence/settings/moc_settingsconsolewidget.cpp
+  qt/moonet/settings/moc_settingsconsolewidget.cpp
 
-QT_QRC_CPP = qt/qrc_transcendence.cpp
-QT_QRC = qt/transcendence.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_transcendence_locale.cpp
-QT_QRC_LOCALE = qt/transcendence_locale.qrc
+QT_QRC_CPP = qt/qrc_moonet.cpp
+QT_QRC = qt/moonet.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_moonet_locale.cpp
+QT_QRC_LOCALE = qt/moonet_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -256,7 +256,7 @@ BITCOIN_QT_H = \
   qt/bitcoinaddressvalidator.h \
   qt/bitcoinamountfield.h \
   qt/bitcoingui.h \
-  qt/transcendence/transcendencegui.h \
+  qt/moonet/moonetgui.h \
   qt/bitcoinunits.h \
   qt/blockexplorer.h \
   qt/clientmodel.h \
@@ -304,69 +304,69 @@ BITCOIN_QT_H = \
   qt/walletframe.h \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
-  qt/transcendence/prunnable.h \
-  qt/transcendence/loadingdialog.h \
+  qt/moonet/prunnable.h \
+  qt/moonet/loadingdialog.h \
   qt/walletview.h \
   qt/winshutdownmonitor.h \
   qt/zteloscontroldialog.h \
-  qt/transcendence/pwidget.h \
-  qt/transcendence/snackbar.h \
-  qt/transcendence/navmenuwidget.h \
-  qt/transcendence/lockunlock.h \
-  qt/transcendence/receivedialog.h \
-  qt/transcendence/furlistrow.h \
-  qt/transcendence/furabstractlistitemdelegate.h \
-  qt/transcendence/txviewholder.h \
-  qt/transcendence/qtutils.h \
-  qt/transcendence/expandablebutton.h \
-  qt/transcendence/walletpassworddialog.h \
-  qt/transcendence/topbar.h \
-  qt/transcendence/txrow.h \
-  qt/transcendence/addressfilterproxymodel.h \
-  qt/transcendence/dashboardwidget.h \
-  qt/transcendence/coincontrolpivwidget.h \
-  qt/transcendence/addresslabelrow.h \
-  qt/transcendence/contactdropdownrow.h \
-  qt/transcendence/mninfodialog.h \
-  qt/transcendence/optionbutton.h \
-  qt/transcendence/mnmodel.h \
-  qt/transcendence/masternodewizarddialog.h \
-  qt/transcendence/mnrow.h \
-  qt/transcendence/masternodeswidget.h \
-  qt/transcendence/myaddressrow.h \
-  qt/transcendence/contactsdropdown.h \
-  qt/transcendence/sendchangeaddressdialog.h \
-  qt/transcendence/sendconfirmdialog.h \
-  qt/transcendence/sendcustomfeedialog.h \
-  qt/transcendence/sendchangeaddressdialog.h \
-  qt/transcendence/sendmultirow.h \
-  qt/transcendence/send.h \
-  qt/transcendence/addnewaddressdialog.h \
-  qt/transcendence/addnewcontactdialog.h \
-  qt/transcendence/requestdialog.h \
-  qt/transcendence/receivewidget.h \
-  qt/transcendence/tooltipmenu.h \
-  qt/transcendence/addresseswidget.h \
-  qt/transcendence/defaultdialog.h \
-  qt/transcendence/emailinputdialog.h \
-  qt/transcendence/denomgenerationdialog.h \
-  qt/transcendence/linkswidget.h \
-  qt/transcendence/settings/settingsbackupwallet.h \
-  qt/transcendence/settings/settingsexportcsv.h \
-  qt/transcendence/settings/settingsbittoolwidget.h \
-  qt/transcendence/settings/settingsconsolewidget.h \
-  qt/transcendence/settings/settingsdisplayoptionswidget.h \
-  qt/transcendence/settings/settingsfaqwidget.h \
-  qt/transcendence/settings/settingsinformationwidget.h \
-  qt/transcendence/settings/settingsmainoptionswidget.h \
-  qt/transcendence/settings/settingsmultisenddialog.h \
-  qt/transcendence/settings/settingsmultisendwidget.h \
-  qt/transcendence/settings/settingssignmessagewidgets.h \
-  qt/transcendence/settings/settingswalletoptionswidget.h \
-  qt/transcendence/settings/settingswalletrepairwidget.h \
-  qt/transcendence/settings/settingswidget.h \
-  qt/transcendence/welcomecontentwidget.h \
-  qt/transcendence/splash.h
+  qt/moonet/pwidget.h \
+  qt/moonet/snackbar.h \
+  qt/moonet/navmenuwidget.h \
+  qt/moonet/lockunlock.h \
+  qt/moonet/receivedialog.h \
+  qt/moonet/furlistrow.h \
+  qt/moonet/furabstractlistitemdelegate.h \
+  qt/moonet/txviewholder.h \
+  qt/moonet/qtutils.h \
+  qt/moonet/expandablebutton.h \
+  qt/moonet/walletpassworddialog.h \
+  qt/moonet/topbar.h \
+  qt/moonet/txrow.h \
+  qt/moonet/addressfilterproxymodel.h \
+  qt/moonet/dashboardwidget.h \
+  qt/moonet/coincontrolpivwidget.h \
+  qt/moonet/addresslabelrow.h \
+  qt/moonet/contactdropdownrow.h \
+  qt/moonet/mninfodialog.h \
+  qt/moonet/optionbutton.h \
+  qt/moonet/mnmodel.h \
+  qt/moonet/masternodewizarddialog.h \
+  qt/moonet/mnrow.h \
+  qt/moonet/masternodeswidget.h \
+  qt/moonet/myaddressrow.h \
+  qt/moonet/contactsdropdown.h \
+  qt/moonet/sendchangeaddressdialog.h \
+  qt/moonet/sendconfirmdialog.h \
+  qt/moonet/sendcustomfeedialog.h \
+  qt/moonet/sendchangeaddressdialog.h \
+  qt/moonet/sendmultirow.h \
+  qt/moonet/send.h \
+  qt/moonet/addnewaddressdialog.h \
+  qt/moonet/addnewcontactdialog.h \
+  qt/moonet/requestdialog.h \
+  qt/moonet/receivewidget.h \
+  qt/moonet/tooltipmenu.h \
+  qt/moonet/addresseswidget.h \
+  qt/moonet/defaultdialog.h \
+  qt/moonet/emailinputdialog.h \
+  qt/moonet/denomgenerationdialog.h \
+  qt/moonet/linkswidget.h \
+  qt/moonet/settings/settingsbackupwallet.h \
+  qt/moonet/settings/settingsexportcsv.h \
+  qt/moonet/settings/settingsbittoolwidget.h \
+  qt/moonet/settings/settingsconsolewidget.h \
+  qt/moonet/settings/settingsdisplayoptionswidget.h \
+  qt/moonet/settings/settingsfaqwidget.h \
+  qt/moonet/settings/settingsinformationwidget.h \
+  qt/moonet/settings/settingsmainoptionswidget.h \
+  qt/moonet/settings/settingsmultisenddialog.h \
+  qt/moonet/settings/settingsmultisendwidget.h \
+  qt/moonet/settings/settingssignmessagewidgets.h \
+  qt/moonet/settings/settingswalletoptionswidget.h \
+  qt/moonet/settings/settingswalletrepairwidget.h \
+  qt/moonet/settings/settingswidget.h \
+  qt/moonet/welcomecontentwidget.h \
+  qt/moonet/splash.h
 
 RES_ICONS = \
   qt/res/icons/add.png \
@@ -432,208 +432,208 @@ RES_ICONS = \
   qt/res/icons/ic-transaction-mint.svg \
   qt/res/icons/ic-transaction-sent.svg \
   qt/res/icons/ic-transaction-staked.svg \
-  qt/res/icons/unit_transcendence.png \
-  qt/res/icons/unit_mtranscendence.png \
-  qt/res/icons/unit_utranscendence.png \
-  qt/res/icons/unit_ttranscendence.png \
-  qt/res/icons/unit_tmtranscendence.png \
-  qt/res/icons/unit_tutranscendence.png \
+  qt/res/icons/unit_moonet.png \
+  qt/res/icons/unit_mmoonet.png \
+  qt/res/icons/unit_umoonet.png \
+  qt/res/icons/unit_tmoonet.png \
+  qt/res/icons/unit_tmmoonet.png \
+  qt/res/icons/unit_tumoonet.png \
   qt/res/icons/yesvote.png \
   qt/res/icons/novote.png \
   qt/res/icons/abstainvote.png \
-  qt/transcendence/res/img/bg-dashboard-banner.png \
-  qt/transcendence/res/img/bg-multi-number-dark.svg \
-  qt/transcendence/res/img/ic-check-locked.svg \
-  qt/transcendence/res/img/ic-nav-address.svg \
-  qt/transcendence/res/img/ic-update.svg \
-  qt/transcendence/res/img/bg-multi-number.svg \
-  qt/transcendence/res/img/ic-check-mint-off.svg \
-  qt/transcendence/res/img/ic-nav-dashboard-active.svg \
-  qt/transcendence/res/img/ic-wallet-status-locked.svg \
-  qt/transcendence/res/img/bg-splash.svg \
-  qt/transcendence/res/img/bg-splash.png \
-  qt/transcendence/res/img/ic-check-mint.svg \
-  qt/transcendence/res/img/ic-nav-dashboard-hover.svg \
-  qt/transcendence/res/img/ic-wallet-status-staking.svg \
-  qt/transcendence/res/img/ic-check-peers-off.svg \
-  qt/transcendence/res/img/ic-nav-dashboard.svg \
-  qt/transcendence/res/img/ic-wallet-status-unlocked.svg \
-  qt/transcendence/res/img/ic-check-peers.svg \
-  qt/transcendence/res/img/ic-nav-master-active.svg \
-  qt/transcendence/res/img/ic-watch-password-white.svg \
-  qt/transcendence/res/img/bg-welcome-container.jpg \
-  qt/transcendence/res/img/bg-welcome-container.png \
-  qt/transcendence/res/img/bg-welcome-container.svg \
-  qt/transcendence/res/img/bg-welcome-container@2x.png \
-  qt/transcendence/res/img/bg-welcome-container@3x.png \
-  qt/transcendence/res/img/ic-check-staking-off.svg \
-  qt/transcendence/res/img/ic-nav-master-hover.svg \
-  qt/transcendence/res/img/ic-watch-password.svg \
-  qt/transcendence/res/img/bg-welcome.jpg \
-  qt/transcendence/res/img/bg-welcome.svg \
-  qt/transcendence/res/img/bg-welcome@2x.jpg \
-  qt/transcendence/res/img/bg-welcome@3x.jpg \
-  qt/transcendence/res/img/bg-welcome.png \
-  qt/transcendence/res/img/ic-check-staking.svg \
-  qt/transcendence/res/img/ic-nav-master.svg \
-  qt/transcendence/res/img/img-dashboard-banner.jpg \
-  qt/transcendence/res/img/btn-radio-active.svg \
-  qt/transcendence/res/img/ic-check-sync-off.svg \
-  qt/transcendence/res/img/ic-nav-privacy-active.svg \
-  qt/transcendence/res/img/img-empty-contacts.svg \
-  qt/transcendence/res/img/btn-radio-off.svg \
-  qt/transcendence/res/img/ic-check-sync.png \
-  qt/transcendence/res/img/ic-nav-privacy-hover.svg \
-  qt/transcendence/res/img/img-empty-dark-contacts.svg \
-  qt/transcendence/res/img/ic-contact-arrow-down.svg \
-  qt/transcendence/res/img/ic-contact-arrow-down-white.svg \
-  qt/transcendence/res/img/ic-check-sync.svg \
-  qt/transcendence/res/img/ic-check-faq.svg \
-  qt/transcendence/res/img/ic-nav-privacy.svg \
-  qt/transcendence/res/img/img-empty-dark-error.svg \
-  qt/transcendence/res/img/ic-add-label.svg \
-  qt/transcendence/res/img/ic-pending.svg \
-  qt/transcendence/res/img/ic-check-theme-dark.svg \
-  qt/transcendence/res/img/ic-nav-receive-active.svg \
-  qt/transcendence/res/img/img-empty-dark-masternode.svg \
-  qt/transcendence/res/img/ic-add-liliac.svg \
-  qt/transcendence/res/img/ic-check-theme-light.svg \
-  qt/transcendence/res/img/ic-nav-receive-hover.svg \
-  qt/transcendence/res/img/img-empty-dark-multisend.svg \
-  qt/transcendence/res/img/ic-add-purple.svg \
-  qt/transcendence/res/img/ic-check-white.svg \
-  qt/transcendence/res/img/ic-nav-receive.svg \
-  qt/transcendence/res/img/img-empty-dark-peers.svg \
-  qt/transcendence/res/img/ic-add.svg \
-  qt/transcendence/res/img/ic-check.svg \
-  qt/transcendence/res/img/ic-nav-send-active.svg \
-  qt/transcendence/res/img/img-empty-dark-staking-off.svg \
-  qt/transcendence/res/img/img-empty-dark-staking-on.svg \
-  qt/transcendence/res/img/ic-address-book-grey.svg \
-  qt/transcendence/res/img/ic-chevron-left.svg \
-  qt/transcendence/res/img/ic-nav-send-hover.svg \
-  qt/transcendence/res/img/img-empty-dark-transactions.svg \
-  qt/transcendence/res/img/ic-address-book-white.svg \
-  qt/transcendence/res/img/ic-chevron-right.svg \
-  qt/transcendence/res/img/ic-nav-send.svg \
-  qt/transcendence/res/img/img-empty-error.svg \
-  qt/transcendence/res/img/ic-address-book.svg \
-  qt/transcendence/res/img/ic-clear-liliac.svg \
-  qt/transcendence/res/img/ic-nav-settings-active.svg \
-  qt/transcendence/res/img/img-empty-masternode.svg \
-  qt/transcendence/res/img/ic-address-send-white.svg \
-  qt/transcendence/res/img/ic-clear-purple.svg \
-  qt/transcendence/res/img/ic-nav-settings-hover.svg \
-  qt/transcendence/res/img/img-empty-multisend.svg \
-  qt/transcendence/res/img/ic-address-send.svg \
-  qt/transcendence/res/img/ic-close-white.svg \
-  qt/transcendence/res/img/ic-nav-settings.svg \
-  qt/transcendence/res/img/img-empty-peers.svg \
-  qt/transcendence/res/img/img-empty-privacy.svg \
-  qt/transcendence/res/img/img-empty-privacy-dark.svg \
-  qt/transcendence/res/img/ic-arrow-drop-down-white.svg \
-  qt/transcendence/res/img/ic-close.svg \
-  qt/transcendence/res/img/ic-radio-liliac-on.svg \
-  qt/transcendence/res/img/img-empty-staking-off.svg \
-  qt/transcendence/res/img/ic-arrow-drop-down.svg \
-  qt/transcendence/res/img/ic-coin-piv.svg \
-  qt/transcendence/res/img/ic-receive-off.svg \
-  qt/transcendence/res/img/img-empty-staking-on.svg \
-  qt/transcendence/res/img/ic-arrow-drop-up-white.svg \
-  qt/transcendence/res/img/ic-coin-ztelos.png \
-  qt/transcendence/res/img/ic-receive-on.svg \
-  qt/transcendence/res/img/img-empty-transactions.svg \
-  qt/transcendence/res/img/ic-arrow-drop-up.svg \
-  qt/transcendence/res/img/ic-coin-ztelos.svg \
-  qt/transcendence/res/img/ic-received.svg \
-  qt/transcendence/res/img/img-logo-transcendence.png \
-  qt/transcendence/res/img/ic-arrow-drop-white-down.svg \
-  qt/transcendence/res/img/ic-combo-box.svg \
-  qt/transcendence/res/img/ic-send.svg \
-  qt/transcendence/res/img/img-logo-transcendence@2x.png \
-  qt/transcendence/res/img/ic-arrow-purple-down.svg \
-  qt/transcendence/res/img/ic-connect.svg \
-  qt/transcendence/res/img/ic-submenu-lock.svg \
-  qt/transcendence/res/img/img-logo-transcendence@3x.png \
-  qt/transcendence/res/img/img-logo-transcendence.svg \
-  qt/transcendence/res/img/ic-arrow-right-white.svg \
-  qt/transcendence/res/img/ic-arrow-left-white.svg \
-  qt/transcendence/res/img/ic-arrow-left.svg \
-  qt/transcendence/res/img/ic-copy-liliac.svg \
-  qt/transcendence/res/img/ic-submenu-staking.svg \
-  qt/transcendence/res/img/img-nav-logo-transcendence.png \
-  qt/transcendence/res/img/ic-arrow-right.svg \
-  qt/transcendence/res/img/ic-copy.svg \
-  qt/transcendence/res/img/ic-copy-big.svg \
-  qt/transcendence/res/img/ic-copy-big-white.svg \
-  qt/transcendence/res/img/ic-submenu-unlock.svg \
-  qt/transcendence/res/img/img-nav-logo.png \
-  qt/transcendence/res/img/ic-arrow-white-left.svg \
-  qt/transcendence/res/img/ic-exit.svg \
-  qt/transcendence/res/img/ic-switch-liliac-on.svg \
-  qt/transcendence/res/img/img-nav-logo.svg \
-  qt/transcendence/res/img/ic-arrow-white-right.svg \
-  qt/transcendence/res/img/ic-expand.svg \
-  qt/transcendence/res/img/ic-switch-off.svg \
-  qt/transcendence/res/img/img-qr-test-big.png \
-  qt/transcendence/res/img/ic-check-active.svg \
-  qt/transcendence/res/img/ic-folder.svg \
-  qt/transcendence/res/img/ic-switch-on.svg \
-  qt/transcendence/res/img/img-qr-test.png \
-  qt/transcendence/res/img/ic-check-box.svg \
-  qt/transcendence/res/img/ic-check-box-dark-active.svg \
-  qt/transcendence/res/img/ic-check-box-indeterminate.svg \
-  qt/transcendence/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/transcendence/res/img/ic-label-liliac.svg \
-  qt/transcendence/res/img/ic-transaction-warning.svg \
-  qt/transcendence/res/img/ic-transaction-mint.svg \
-  qt/transcendence/res/img/ic-transaction-mint-inactive.svg \
-  qt/transcendence/res/img/img-qr.svg \
-  qt/transcendence/res/img/ic-check-connect-off.svg \
-  qt/transcendence/res/img/ic-label.svg \
-  qt/transcendence/res/img/ic-transaction-received.svg \
-  qt/transcendence/res/img/dark/ic-transaction-received.svg \
-  qt/transcendence/res/img/dark/ic-transaction-warning.svg \
-  qt/transcendence/res/img/dark/ic-transaction-mint.svg \
-  qt/transcendence/res/img/dark/ic-transaction-mint-inactive.svg \
-  qt/transcendence/res/img/ic-transaction-received-inactive.svg \
-  qt/transcendence/res/img/dark/ic-transaction-received-inactive.svg \
-  qt/transcendence/res/img/img-welcome-step1.png \
-  qt/transcendence/res/img/ic-check-connect.svg \
-  qt/transcendence/res/img/ic-menu-hover.svg \
-  qt/transcendence/res/img/ic-transaction-sent.svg \
-  qt/transcendence/res/img/ic-transaction-sent-inactive.svg \
-  qt/transcendence/res/img/dark/ic-transaction-sent.svg \
-  qt/transcendence/res/img/dark/ic-transaction-sent-inactive.svg \
-  qt/transcendence/res/img/img-welcome-step2.png \
-  qt/transcendence/res/img/ic-check-dark.svg \
-  qt/transcendence/res/img/ic-mint.svg \
-  qt/transcendence/res/img/ic-transaction-staked.svg \
-  qt/transcendence/res/img/ic-transaction-staked-inactive.svg \
-  qt/transcendence/res/img/dark/ic-transaction-staked.svg \
-  qt/transcendence/res/img/dark/ic-transaction-staked-inactive.svg \
-  qt/transcendence/res/img/img-welcome-step3.png \
-  qt/transcendence/res/img/ic-check-liliac-on.svg \
-  qt/transcendence/res/img/ic-nav-address-active.svg \
-  qt/transcendence/res/img/ic-unlock-staking.svg \
-  qt/transcendence/res/img/img-welcome-step4.png \
-  qt/transcendence/res/img/ic-check-locked-off.svg \
-  qt/transcendence/res/img/ic-nav-address-hover.svg \
-  qt/transcendence/res/img/ic-update-liliac.svg \
-  qt/transcendence/res/img/ic-arrow-drop-down-purple.svg \
-  qt/transcendence/res/img/ic-arrow-drop-up-purple.svg \
-  qt/transcendence/res/img/ic-check-liliac-indeterminate.svg \
-  qt/transcendence/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/transcendence/res/img/ic-check-box-indeterminate.svg \
-  qt/transcendence/res/img/ani-loading-dark.gif \
-  qt/transcendence/res/img/ani-loading.gif
+  qt/moonet/res/img/bg-dashboard-banner.png \
+  qt/moonet/res/img/bg-multi-number-dark.svg \
+  qt/moonet/res/img/ic-check-locked.svg \
+  qt/moonet/res/img/ic-nav-address.svg \
+  qt/moonet/res/img/ic-update.svg \
+  qt/moonet/res/img/bg-multi-number.svg \
+  qt/moonet/res/img/ic-check-mint-off.svg \
+  qt/moonet/res/img/ic-nav-dashboard-active.svg \
+  qt/moonet/res/img/ic-wallet-status-locked.svg \
+  qt/moonet/res/img/bg-splash.svg \
+  qt/moonet/res/img/bg-splash.png \
+  qt/moonet/res/img/ic-check-mint.svg \
+  qt/moonet/res/img/ic-nav-dashboard-hover.svg \
+  qt/moonet/res/img/ic-wallet-status-staking.svg \
+  qt/moonet/res/img/ic-check-peers-off.svg \
+  qt/moonet/res/img/ic-nav-dashboard.svg \
+  qt/moonet/res/img/ic-wallet-status-unlocked.svg \
+  qt/moonet/res/img/ic-check-peers.svg \
+  qt/moonet/res/img/ic-nav-master-active.svg \
+  qt/moonet/res/img/ic-watch-password-white.svg \
+  qt/moonet/res/img/bg-welcome-container.jpg \
+  qt/moonet/res/img/bg-welcome-container.png \
+  qt/moonet/res/img/bg-welcome-container.svg \
+  qt/moonet/res/img/bg-welcome-container@2x.png \
+  qt/moonet/res/img/bg-welcome-container@3x.png \
+  qt/moonet/res/img/ic-check-staking-off.svg \
+  qt/moonet/res/img/ic-nav-master-hover.svg \
+  qt/moonet/res/img/ic-watch-password.svg \
+  qt/moonet/res/img/bg-welcome.jpg \
+  qt/moonet/res/img/bg-welcome.svg \
+  qt/moonet/res/img/bg-welcome@2x.jpg \
+  qt/moonet/res/img/bg-welcome@3x.jpg \
+  qt/moonet/res/img/bg-welcome.png \
+  qt/moonet/res/img/ic-check-staking.svg \
+  qt/moonet/res/img/ic-nav-master.svg \
+  qt/moonet/res/img/img-dashboard-banner.jpg \
+  qt/moonet/res/img/btn-radio-active.svg \
+  qt/moonet/res/img/ic-check-sync-off.svg \
+  qt/moonet/res/img/ic-nav-privacy-active.svg \
+  qt/moonet/res/img/img-empty-contacts.svg \
+  qt/moonet/res/img/btn-radio-off.svg \
+  qt/moonet/res/img/ic-check-sync.png \
+  qt/moonet/res/img/ic-nav-privacy-hover.svg \
+  qt/moonet/res/img/img-empty-dark-contacts.svg \
+  qt/moonet/res/img/ic-contact-arrow-down.svg \
+  qt/moonet/res/img/ic-contact-arrow-down-white.svg \
+  qt/moonet/res/img/ic-check-sync.svg \
+  qt/moonet/res/img/ic-check-faq.svg \
+  qt/moonet/res/img/ic-nav-privacy.svg \
+  qt/moonet/res/img/img-empty-dark-error.svg \
+  qt/moonet/res/img/ic-add-label.svg \
+  qt/moonet/res/img/ic-pending.svg \
+  qt/moonet/res/img/ic-check-theme-dark.svg \
+  qt/moonet/res/img/ic-nav-receive-active.svg \
+  qt/moonet/res/img/img-empty-dark-masternode.svg \
+  qt/moonet/res/img/ic-add-liliac.svg \
+  qt/moonet/res/img/ic-check-theme-light.svg \
+  qt/moonet/res/img/ic-nav-receive-hover.svg \
+  qt/moonet/res/img/img-empty-dark-multisend.svg \
+  qt/moonet/res/img/ic-add-purple.svg \
+  qt/moonet/res/img/ic-check-white.svg \
+  qt/moonet/res/img/ic-nav-receive.svg \
+  qt/moonet/res/img/img-empty-dark-peers.svg \
+  qt/moonet/res/img/ic-add.svg \
+  qt/moonet/res/img/ic-check.svg \
+  qt/moonet/res/img/ic-nav-send-active.svg \
+  qt/moonet/res/img/img-empty-dark-staking-off.svg \
+  qt/moonet/res/img/img-empty-dark-staking-on.svg \
+  qt/moonet/res/img/ic-address-book-grey.svg \
+  qt/moonet/res/img/ic-chevron-left.svg \
+  qt/moonet/res/img/ic-nav-send-hover.svg \
+  qt/moonet/res/img/img-empty-dark-transactions.svg \
+  qt/moonet/res/img/ic-address-book-white.svg \
+  qt/moonet/res/img/ic-chevron-right.svg \
+  qt/moonet/res/img/ic-nav-send.svg \
+  qt/moonet/res/img/img-empty-error.svg \
+  qt/moonet/res/img/ic-address-book.svg \
+  qt/moonet/res/img/ic-clear-liliac.svg \
+  qt/moonet/res/img/ic-nav-settings-active.svg \
+  qt/moonet/res/img/img-empty-masternode.svg \
+  qt/moonet/res/img/ic-address-send-white.svg \
+  qt/moonet/res/img/ic-clear-purple.svg \
+  qt/moonet/res/img/ic-nav-settings-hover.svg \
+  qt/moonet/res/img/img-empty-multisend.svg \
+  qt/moonet/res/img/ic-address-send.svg \
+  qt/moonet/res/img/ic-close-white.svg \
+  qt/moonet/res/img/ic-nav-settings.svg \
+  qt/moonet/res/img/img-empty-peers.svg \
+  qt/moonet/res/img/img-empty-privacy.svg \
+  qt/moonet/res/img/img-empty-privacy-dark.svg \
+  qt/moonet/res/img/ic-arrow-drop-down-white.svg \
+  qt/moonet/res/img/ic-close.svg \
+  qt/moonet/res/img/ic-radio-liliac-on.svg \
+  qt/moonet/res/img/img-empty-staking-off.svg \
+  qt/moonet/res/img/ic-arrow-drop-down.svg \
+  qt/moonet/res/img/ic-coin-piv.svg \
+  qt/moonet/res/img/ic-receive-off.svg \
+  qt/moonet/res/img/img-empty-staking-on.svg \
+  qt/moonet/res/img/ic-arrow-drop-up-white.svg \
+  qt/moonet/res/img/ic-coin-ztelos.png \
+  qt/moonet/res/img/ic-receive-on.svg \
+  qt/moonet/res/img/img-empty-transactions.svg \
+  qt/moonet/res/img/ic-arrow-drop-up.svg \
+  qt/moonet/res/img/ic-coin-ztelos.svg \
+  qt/moonet/res/img/ic-received.svg \
+  qt/moonet/res/img/img-logo-moonet.png \
+  qt/moonet/res/img/ic-arrow-drop-white-down.svg \
+  qt/moonet/res/img/ic-combo-box.svg \
+  qt/moonet/res/img/ic-send.svg \
+  qt/moonet/res/img/img-logo-moonet@2x.png \
+  qt/moonet/res/img/ic-arrow-purple-down.svg \
+  qt/moonet/res/img/ic-connect.svg \
+  qt/moonet/res/img/ic-submenu-lock.svg \
+  qt/moonet/res/img/img-logo-moonet@3x.png \
+  qt/moonet/res/img/img-logo-moonet.svg \
+  qt/moonet/res/img/ic-arrow-right-white.svg \
+  qt/moonet/res/img/ic-arrow-left-white.svg \
+  qt/moonet/res/img/ic-arrow-left.svg \
+  qt/moonet/res/img/ic-copy-liliac.svg \
+  qt/moonet/res/img/ic-submenu-staking.svg \
+  qt/moonet/res/img/img-nav-logo-moonet.png \
+  qt/moonet/res/img/ic-arrow-right.svg \
+  qt/moonet/res/img/ic-copy.svg \
+  qt/moonet/res/img/ic-copy-big.svg \
+  qt/moonet/res/img/ic-copy-big-white.svg \
+  qt/moonet/res/img/ic-submenu-unlock.svg \
+  qt/moonet/res/img/img-nav-logo.png \
+  qt/moonet/res/img/ic-arrow-white-left.svg \
+  qt/moonet/res/img/ic-exit.svg \
+  qt/moonet/res/img/ic-switch-liliac-on.svg \
+  qt/moonet/res/img/img-nav-logo.svg \
+  qt/moonet/res/img/ic-arrow-white-right.svg \
+  qt/moonet/res/img/ic-expand.svg \
+  qt/moonet/res/img/ic-switch-off.svg \
+  qt/moonet/res/img/img-qr-test-big.png \
+  qt/moonet/res/img/ic-check-active.svg \
+  qt/moonet/res/img/ic-folder.svg \
+  qt/moonet/res/img/ic-switch-on.svg \
+  qt/moonet/res/img/img-qr-test.png \
+  qt/moonet/res/img/ic-check-box.svg \
+  qt/moonet/res/img/ic-check-box-dark-active.svg \
+  qt/moonet/res/img/ic-check-box-indeterminate.svg \
+  qt/moonet/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/moonet/res/img/ic-label-liliac.svg \
+  qt/moonet/res/img/ic-transaction-warning.svg \
+  qt/moonet/res/img/ic-transaction-mint.svg \
+  qt/moonet/res/img/ic-transaction-mint-inactive.svg \
+  qt/moonet/res/img/img-qr.svg \
+  qt/moonet/res/img/ic-check-connect-off.svg \
+  qt/moonet/res/img/ic-label.svg \
+  qt/moonet/res/img/ic-transaction-received.svg \
+  qt/moonet/res/img/dark/ic-transaction-received.svg \
+  qt/moonet/res/img/dark/ic-transaction-warning.svg \
+  qt/moonet/res/img/dark/ic-transaction-mint.svg \
+  qt/moonet/res/img/dark/ic-transaction-mint-inactive.svg \
+  qt/moonet/res/img/ic-transaction-received-inactive.svg \
+  qt/moonet/res/img/dark/ic-transaction-received-inactive.svg \
+  qt/moonet/res/img/img-welcome-step1.png \
+  qt/moonet/res/img/ic-check-connect.svg \
+  qt/moonet/res/img/ic-menu-hover.svg \
+  qt/moonet/res/img/ic-transaction-sent.svg \
+  qt/moonet/res/img/ic-transaction-sent-inactive.svg \
+  qt/moonet/res/img/dark/ic-transaction-sent.svg \
+  qt/moonet/res/img/dark/ic-transaction-sent-inactive.svg \
+  qt/moonet/res/img/img-welcome-step2.png \
+  qt/moonet/res/img/ic-check-dark.svg \
+  qt/moonet/res/img/ic-mint.svg \
+  qt/moonet/res/img/ic-transaction-staked.svg \
+  qt/moonet/res/img/ic-transaction-staked-inactive.svg \
+  qt/moonet/res/img/dark/ic-transaction-staked.svg \
+  qt/moonet/res/img/dark/ic-transaction-staked-inactive.svg \
+  qt/moonet/res/img/img-welcome-step3.png \
+  qt/moonet/res/img/ic-check-liliac-on.svg \
+  qt/moonet/res/img/ic-nav-address-active.svg \
+  qt/moonet/res/img/ic-unlock-staking.svg \
+  qt/moonet/res/img/img-welcome-step4.png \
+  qt/moonet/res/img/ic-check-locked-off.svg \
+  qt/moonet/res/img/ic-nav-address-hover.svg \
+  qt/moonet/res/img/ic-update-liliac.svg \
+  qt/moonet/res/img/ic-arrow-drop-down-purple.svg \
+  qt/moonet/res/img/ic-arrow-drop-up-purple.svg \
+  qt/moonet/res/img/ic-check-liliac-indeterminate.svg \
+  qt/moonet/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/moonet/res/img/ic-check-box-indeterminate.svg \
+  qt/moonet/res/img/ani-loading-dark.gif \
+  qt/moonet/res/img/ani-loading.gif
 
 BITCOIN_QT_BASE_CPP = \
   qt/bantablemodel.cpp \
   qt/bitcoinaddressvalidator.cpp \
   qt/bitcoinamountfield.cpp \
   qt/bitcoingui.cpp \
-  qt/transcendence/transcendencegui.cpp \
+  qt/moonet/moonetgui.cpp \
   qt/bitcoinunits.cpp \
   qt/blockexplorer.cpp \
   qt/clientmodel.cpp \
@@ -689,65 +689,65 @@ BITCOIN_QT_WALLET_CPP = \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
   qt/walletview.cpp \
-  qt/transcendence/loadingdialog.cpp \
+  qt/moonet/loadingdialog.cpp \
   qt/zteloscontroldialog.cpp \
-  qt/transcendence/pwidget.cpp \
-  qt/transcendence/snackbar.cpp \
-  qt/transcendence/navmenuwidget.cpp \
-  qt/transcendence/lockunlock.cpp \
-  qt/transcendence/receivedialog.cpp \
-  qt/transcendence/furabstractlistitemdelegate.cpp \
-  qt/transcendence/txviewholder.cpp \
-  qt/transcendence/qtutils.cpp \
-  qt/transcendence/expandablebutton.cpp \
-  qt/transcendence/walletpassworddialog.cpp \
-  qt/transcendence/topbar.cpp \
-  qt/transcendence/txrow.cpp \
-  qt/transcendence/addressfilterproxymodel.cpp \
-  qt/transcendence/dashboardwidget.cpp \
-  qt/transcendence/coincontrolpivwidget.cpp \
-  qt/transcendence/addresslabelrow.cpp \
-  qt/transcendence/contactdropdownrow.cpp \
-  qt/transcendence/contactsdropdown.cpp \
-  qt/transcendence/optionbutton.cpp \
-  qt/transcendence/mninfodialog.cpp \
-  qt/transcendence/mnmodel.cpp \
-  qt/transcendence/masternodewizarddialog.cpp \
-  qt/transcendence/mnrow.cpp \
-  qt/transcendence/masternodeswidget.cpp \
-  qt/transcendence/myaddressrow.cpp \
-  qt/transcendence/sendchangeaddressdialog.cpp \
-  qt/transcendence/sendconfirmdialog.cpp \
-  qt/transcendence/sendcustomfeedialog.cpp \
-  qt/transcendence/sendchangeaddressdialog.cpp \
-  qt/transcendence/sendmultirow.cpp \
-  qt/transcendence/send.cpp \
-  qt/transcendence/addnewaddressdialog.cpp \
-  qt/transcendence/addnewcontactdialog.cpp \
-  qt/transcendence/requestdialog.cpp \
-  qt/transcendence/receivewidget.cpp \
-  qt/transcendence/tooltipmenu.cpp \
-  qt/transcendence/addresseswidget.cpp \
-  qt/transcendence/defaultdialog.cpp \
-  qt/transcendence/emailinputdialog.cpp \
-  qt/transcendence/denomgenerationdialog.cpp \
-  qt/transcendence/linkswidget.cpp \
-  qt/transcendence/settings/settingsbackupwallet.cpp \
-  qt/transcendence/settings/settingsexportcsv.cpp \
-  qt/transcendence/settings/settingsbittoolwidget.cpp \
-  qt/transcendence/settings/settingsconsolewidget.cpp \
-  qt/transcendence/settings/settingsdisplayoptionswidget.cpp \
-  qt/transcendence/settings/settingsfaqwidget.cpp \
-  qt/transcendence/settings/settingsinformationwidget.cpp \
-  qt/transcendence/settings/settingsmainoptionswidget.cpp \
-  qt/transcendence/settings/settingsmultisenddialog.cpp \
-  qt/transcendence/settings/settingsmultisendwidget.cpp \
-  qt/transcendence/settings/settingssignmessagewidgets.cpp \
-  qt/transcendence/settings/settingswalletoptionswidget.cpp \
-  qt/transcendence/settings/settingswalletrepairwidget.cpp \
-  qt/transcendence/settings/settingswidget.cpp \
-  qt/transcendence/welcomecontentwidget.cpp \
-  qt/transcendence/splash.cpp
+  qt/moonet/pwidget.cpp \
+  qt/moonet/snackbar.cpp \
+  qt/moonet/navmenuwidget.cpp \
+  qt/moonet/lockunlock.cpp \
+  qt/moonet/receivedialog.cpp \
+  qt/moonet/furabstractlistitemdelegate.cpp \
+  qt/moonet/txviewholder.cpp \
+  qt/moonet/qtutils.cpp \
+  qt/moonet/expandablebutton.cpp \
+  qt/moonet/walletpassworddialog.cpp \
+  qt/moonet/topbar.cpp \
+  qt/moonet/txrow.cpp \
+  qt/moonet/addressfilterproxymodel.cpp \
+  qt/moonet/dashboardwidget.cpp \
+  qt/moonet/coincontrolpivwidget.cpp \
+  qt/moonet/addresslabelrow.cpp \
+  qt/moonet/contactdropdownrow.cpp \
+  qt/moonet/contactsdropdown.cpp \
+  qt/moonet/optionbutton.cpp \
+  qt/moonet/mninfodialog.cpp \
+  qt/moonet/mnmodel.cpp \
+  qt/moonet/masternodewizarddialog.cpp \
+  qt/moonet/mnrow.cpp \
+  qt/moonet/masternodeswidget.cpp \
+  qt/moonet/myaddressrow.cpp \
+  qt/moonet/sendchangeaddressdialog.cpp \
+  qt/moonet/sendconfirmdialog.cpp \
+  qt/moonet/sendcustomfeedialog.cpp \
+  qt/moonet/sendchangeaddressdialog.cpp \
+  qt/moonet/sendmultirow.cpp \
+  qt/moonet/send.cpp \
+  qt/moonet/addnewaddressdialog.cpp \
+  qt/moonet/addnewcontactdialog.cpp \
+  qt/moonet/requestdialog.cpp \
+  qt/moonet/receivewidget.cpp \
+  qt/moonet/tooltipmenu.cpp \
+  qt/moonet/addresseswidget.cpp \
+  qt/moonet/defaultdialog.cpp \
+  qt/moonet/emailinputdialog.cpp \
+  qt/moonet/denomgenerationdialog.cpp \
+  qt/moonet/linkswidget.cpp \
+  qt/moonet/settings/settingsbackupwallet.cpp \
+  qt/moonet/settings/settingsexportcsv.cpp \
+  qt/moonet/settings/settingsbittoolwidget.cpp \
+  qt/moonet/settings/settingsconsolewidget.cpp \
+  qt/moonet/settings/settingsdisplayoptionswidget.cpp \
+  qt/moonet/settings/settingsfaqwidget.cpp \
+  qt/moonet/settings/settingsinformationwidget.cpp \
+  qt/moonet/settings/settingsmainoptionswidget.cpp \
+  qt/moonet/settings/settingsmultisenddialog.cpp \
+  qt/moonet/settings/settingsmultisendwidget.cpp \
+  qt/moonet/settings/settingssignmessagewidgets.cpp \
+  qt/moonet/settings/settingswalletoptionswidget.cpp \
+  qt/moonet/settings/settingswalletrepairwidget.cpp \
+  qt/moonet/settings/settingswidget.cpp \
+  qt/moonet/welcomecontentwidget.cpp \
+  qt/moonet/splash.cpp
 
 
 BITCOIN_QT_CPP = $(BITCOIN_QT_BASE_CPP)
@@ -763,7 +763,7 @@ RES_IMAGES = \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
   qt/res/images/splash_regtest.png \
-  qt/res/images/transcendence_logo_horizontal.png \
+  qt/res/images/moonet_logo_horizontal.png \
   qt/res/images/downArrow_dark.png \
   qt/res/images/downArrow_small_dark.png \
   qt/res/images/downArrow_small.png \
@@ -775,12 +775,12 @@ RES_IMAGES = \
 
 RES_CSS = \
   qt/res/css/default.css \
-  qt/transcendence/res/css/style_dark.css \
-  qt/transcendence/res/css/style_light.css
+  qt/moonet/res/css/style_dark.css \
+  qt/moonet/res/css/style_light.css
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/transcendence-qt-res.rc
+BITCOIN_RC = qt/res/moonet-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -802,71 +802,71 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_transcendence_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_moonet_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# transcendence-qt binary #
-qt_transcendence_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# moonet-qt binary #
+qt_moonet_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS) $(SVG_CFLAGS) $(CHARTS_CFLAGS)
-qt_transcendence_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_moonet_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_transcendence_qt_SOURCES = qt/transcendence.cpp
+qt_moonet_qt_SOURCES = qt/moonet.cpp
 if TARGET_DARWIN
-  qt_transcendence_qt_SOURCES += $(BITCOIN_MM)
+  qt_moonet_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_transcendence_qt_SOURCES += $(BITCOIN_RC)
+  qt_moonet_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_transcendence_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_moonet_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_transcendence_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
+qt_moonet_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_transcendence_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_moonet_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_transcendence_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
+qt_moonet_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(SVG_LIBS) $(CHARTS_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(UNBOUND_LIBS) $(CURL_LIBS)
-qt_transcendence_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_transcendence_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
+qt_moonet_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_moonet_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-$(srcdir)/qt/transcendencestrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+$(srcdir)/qt/moonetstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) PACKAGE_NAME="$(PACKAGE_NAME)" $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: $(srcdir)/qt/transcendencestrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/transcendence.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: $(srcdir)/qt/moonetstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/moonet.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/transcendence_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/moonet_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@cp -f $< $(@D)/temp_$(<F)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name transcendence_locale $(@D)/temp_$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name moonet_locale $(@D)/temp_$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 	@rm $(@D)/temp_$(<F)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name transcendence $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name moonet $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_transcendence_locale.qrc
+CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_moonet_locale.qrc
 
 CLEANFILES += $(CLEAN_QT)
 
-transcendence_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_transcendence_qt_OBJECTS) qt/transcendence-qt$(EXEEXT) $(LIBBITCOINQT)
+moonet_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_moonet_qt_OBJECTS) qt/moonet-qt$(EXEEXT) $(LIBBITCOINQT)
 
-transcendence_qt : qt/transcendence-qt$(EXEEXT)
+moonet_qt : qt/moonet-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

@@ -649,7 +649,7 @@
         <translation>Изпратете монети до TELOS адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
         <translation>Поискай плащане (генерира QR кодове и  TELOS:URI)</translation>
     </message>
     <message>
@@ -2156,8 +2156,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
-        <translation>Провал при стартирането на transcendence: click-to-pay обработвател</translation>
+        <source>Cannot start moonet: click-to-pay handler</source>
+        <translation>Провал при стартирането на moonet: click-to-pay обработвател</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid TELOS address or malformed URI parameters.</source>
@@ -4624,7 +4624,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>

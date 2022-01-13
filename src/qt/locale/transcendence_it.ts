@@ -649,8 +649,8 @@
         <translation>Invia valuta all'indirizzo TELOS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2605,7 +2605,7 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

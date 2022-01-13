@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/transcendence-config.h"
+#include "config/moonet-config.h"
 #endif
 
 #include "util.h"
@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     // Don't remove this, it's needed to access
     // QCoreApplication:: in the tests
     QCoreApplication app(argc, argv);
-    app.setApplicationName("TRANSCENDENCE-Qt-test");
+    app.setApplicationName("moonet-Qt-test");
 
     SSL_library_init();
 

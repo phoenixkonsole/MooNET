@@ -1,25 +1,25 @@
-# /etc/conf.d/transcendenced: config file for /etc/init.d/transcendenced
+# /etc/conf.d/moonetd: config file for /etc/init.d/moonetd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/transcendence/transcendence.conf"
+#BITCOIND_CONFIGFILE="/etc/moonet/moonet.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/transcendenced"
+#BITCOIND_PIDDIR="/var/run/moonetd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/transcendenced.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/moonetd.pid"
 
-# Where to write transcendenced data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/transcendenced"
+# Where to write moonetd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/moonetd"
 
-# User and group to own transcendenced process
-#BITCOIND_USER="transcendence"
-#BITCOIND_GROUP="transcendence"
+# User and group to own moonetd process
+#BITCOIND_USER="moonet"
+#BITCOIND_GROUP="moonet"
 
-# Path to transcendenced executable
-#BITCOIND_BIN="/usr/bin/transcendenced"
+# Path to moonetd executable
+#BITCOIND_BIN="/usr/bin/moonetd"
 
-# Nice value to run transcendenced under
+# Nice value to run moonetd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

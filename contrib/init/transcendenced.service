@@ -1,19 +1,19 @@
 [Unit]
-Description=Transcendence's distributed currency daemon
+Description=moonet's distributed currency daemon
 After=network.target
 
 [Service]
-User=transcendence
-Group=transcendence
+User=moonet
+Group=moonet
 
 Type=forking
-PIDFile=/var/lib/transcendenced/transcendenced.pid
+PIDFile=/var/lib/moonetd/moonetd.pid
 
-ExecStart=/usr/bin/transcendenced -daemon -pid=/var/lib/transcendenced/transcendenced.pid \
-          -conf=/etc/transcendence/transcendence.conf -datadir=/var/lib/transcendenced
+ExecStart=/usr/bin/moonetd -daemon -pid=/var/lib/moonetd/moonetd.pid \
+          -conf=/etc/moonet/moonet.conf -datadir=/var/lib/moonetd
 
-ExecStop=-/usr/bin/transcendence-cli -conf=/etc/transcendence/transcendence.conf \
-         -datadir=/var/lib/transcendenced stop
+ExecStop=-/usr/bin/moonet-cli -conf=/etc/moonet/moonet.conf \
+         -datadir=/var/lib/moonetd stop
 
 Restart=always
 PrivateTmp=true

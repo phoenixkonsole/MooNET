@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/transcendence-config.h \
+           src/moonet-config.h \
            src/wallet/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -133,7 +133,7 @@ HEADERS += src/activemasternode.h \
            src/wallet/walletdb.h \
            ztelos/deterministicmint.h \
            src/compat/sanity.h \
-           src/config/transcendence-config.h \
+           src/config/moonet-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -335,7 +335,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/transcendence.moc \
+           src/qt/moonet.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -376,9 +376,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/transcendence-cli.cpp \
-           src/transcendence-tx.cpp \
-           src/transcendence.cpp \
+           src/moonet-cli.cpp \
+           src/moonet-tx.cpp \
+           src/moonet.cpp \
            src/wallet/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -474,8 +474,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/transcendence.cpp \
-           src/qt/transcendencestrings.cpp \
+           src/qt/moonet.cpp \
+           src/qt/moonetstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -553,7 +553,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_transcendence.cpp \
+           src/test/test_moonet.cpp \
            src/test/tier_tests.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
@@ -645,21 +645,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/transcendence.qrc src/qt/transcendence_locale.qrc
+RESOURCES += src/qt/moonet.qrc src/qt/moonet_locale.qrc
 
-TRANSLATIONS += src/qt/locale/transcendence_bg.ts \
-                src/qt/locale/transcendence_de.ts \
-                src/qt/locale/transcendence_en.ts \
-                src/qt/locale/transcendence_es.ts \
-                src/qt/locale/transcendence_fi.ts \
-                src/qt/locale/transcendence_fr.ts \
-                src/qt/locale/transcendence_it.ts \
-                src/qt/locale/transcendence_ja.ts \
-                src/qt/locale/transcendence_pl.ts \
-                src/qt/locale/transcendence_pt.ts \
-                src/qt/locale/transcendence_ru.ts \
-                src/qt/locale/transcendence_sk.ts \
-                src/qt/locale/transcendence_sv.ts \
-                src/qt/locale/transcendence_vi.ts \
-                src/qt/locale/transcendence_zh_CN.ts \
-                src/qt/locale/transcendence_zh_TW.ts
+TRANSLATIONS += src/qt/locale/moonet_bg.ts \
+                src/qt/locale/moonet_de.ts \
+                src/qt/locale/moonet_en.ts \
+                src/qt/locale/moonet_es.ts \
+                src/qt/locale/moonet_fi.ts \
+                src/qt/locale/moonet_fr.ts \
+                src/qt/locale/moonet_it.ts \
+                src/qt/locale/moonet_ja.ts \
+                src/qt/locale/moonet_pl.ts \
+                src/qt/locale/moonet_pt.ts \
+                src/qt/locale/moonet_ru.ts \
+                src/qt/locale/moonet_sk.ts \
+                src/qt/locale/moonet_sv.ts \
+                src/qt/locale/moonet_vi.ts \
+                src/qt/locale/moonet_zh_CN.ts \
+                src/qt/locale/moonet_zh_TW.ts

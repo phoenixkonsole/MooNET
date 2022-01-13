@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/contactdropdownrow.h"
-#include "qt/transcendence/forms/ui_contactdropdownrow.h"
+#include "qt/moonet/contactdropdownrow.h"
+#include "qt/moonet/forms/ui_contactdropdownrow.h"
 
 ContactDropdownRow::ContactDropdownRow(QWidget *parent) :
     QWidget(parent),

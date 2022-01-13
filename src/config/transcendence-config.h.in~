@@ -1,8 +1,8 @@
-/* src/config/transcendence-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/moonet-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef TRANSCENDENCE_CONFIG_H
+#ifndef moonet_CONFIG_H
 
-#define TRANSCENDENCE_CONFIG_H
+#define moonet_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD
@@ -342,4 +342,4 @@
 /* Define for large files, on AIX-style hosts. */
 #undef _LARGE_FILES
 
-#endif //TRANSCENDENCE_CONFIG_H
+#endif //moonet_CONFIG_H

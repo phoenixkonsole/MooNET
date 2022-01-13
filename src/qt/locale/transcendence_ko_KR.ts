@@ -653,8 +653,8 @@
         <translation>TELOS 주소로 입금하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 transcendence: URI 생성)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 moonet: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2167,7 +2167,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start transcendence: click-to-pay handler</source>
+        <source>Cannot start moonet: click-to-pay handler</source>
         <translation>TELOS을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
@@ -4638,7 +4638,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>

@@ -577,8 +577,8 @@
         <translation>Odoslať mince na adresu TELOS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a transcendence: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a moonet: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1287,7 +1287,7 @@ MultiSend: %1</translation>
     <name>ZTelosControlDialog</name>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

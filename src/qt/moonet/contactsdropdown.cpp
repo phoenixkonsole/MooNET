@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/transcendence/contactsdropdown.h"
+#include "qt/moonet/contactsdropdown.h"
 
 #include <QPainter>
 #include <QSizePolicy>
-#include "qt/transcendence/addresslabelrow.h"
-#include "qt/transcendence/contactdropdownrow.h"
-#include "qt/transcendence/qtutils.h"
-#include "qt/transcendence/furlistrow.h"
+#include "qt/moonet/addresslabelrow.h"
+#include "qt/moonet/contactdropdownrow.h"
+#include "qt/moonet/qtutils.h"
+#include "qt/moonet/furlistrow.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 

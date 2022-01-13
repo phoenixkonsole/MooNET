@@ -649,8 +649,8 @@
         <translation>Sendu mono al TELOS addreso</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and transcendence: URIs)</source>
-        <translation>Peto pagojn (generas QR kodojn kaj transcendence: URIs)</translation>
+        <source>Request payments (generates QR codes and moonet: URIs)</source>
+        <translation>Peto pagojn (generas QR kodojn kaj moonet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -2557,7 +2557,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     </context>
 <context>
-    <name>transcendence-core</name>
+    <name>moonet-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Konekti per SOCKS5 prokurilo</translation>

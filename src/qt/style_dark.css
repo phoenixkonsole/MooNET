@@ -1561,7 +1561,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="img-splash-logo"] {
     qproperty-icon: url("://img-logo-moonet");
-    qproperty-iconSize: 600px 200px;
+    qproperty-iconSize: 60px 80px;
     border:0;
     background-color:transparent;
 }
